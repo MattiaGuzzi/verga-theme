@@ -7,6 +7,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha.4"
+    "normalize-scss": "normalize.scss#^6.0.0",
+    "scrollmagic": "~2.0.5",
+    "gsap": "~1.19.0",
+    "perfect-scrollbar": "~0.6.15",
+    "jquery-data-scrollmagic": "~0.1.3"
   }
 }
