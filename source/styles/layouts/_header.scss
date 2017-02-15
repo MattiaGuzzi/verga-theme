@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     &__item{
         display: inline-block;
         text-align: center;
@@ -27,7 +27,9 @@
             text-transform: uppercase;
         }
         &--active {
-            color: $brand-second;
+            a {
+                color: $brand-second;
+            }
         }
     }
 

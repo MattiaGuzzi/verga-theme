@@ -119,3 +119,16 @@
         }
     }
 }
+
+@mixin grow() {
+    $rows: ('': 2, '-md': 4, '-lg': 8 );
+    @each $row, $i in $rows {
+        [class*="--grow#{$row}"] {
+            padding: {
+                top: $p*$i;
+                bottom: $p*$i;
+            }
+        }
+    }
+
+}
