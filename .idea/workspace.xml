@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/common/_global.scss" afterPath="$PROJECT_DIR$/source/styles/common/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/common/_variables.scss" afterPath="$PROJECT_DIR$/source/styles/common/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_grid.scss" afterPath="$PROJECT_DIR$/source/styles/components/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/layouts/_header.scss" afterPath="$PROJECT_DIR$/source/styles/layouts/_header.scss" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,20 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_global.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_global.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/common/_global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.307693">
-              <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.8167116">
+              <caret line="138" column="26" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_grid.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_grid.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18328841">
+            <state vertical-scroll-proportion="-2.6153846">
               <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
@@ -108,8 +104,8 @@
         <option value="$PROJECT_DIR$/extras/bem_menu.php" />
         <option value="$PROJECT_DIR$/source/styles/layouts/_header.scss" />
         <option value="$PROJECT_DIR$/source/styles/common/_variables.scss" />
-        <option value="$PROJECT_DIR$/source/styles/common/_global.scss" />
         <option value="$PROJECT_DIR$/source/styles/components/_grid.scss" />
+        <option value="$PROJECT_DIR$/source/styles/common/_global.scss" />
       </list>
     </option>
   </component>
@@ -828,18 +824,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/common/_global.scss">
+    <entry file="file://$PROJECT_DIR$/source/styles/components/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.307693">
-          <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/_grid.scss">
+    <entry file="file://$PROJECT_DIR$/source/styles/common/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18328841">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.8167116">
+          <caret line="138" column="26" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
           <folding />
         </state>
       </provider>

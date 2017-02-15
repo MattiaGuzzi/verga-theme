@@ -120,13 +120,23 @@
     }
 }
 
-@mixin grow() {
+@mixin grow($v : $p) {
     $rows: ('': 2, '-md': 4, '-lg': 8 );
     @each $row, $i in $rows {
         [class*="--grow#{$row}"] {
             padding: {
-                top: $p*$i;
-                bottom: $p*$i;
+                top: $v*$i;
+                bottom: $v*$i;
+            }
+        }
+        [class*="--grow#{$row}-top"] {
+            padding: {
+                top: $v*$i;
+            }
+        }
+        [class*="--grow#{$row}-btm"] {
+            padding: {
+                bottom: $v*$i;
             }
         }
     }
