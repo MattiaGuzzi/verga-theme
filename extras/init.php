@@ -4,6 +4,7 @@
         'extras/styles.php',
         'extras/setup.php',
         'extras/utils.php',
+        'extras/bem_menu.php',
 	];
 
 foreach ($extra_includes as $file) {

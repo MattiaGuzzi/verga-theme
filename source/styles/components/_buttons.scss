@@ -1,16 +1,4 @@
-.button {
-    @extend .btn;
-    background: $brand-main;
-    background: linear-gradient(to right, $brand-second , $brand-main);
-    color: white;
-}
-.button--reverse {
-    @extend .btn;
-    background: $w;
-    color: $anthracite-dark;
-}
-
-.btn {
+%btn {
     max-width: em(170px);
     padding: em(15px) em(35px);
     text-align: center;
@@ -18,4 +6,19 @@
     text-decoration: none;
     border-radius: em(30px);
 }
+.button {
+    @extend %btn;
+    background: $brand-main;
+    background: linear-gradient(to right, $brand-second , $brand-main);
+    color: white;
+
+    &--reverse {
+        @extend %btn;
+        background: $w;
+        color: $anthracite-dark;
+    }
+
+}
+
+
 

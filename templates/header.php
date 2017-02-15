@@ -1,11 +1,11 @@
 <header class="header">
-  <div class="header__logo">
+  <a class="header__logo">
 
-  </div>
+  </a>
   <nav class="header__nav">
     <?php
     if (has_nav_menu('primary_navigation')) :
-      wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);
+      wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'walker' => 'walker_texas_ranger']);
     endif;
     ?>
   </nav>
