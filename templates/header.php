@@ -5,7 +5,8 @@
   <nav class="header__nav">
     <?php
     if (has_nav_menu('primary_navigation')) :
-      wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'walker' => 'walker_texas_ranger']);
+     /* wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'walker' => 'walker_texas_ranger']);*/
+   bem_menu('primary_navigation', 'menu');
     endif;
     ?>
   </nav>
