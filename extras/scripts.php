@@ -24,4 +24,4 @@ function add_googleanalytics()
         // GOOGLE ANALITICS //
 
     </script>
-<?php } ?>
+<?php }
