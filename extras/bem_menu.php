@@ -80,7 +80,7 @@ class walker_texas_ranger extends Walker_Nav_Menu {
             'active_parent_class'   => in_array("current-menu-parent",$item->classes) ? $prefix . $suffix['parent_of_active_item'] : '',
             'active_ancestor_class' => in_array("current-menu-ancestor",$item->classes) ? $prefix . $suffix['ancestor_of_active_item'] : '',
             'depth_class'           => $depth >=1 ? $prefix . $suffix['sub_menu_item'] . ' ' . $prefix . $suffix['sub_menu'] . '--' . $depth . '__item' : '',
-            'item_id_class'         => $prefix . '__item--'. $item->object_id,
+            'item_id_class'         => $prefix . '__item--'. $item->post_name,
             'user_class'            => $item->classes[0] !== '' ? $prefix . '__item--'. $item->classes[0] : ''
         );
         var_dump($item);
