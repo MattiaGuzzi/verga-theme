@@ -1,0 +1,28 @@
+*, *:after, *:before {
+    box-sizing: border-box !important;
+}
+
+
+body {
+    font-size: $font-size - 4px;
+    color:$gray-dark;
+    margin: 0;
+    font-family: $main-font;
+    line-height: $interline;
+    
+    @include breakpoint(640px) {
+        font-size: $font-size - 2px;
+    }
+    @include breakpoint(1024px) {
+        font-size: $base-font-size;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}

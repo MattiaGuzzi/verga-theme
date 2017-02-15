@@ -1,1 +1,1 @@
-body#tinymce{margin:12px!important}
+*,:after,:before{box-sizing:border-box!important}body{font-size:12px;color:#737373;margin:0;font-family:nimbus-sans,Helvetica Neue,Helvetica,Arial,sans-serif}@media screen and (min-width:40em){body{font-size:14px}}@media screen and (min-width:64em){body{font-size:16px}}body#tinymce{margin:12px!important}

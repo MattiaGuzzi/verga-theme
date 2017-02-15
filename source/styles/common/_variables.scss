@@ -1,7 +1,24 @@
-// Grid settings
-$enable-flex:           true;
-$main-sm-columns:       12;
-$sidebar-sm-columns:    4;
-
 // Colors
-$brand-primary:         #27ae60;
+$w: #fff;
+$b: #000;
+$brand-main: #D0043C;
+$brand-second: #FD486B;
+$light: #EBEBEB;
+$gray-light: #878787;
+$gray-dark: #737373;
+$anthracite-light: #363636;
+$anthracite-dark: #1D1D1D;
+
+
+// VARIOUS
+$speed: .5s;
+
+// SIZE
+$font-size: 16px;
+$f: 100%;
+$bp: 850px;
+
+// FONTS
+$main-font: 'nimbus-sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+$letter-spacing: 0.2em;
+$interline: percentage( 30px/18px );
