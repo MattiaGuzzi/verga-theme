@@ -83,6 +83,7 @@ class walker_texas_ranger extends Walker_Nav_Menu {
             'item_id_class'         => $prefix . '__item--'. $item->object_id,
             'user_class'            => $item->classes[0] !== '' ? $prefix . '__item--'. $item->classes[0] : ''
         );
+        var_dump($item);
 
         // convert array to string excluding any empty values
         $class_string = implode("  ", array_filter($item_classes));
