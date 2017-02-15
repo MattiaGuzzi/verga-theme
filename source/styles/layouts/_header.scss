@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: em(70px);
 
     &__nav{
         width: 100%;
@@ -15,14 +16,20 @@
     padding: 0;
     display: flex;
     justify-content: center;
-    li{
+    &__item{
         display: inline-block;
-        padding: em(20px) 0;
         text-align: center;
+
+        a {
+            line-height: 1;
+            color: $b;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        &--active {
+            color: $brand-second;
+        }
     }
-    a {
-        line-height: 1;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+
+
 }
