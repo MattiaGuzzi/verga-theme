@@ -1,0 +1,21 @@
+footer {
+    &__menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        &__item {
+            display: inline-block;
+            text-align: center;
+            a {
+                color: $brand-second;
+                line-height: 1;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+        }
+    }
+}
