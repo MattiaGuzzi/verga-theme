@@ -13,13 +13,11 @@
 
     li{
         display: inline-block;
+        padding: em(20px) 0;
+        text-align: center;
     }
     a {
         line-height: 1;
-        position: relative;
-        color: #4a4a49;
-        text-align: center;
-        padding: em(20px) 0;
         text-decoration: none;
     }
 }
