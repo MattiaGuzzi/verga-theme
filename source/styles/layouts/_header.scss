@@ -4,7 +4,7 @@
     justify-content: space-between;
     height: em(70px);
 
-    &__nav{
+    &__nav {
         width: 100%;
 
         a {
@@ -18,16 +18,13 @@
 
 }
 
-
-
-
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-around;
-    &__item{
+    &__item {
         display: inline-block;
         text-align: center;
 
@@ -37,9 +34,19 @@
             }
         }
         &--catalogo {
-
+            &:after {
+                position: relative;
+                top: -3px;
+                content: "";
+                display: inline-block;
+                width: em(8px);
+                height: em(8px);
+                border-right: 2px solid $brand-main;
+                border-top: 2px solid $brand-main;
+                margin-left: em(10px);
+                transition: all 0.3s;
+            }
+        }
     }
-    }
-
 
 }
