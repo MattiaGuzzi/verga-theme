@@ -100,3 +100,7 @@ function assets() {
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), 'lib', null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
+
+
+
+register_nav_menu('main menu', 'primary site menu');
