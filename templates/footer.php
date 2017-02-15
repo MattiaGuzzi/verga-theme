@@ -4,7 +4,7 @@
   </div>
   <?php
   if (has_nav_menu('footer_navigation')) :
-    bem_menu('footer_navigation', 'menu__footer');
+    bem_menu('footer_navigation', 'menu menu__footer');
   endif;
   ?>
 </footer>
