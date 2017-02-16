@@ -11,8 +11,8 @@
     <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar("footer right")) : ?>
     <?php endif; ?>
     </div>
-    <div class="subfooter">
-        <p><?php _e('Credits','verga')?></p>
+    <div class="subfooter subfooter--shrink subfooter--grow">
+        <p><?php _e('Credits by ','verga')?></p>
         <a class="icon icon-bspkn" href="#"></a>
     </div>
 </footer>

@@ -29,7 +29,7 @@
 
 .widgetleft, .widgetright {
     flex: 0 0 auto;
-    font-size: em(10px);
+    font-size: em(12px);
     line-height: 1.5;
     a {
         color: $anthracite-dark;
@@ -44,3 +44,12 @@
     text-align: right;
 }
 
+.subfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+        font-size: em(12px);
+        font-style: italic;
+    }
+}
