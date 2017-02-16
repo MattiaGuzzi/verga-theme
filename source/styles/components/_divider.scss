@@ -14,7 +14,7 @@
     }
     &--enphasis {
         background-color: $brand-main;
-        &__title, &__paragraph{
+        .divider__title, .divider__paragraph {
             color: $w;
         }
     }
