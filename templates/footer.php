@@ -1,4 +1,4 @@
-<footer class="footer footer--shrink">
+<footer class="footer footer--shrink footer--grow-md">
     <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar("footer left")) : ?>
     <?php endif; ?>
     <?php /*dynamic_sidebar('sidebar-footer'); */ ?>
