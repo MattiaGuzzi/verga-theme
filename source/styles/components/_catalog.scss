@@ -1,6 +1,7 @@
 .catalog {
     &__item {
         background-size: cover;
+        position: relative;
         &:after {
             content: '';
             position: absolute;
