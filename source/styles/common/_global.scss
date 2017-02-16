@@ -5,6 +5,7 @@
 @function em($px, $base: $base_font_size) {
     @return ($px / $base) * 1em;
 }
+
 @function vw($target, $vp: 1366) {
     $vw-context: ($vp*.01) * 1px;
     @return ($target/$vw-context) * 1vw;
@@ -33,11 +34,11 @@
 }
 
 @mixin breakpoint($point, $min : true) {
-    $min_or_max : null;
+    $min_or_max: null;
     @if $min {
-        $min_or_max : "min";
+        $min_or_max: "min";
     } @else {
-        $min_or_max : "max";
+        $min_or_max: "max";
     }
     @media screen and (#{$min_or_max}-width: #{em($point, 16px)}) {
         @content;
@@ -49,13 +50,13 @@
         left: 10px;
         right: 10px;
     }
-    @include breakpoint(640px){
+    @include breakpoint(640px) {
         padding: {
             left: em(25px);
             right: em(25px);
         }
     }
-    @include breakpoint($bp){
+    @include breakpoint($bp) {
         padding: {
             left: em(50px);
             right: em(50px);
@@ -84,7 +85,7 @@
         property: visibility, opacity;
         duration: $speed;
     }
-    @if not $onlyTrans{
+    @if not $onlyTrans {
         @if $isHidden {
             visibility: hidden;
             opacity: 0;
@@ -96,11 +97,10 @@
     }
 }
 
-
 @mixin grid($max : 12, $points : $bp) {
 
-   [class*=" --grid"] {
-       display: flex;
+    [class*=" --grid"] {
+        display: flex;
 
     }
     [class*=" --grid-nowrap"] {
@@ -120,21 +120,42 @@
     }
 }
 
-@mixin grow($v : $p) {
-    $rows: ('': 2, '-md': 4, '-lg': 8 );
+@mixin grow($s : true, $m : true, $l : true, $v : $p) {
+    $rows:null;
+    @if ($s && $m && $l) {
+        $rows: ('': 2, '-md': 4, '-lg': 8);
+    }
+    @if ($s==false && $m && $l) {
+        $rows: ('-md': 4, '-lg': 8);
+    }
+    @if ($s && $m==false && $l) {
+        $rows: ('': 2, '-lg': 8);
+    }
+    @if ($s && $m && $l==false) {
+        $rows: ('': 2, '-md': 4);
+    }
+    @if ($s==false && $m && $l==false) {
+        $rows: ('-md': 4);
+    }
+    @if ($s==false && $m==false && $l) {
+        $rows: ('-lg': 8);
+    }
+    @if ($s && $m==false && $l==false) {
+        $rows: ('': 2);
+    }
     @each $row, $i in $rows {
-        [class*="--grow#{$row}"] {
+        &--grow#{$row} {
             padding: {
                 top: $v*$i;
                 bottom: $v*$i;
             }
         }
-        [class~="--grow#{$row}-top"] {
+        &--grow#{$row}-top {
             padding: {
                 top: $v*$i;
             }
         }
-        [class*="--grow#{$row}-btm"] {
+        &--grow#{$row}-btm {
             padding: {
                 bottom: $v*$i;
             }
