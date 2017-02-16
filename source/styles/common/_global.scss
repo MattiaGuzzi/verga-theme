@@ -122,7 +122,7 @@
 
 @mixin grow($s : true, $m : true, $l : true, $v : $p) {
 
-    $rows:('': 2, '-md': 4, '-lg': 8);
+    $rows:null;
     @if ($s and $m and $l) {
         $rows: ('': 2, '-md': 4, '-lg': 8);
     }
