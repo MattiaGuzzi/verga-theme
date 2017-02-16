@@ -30,6 +30,7 @@
     &__item {
         display: inline-block;
         text-align: center;
+        font-size: em(18px);
 
         &--active {
             a {
@@ -40,6 +41,7 @@
             &:after {
                 position: relative;
                 top: -3px;
+                right: em(25px);
                 content: "";
                 display: inline-block;
                 width: em(10px);
