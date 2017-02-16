@@ -1,11 +1,13 @@
 %btn {
-    max-width: em(170px);
+    min-width: em(170px);
     padding: em(15px) em(35px);
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: em(30px);
     display: inline-block;
+    box-shadow: 0 0 em(32px);
+    font-size: em(18px);
 }
 .button {
     @extend %btn;
