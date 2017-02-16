@@ -1,3 +1,4 @@
+<section class="catalog">
 <?php
 $args = array(
     'number'     => -1,
@@ -36,3 +37,4 @@ foreach ( $product_categories as $product_category ) {
     echo "</ul>";
 }
 ?>
+</section>
