@@ -8,9 +8,7 @@
     $product_categories = get_terms('product_cat', $args);
     foreach ($product_categories as $product_category) {
         $thumbnail_id = get_woocommerce_term_meta($product_category->term_id, 'thumbnail_id', true);
-        var_dump($thumbnail_id);
-        // get the image URL for parent category
-        $image = wp_get_attachment_image_src($thumbnail_id, 'full');?>
+        $image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];?>
 
         <div class="catalog__item" style="background-image: url('<?php echo $image  ?>')">
        <?php echo $product_category->name;
