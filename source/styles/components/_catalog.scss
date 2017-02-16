@@ -13,7 +13,7 @@
         }*/
     }
     .block {
-        @include grow(true, false, false);
+        @include grow();
         max-width: 775px;
         margin: 0 auto;
         background-color: $w;
