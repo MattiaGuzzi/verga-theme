@@ -4,6 +4,7 @@ $args = array(
     'number'     => 10,
     'orderby'    => 'title',
     'order'      => 'ASC',
+    'hide_empty' => 0,
 );
 $product_categories = get_terms( 'product_cat', $args );
 foreach ( $product_categories as $product_category ) {
