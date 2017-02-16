@@ -1,7 +1,7 @@
 <section class="catalog">
 <?php
 $args = array(
-    'number'     => -1,
+    'number'     => 10,
     'orderby'    => 'title',
     'order'      => 'ASC',
 );
