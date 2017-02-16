@@ -121,26 +121,27 @@
 }
 
 @mixin grow($s : true, $m : true, $l : true, $v : $p) {
-    $rows:null;
-    @if ($s && $m && $l) {
+
+    $rows:('': 2, '-md': 4, '-lg': 8);
+    @if ($s and $m and $l) {
         $rows: ('': 2, '-md': 4, '-lg': 8);
     }
-    @if ($s==false && $m && $l) {
+    @if ($s==false and $m and $l) {
         $rows: ('-md': 4, '-lg': 8);
     }
-    @if ($s && $m==false && $l) {
+    @if ($s and $m==false and $l) {
         $rows: ('': 2, '-lg': 8);
     }
-    @if ($s && $m && $l==false) {
+    @if ($s and $m and $l==false) {
         $rows: ('': 2, '-md': 4);
     }
-    @if ($s==false && $m && $l==false) {
+    @if ($s==false and $m and $l==false) {
         $rows: ('-md': 4);
     }
-    @if ($s==false && $m==false && $l) {
+    @if ($s==false and $m==false and $l) {
         $rows: ('-lg': 8);
     }
-    @if ($s && $m==false && $l==false) {
+    @if ($s and $m==false and $l==false) {
         $rows: ('': 2);
     }
     @each $row, $i in $rows {
