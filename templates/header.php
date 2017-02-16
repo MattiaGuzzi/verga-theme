@@ -12,7 +12,7 @@
     </nav>
     <div class="header__preventivi">
         <a href="#" class="button">
-            <?php _e('Preventivo', 'verga') ?>
+            <label><?php _e('Preventivo', 'verga') ?></label>
         </a>
     </div>
 </header>

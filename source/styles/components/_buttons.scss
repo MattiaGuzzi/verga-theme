@@ -10,7 +10,7 @@
     font-size: em(18px);
     transition: box-shadow $speed;
     &:hover {
-        box-shadow: 0 em(10px) em(32px) transparentize($b, .7);
+        box-shadow: 0 em(10px) em(32px) transparentize($b, .8);
     }
 }
 .button {
