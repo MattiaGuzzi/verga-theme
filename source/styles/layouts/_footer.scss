@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     .menu {
+        width:100%;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -21,4 +22,8 @@
 
         }
     }
+}
+
+.widgetleft, .widgetright {
+    flex: 0 0 auto;
 }
