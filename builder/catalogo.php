@@ -11,8 +11,8 @@
         $image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];?>
 
         <div class="catalog__item" style="background-image: url('<?php echo $image  ?>')">
-            <div class="block block--grow-lg">
-                <h2 class="block__title"><?php echo $product_category->name;?></h2>
+            <div class="block block--grow-lg block--shrink">
+                <h2 class="block__title title--grow-md-top"><?php echo $product_category->name;?></h2>
                 <?php
                 $args = array(
                     'orderby' => 'name',

@@ -12,4 +12,13 @@
             background-color: rgba( 0, 0, 0, 0.5);
         }*/
     }
+    .block {
+        max-width: 775px;
+        margin: 0 auto;
+        background-color: $w;
+        &__title {
+
+        }
+
+    }
 }
