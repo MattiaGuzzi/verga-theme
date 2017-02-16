@@ -6,8 +6,9 @@
         'parent' => 0
     );
     $product_categories = get_terms('product_cat', $args);
-    foreach ($product_categories as $product_category) {
-        echo $product_category->name;
+    foreach ($product_categories as $product_category) {?>
+        <div class="catalog__list">
+       <?php echo $product_category->name;
 
         $args = array(
             'orderby' => 'name',
@@ -18,6 +19,9 @@
         foreach ($subcategories as $subcategory) {
             echo $subcategory->name;
         }
+       ?>
+            </div>
+    <php
     }
     ?>
 </section>
