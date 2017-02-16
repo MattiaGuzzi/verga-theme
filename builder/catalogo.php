@@ -1,10 +1,10 @@
 <section class="catalog">
 <?php
 $args = array(
-    'number'     => -1,
     'orderby'    => 'title',
     'order'      => 'ASC',
     'hide_empty' => 0,
+    'hierarchical' => false,
 );
 $product_categories = get_terms( 'product_cat', $args );
 foreach ( $product_categories as $product_category ) {
