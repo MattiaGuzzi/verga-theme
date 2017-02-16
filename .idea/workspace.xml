@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_divider.scss" afterPath="$PROJECT_DIR$/source/styles/components/_divider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/layouts/_footer.scss" afterPath="$PROJECT_DIR$/source/styles/layouts/_footer.scss" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/layouts/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1734694">
+            <state vertical-scroll-proportion="-2.6153846">
               <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding />
             </state>
@@ -88,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_divider.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_divider.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_divider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.60714287">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -149,8 +147,8 @@
         <option value="$PROJECT_DIR$/source/styles/components/_grid.scss" />
         <option value="$PROJECT_DIR$/source/styles/common/_global.scss" />
         <option value="$PROJECT_DIR$/source/styles/components/_catalog.scss" />
-        <option value="$PROJECT_DIR$/source/styles/components/_divider.scss" />
         <option value="$PROJECT_DIR$/source/styles/layouts/_footer.scss" />
+        <option value="$PROJECT_DIR$/source/styles/components/_divider.scss" />
       </list>
     </option>
   </component>
@@ -846,18 +844,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/_divider.scss">
+    <entry file="file://$PROJECT_DIR$/source/styles/layouts/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/layouts/_footer.scss">
+    <entry file="file://$PROJECT_DIR$/source/styles/components/_divider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1734694">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.60714287">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>

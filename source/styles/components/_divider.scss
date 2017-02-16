@@ -12,6 +12,7 @@
         }
     }
     &__paragraph {
+        @include grow();
         font-size: em(18px);
 
         .divider--full &{
