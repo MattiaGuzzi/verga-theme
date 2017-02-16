@@ -5,6 +5,7 @@
     text-transform: uppercase;
     text-decoration: none;
     border-radius: em(30px);
+    display: inline-block;
 }
 .button {
     @extend %btn;
