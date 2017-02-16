@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extras.php" afterPath="$PROJECT_DIR$/lib/extras.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/footer.php" afterPath="$PROJECT_DIR$/templates/footer.php" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +57,8 @@
       <file leaf-file-name="extras.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/extras.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50581396">
-              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.60465115">
+              <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -794,8 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/extras.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50581396">
-          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.60465115">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
           <folding />
         </state>
       </provider>

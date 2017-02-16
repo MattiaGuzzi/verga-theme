@@ -35,6 +35,7 @@ add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
 
 if ( function_exists('register_sidebar') )
   register_sidebar(array(
+        'id' => 'footer_left',
           'name' => 'footer left',
           'before_widget' => '<div class = "widgetleft">',
           'after_widget' => '</div>',
@@ -45,6 +46,7 @@ if ( function_exists('register_sidebar') )
 
 if ( function_exists('register_sidebar') )
   register_sidebar(array(
+          'id' => 'footer_right',
           'name' => 'footer right',
           'before_widget' => '<div class = "widgetright">',
           'after_widget' => '</div>',
