@@ -8,7 +8,7 @@ $args = array(
 );
 $product_categories = get_terms( 'product_cat', $args );
 foreach ( $product_categories as $product_category ) {
-   echo $product_categorie -> name;
+   echo $product_category -> name;
 }
 ?>
 </section>
