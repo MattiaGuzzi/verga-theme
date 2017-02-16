@@ -3,13 +3,12 @@
     align-items: center;
     justify-content: space-between;
     .menu {
-        width:100%;
+        display: block;
+        width:auto;
         list-style-type: none;
         margin: 0;
         padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+
         &__item {
             display: inline-block;
             text-align: center;
