@@ -7,7 +7,7 @@
     );
     $product_categories = get_terms('product_cat', $args);
     foreach ($product_categories as $product_category) {?>
-        <div class="catalog__item" style="background-image: url('<?php get_term_thumbnail( $product_category->term_id);  ?>')">
+        <div class="catalog__item" style="background-image: url('<?php get_the_post_thumbnail_url()  ?>')">
        <?php echo $product_category->name;
 
         $args = array(
