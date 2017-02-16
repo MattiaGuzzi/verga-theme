@@ -1,4 +1,5 @@
 .divider {
+    @include grow();
     text-align: center;
     &__title {
         font-size: em(48px);
