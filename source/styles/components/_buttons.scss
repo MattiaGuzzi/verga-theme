@@ -6,7 +6,7 @@
     text-decoration: none;
     border-radius: em(30px);
     display: inline-block;
-    box-shadow: 0 0 em(32px);
+    box-shadow: 0 0 em(32px) transparentize($b, .85);
     font-size: em(18px);
 }
 .button {
