@@ -129,7 +129,7 @@
                 bottom: $v*$i;
             }
         }
-        [class*="--grow#{$row}-top"] {
+        [class~="--grow#{$row}-top"] {
             padding: {
                 top: $v*$i;
             }
@@ -140,5 +140,4 @@
             }
         }
     }
-
 }
