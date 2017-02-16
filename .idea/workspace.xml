@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/layouts/_header.scss" afterPath="$PROJECT_DIR$/source/styles/layouts/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_divider.scss" afterPath="$PROJECT_DIR$/source/styles/components/_divider.scss" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +26,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="fascia-full.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="fascia-full.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/builder/fascia-full.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="-0.0">
                   <caret line="0" column="152" selection-start-line="0" selection-start-column="119" selection-end-line="0" selection-end-column="152" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_divider.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_divider.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/styles/components/_divider.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.038462">
-                  <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+                <state vertical-scroll-proportion="0.32918397">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -138,11 +138,11 @@
         <option value="$PROJECT_DIR$/templates/footer.php" />
         <option value="$PROJECT_DIR$/source/styles/layouts/_footer.scss" />
         <option value="$PROJECT_DIR$/builder/fascia.php" />
-        <option value="$PROJECT_DIR$/source/styles/components/_divider.scss" />
         <option value="$PROJECT_DIR$/builder/fascia-full.php" />
         <option value="$PROJECT_DIR$/builder/fascia-normal.php" />
         <option value="$PROJECT_DIR$/source/styles/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/source/styles/layouts/_header.scss" />
+        <option value="$PROJECT_DIR$/source/styles/components/_divider.scss" />
       </list>
     </option>
   </component>
@@ -819,26 +819,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/_divider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/builder/fascia.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07053942">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builder/fascia-full.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="152" selection-start-line="0" selection-start-column="119" selection-end-line="0" selection-end-column="152" />
           <folding />
         </state>
       </provider>
@@ -871,6 +855,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31811896">
           <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/fascia-full.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="152" selection-start-line="0" selection-start-column="119" selection-end-line="0" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/components/_divider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32918397">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

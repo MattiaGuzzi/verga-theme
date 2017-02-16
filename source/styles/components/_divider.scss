@@ -1,7 +1,8 @@
 .divider {
     text-align: center;
     &__title {
-        font-size: em(34px);
+        font-size: em(48px);
+        font-weight: lighter;
         color: $brand-main;
         text-transform: uppercase;
 
