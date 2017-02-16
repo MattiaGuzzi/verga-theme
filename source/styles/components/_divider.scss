@@ -1,0 +1,11 @@
+.divider {
+    text-align: center;
+    &__title {
+        font-size: em(34px);
+        color: $brand-main;
+        text-transform: uppercase;
+    }
+    &__paragraph {
+        font-size: em(18px);
+    }
+}
