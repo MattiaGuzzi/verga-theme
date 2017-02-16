@@ -8,11 +8,14 @@
         margin: 0;
         padding: 0;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         &__item {
             display: inline-block;
             text-align: center;
             a {
+                padding-left: em(30px);
+                padding-right: em(30px);
                 color: $brand-second;
                 line-height: 1;
                 text-decoration: none;
