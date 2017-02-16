@@ -29,4 +29,18 @@
 
 .widgetleft, .widgetright {
     flex: 0 0 auto;
+    font-size: em(10px);
+    line-height: 1.5;
+    a {
+        color: $anthracite-dark;
+        transition: color $speed;
+        &:hover {
+            color: $anthracite-light;
+        }
+    }
 }
+
+.widgetright {
+    text-align: right;
+}
+
