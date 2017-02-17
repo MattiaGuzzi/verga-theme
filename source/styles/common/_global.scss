@@ -99,12 +99,12 @@
 
 @mixin grid($max : 12, $points : $bp) {
 
-    [class*=" --grid"] {
+    [class*="--grid"] {
         display: flex;
         flex-wrap: wrap;
 
     }
-    [class*=" --grid-nowrap"] {
+    [class*="--grid-nowrap"] {
         display: flex;
         flex-wrap: nowrap;
     }
