@@ -21,6 +21,7 @@
             .block__button {
                 .button {
                     transform: rotate(-90deg) translateX(-50%) translateY(0%);
+                    opacity: 1;
                 }
             }
             .block__submenu {
@@ -30,7 +31,7 @@
             .block__overlay {
                 opacity: 1;
                 .product-number {
-                    transform: rotate(-90deg) translateX(-50%) translateY(0%);
+                    transform: rotate(-90deg) translateX(50%) translateY(0%);
                 }
             }
             /* &:after {
