@@ -51,6 +51,7 @@
             top: 50%;
             right: -100%;
             transition: transform $speed, right $speed;
+            transition-timing-function: cubic-bezier(.41,.22,.43,.99);
         }
 
     }
