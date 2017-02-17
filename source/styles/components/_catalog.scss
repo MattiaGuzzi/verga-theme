@@ -13,6 +13,9 @@
                 right: -50px;
                 transform: rotate(-90deg) translateY(150%);
             }
+            .block__submenu {
+                transform: translateY(0%);
+            }
             /* &:after {
                  width: 100%;
              }*/
@@ -62,6 +65,8 @@
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
+            transform: translateY(400%);
+            transition: transform $speed;
             .item {
                 padding-left: em(20px);
                 padding-right: em(20px);
