@@ -10,7 +10,7 @@
                 color: $brand-main;
             }
             .block__button {
-                right: calc( 0 + 50px );
+                right:  -50px;
                 transform: rotate(-90deg) translateY(125%);
             }
         }
