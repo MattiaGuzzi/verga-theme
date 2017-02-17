@@ -13,13 +13,7 @@
     z-index: 1;
     overflow: hidden;
 
-    &:before {
-        content: '';
-        @include absfull();
-        background-color: $brand-main;
-        opacity: 0;
-        transition: opacity $speed;
-    }
+
     &:hover {
         box-shadow: 0 em(10px) em(32px) transparentize($b, .8);
         &:before {
@@ -32,6 +26,13 @@
     background: $brand-main;
     background: linear-gradient(to right, $brand-second , $brand-main);
     color: white;
+    &:before {
+        content: '';
+        @include absfull();
+        background-color: $brand-main;
+        opacity: 0;
+        transition: opacity $speed;
+    }
 
     &__label {
         cursor: pointer;
@@ -48,6 +49,13 @@
         @extend %btn;
         background: $w;
         color: $anthracite-dark;
+        &:before {
+            content: '';
+            @include absfull();
+            background-color: $light;
+            opacity: 0;
+            transition: opacity $speed;
+        }
     }
     &--rotate {
         @extend %btn;
