@@ -68,10 +68,10 @@
                 a {
                     color: $b;
                     transition: color $speed;
+                    text-transform: uppercase;
+                    font-size: em(14px);
                     &:hover {
                         color: $brand-main;
-                        text-transform: uppercase;
-                        font-size: em(14px);
                     }
                 }
             }
