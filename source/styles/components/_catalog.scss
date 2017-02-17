@@ -71,14 +71,13 @@
             right: -200%;
             width: 100%;
             height: 100%;
-            background-color: $gray-light;
-            transition: left $speed;
-           /* z-index: 1;
-            position: absolute;
-            top: 50%;
-            right: -100%;
-            transition: transform $speed, right $speed, box-shadow $speed;;
-            transition-timing-function: cubic-bezier(.41, .22, .43, .99);*/
+            background-color: transparent;
+            transition: right $speed;
+            .button {
+                position: absolute;
+                left: 0;
+                top: 50%;
+            }
         }
         &__overlay {
             position: absolute;
