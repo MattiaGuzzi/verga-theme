@@ -27,9 +27,11 @@
                     }
                     ?>
                 </div>
-                <a href="http://verga.dnative.com/preventivo/" class="block__button button button--rotate"><label
+                <div class="block__button">
+                <a href="http://verga.dnative.com/preventivo/" class="button button--rotate"><label
                         class="button__label"><?php _e('Scopri tutto', 'verga') ?></label></a>
-                <div class="block__overlay"><p class="product-number"><?php echo $product_category->count; _e("prodotti","verga")?></p></div>
+                </div>
+                <div class="block__overlay"><p class="product-number"><?php echo $product_category->count; _e(" prodotti","verga")?></p></div>
             </div>
         </div>
         <?php
