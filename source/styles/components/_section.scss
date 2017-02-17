@@ -1,15 +1,12 @@
-.section {
+
+.section__cell {
     @include grow();
+    position: relative;
 
-    &__cell {
-        position: relative;
-
-        &--background {
-            @include absfull();
-        }
-        &--paragraph {
-            @include grow();
-        }
-
+    &--background {
+        @include absfull();
+    }
+    &--paragraph {
+        @include grow();
     }
 }
