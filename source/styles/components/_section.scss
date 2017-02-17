@@ -1,0 +1,8 @@
+.section__cell {
+    position: relative;
+
+    &--background {
+        @include absfull();
+    }
+
+}
