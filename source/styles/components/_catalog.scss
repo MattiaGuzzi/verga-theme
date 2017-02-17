@@ -21,7 +21,7 @@
             .block__button {
                 .button {
                     opacity: 1;
-                    right:;
+                    transform: rotate(-90deg) translateX(-50%) translateY(-100%);
                 }
             }
             .block__submenu {
@@ -97,7 +97,7 @@
             background-color: $gray-light;
             opacity: 0;
             transition: left $speed, opacity $speed;
-            
+
             .totale {
                 text-align: center;
                 position: absolute;
