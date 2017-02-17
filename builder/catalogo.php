@@ -8,7 +8,7 @@
     $product_categories = get_terms('product_cat', $args);
     foreach ($product_categories as $product_category) {
         $thumbnail_id = get_woocommerce_term_meta($product_category->term_id, 'thumbnail_id', true);
-        $image = wp_get_attachment_image_src($thumbnail_id, 'full')[0]; echo $product_category->count ?>
+        $image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];?>
 
         <div class="catalog__item" style="background-image: url('<?php echo $image ?>')">
             <div class="block block--grow-lg block--shrink">
@@ -29,7 +29,7 @@
                 </div>
                 <a href="http://verga.dnative.com/preventivo/" class="block__button button button--rotate"><label
                         class="button__label"><?php _e('Scopri tutto', 'verga') ?></label></a>
-                <div class="block__overlay"></div>
+                <div class="block__overlay"><p class="product-number"><?php echo $product_category->count; _e("prodotti","verga")?></p></div>
             </div>
         </div>
         <?php
