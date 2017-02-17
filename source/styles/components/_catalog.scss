@@ -24,6 +24,7 @@
             font-size: em(48px);
             color: $anthracite-dark;
             font-weight: lighter;
+            line-height: 1;
         }
         &__description {
             @include grow();

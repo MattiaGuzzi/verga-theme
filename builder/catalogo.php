@@ -13,7 +13,7 @@
         <div class="catalog__item" style="background-image: url('<?php echo $image  ?>')">
             <div class="block block--grow-lg block--shrink">
                 <h2 class="block__title block__title--grow-md-top"><?php echo $product_category->name;?></h2>
-                <p class="block__description block__description--grow-md-top"><?php echo $product_category->description;?></p>
+                <p class="block__description block__description--grow-md"><?php echo $product_category->description;?></p>
                 <?php
                 $args = array(
                     'orderby' => 'name',
