@@ -25,6 +25,9 @@
             .block__submenu {
                 transform: translateY(0%);
             }
+            .block__overlay {
+                left: -100%;
+            }
             /* &:after {
                  width: 100%;
              }*/
@@ -68,6 +71,15 @@
             right: -100%;
             transition: transform $speed, right $speed, box-shadow $speed;;
             transition-timing-function: cubic-bezier(.41, .22, .43, .99);
+        }
+        &__overlay {
+            position: absolute;
+            top: 0;
+            left: -200%;
+            width: 100%;
+            height: 100%;
+            background-color: $gray-light;
+            transition: left $speed;
         }
         &__submenu {
             display: flex;
