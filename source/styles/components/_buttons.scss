@@ -61,6 +61,13 @@
         @extend %btn;
         font-size: em(14px);
         transform: rotate(-90deg);
+        &:before {
+            content: '';
+            @include absfull();
+            background-color: $light;
+            opacity: 0;
+            transition: opacity $speed;
+        }
     }
 }
 
