@@ -6,7 +6,15 @@
     &--background {
         @include absfull();
     }
+    &--title {
+        font-size: em(48px);
+        font-weight: lighter;
+        color: $brand-main;
+    }
     &--paragraph {
         @include grow();
+    }
+    &--button {
+        text-align: center;
     }
 }
