@@ -95,10 +95,11 @@
                 position: absolute;
                 right: em(40px);
                 top: 50%;
-                transform-origin: 0% 0%;
-                transform: rotate(-90deg) translateX(-50%);
+                transform-origin: right center;
+                transform: rotate(-90deg) translateX(50%);
                 color: $w;
                 font-size: em(24px);
+                text-transform: uppercase;
             }
         }
         &__submenu {
