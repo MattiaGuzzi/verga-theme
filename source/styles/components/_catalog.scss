@@ -4,6 +4,12 @@
         position: relative;
         padding-left: em(100px);
         padding-right: em(100px);
+        cursor: pointer;
+        &:hover {
+            .block__title {
+                color: $brand-main;
+            }
+        }
         /*&:after {
             content: '';
             position: absolute;
@@ -27,6 +33,7 @@
             color: $anthracite-dark;
             font-weight: lighter;
             line-height: 1;
+            transition: color $speed;
         }
         &__description {
             @include grow();
