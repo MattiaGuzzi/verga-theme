@@ -20,7 +20,13 @@
         margin: 0 auto;
         background-color: $w;
         &__title {
-
+            font-size: em(48px);
+            color: $anthracite-dark;
+        }
+        &__description {
+            font-size: em(18px);
+            line-height: $interline;
+            color: $gray-light;
         }
 
     }
