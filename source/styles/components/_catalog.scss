@@ -89,6 +89,17 @@
             height: 100%;
             background-color: $gray-light;
             transition: left $speed;
+            
+            .product-number {
+                text-align: center;
+                position: absolute;
+                right: em(40px);
+                top: 50%;
+                transform-origin: 0% 0%;
+                transform: rotate(-90deg) translateX(-50%);
+                color: $w;
+                font-size: em(24px);
+            }
         }
         &__submenu {
             display: flex;
