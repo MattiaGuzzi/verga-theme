@@ -1,6 +1,5 @@
 .catalog {
     &__item {
-        background-size: cover;
         position: relative;
         padding-left: em(100px);
         padding-right: em(100px);
@@ -38,16 +37,11 @@
                  width: 100%;
              }*/
         }
-        /*  &:after {
-              content: '';
-              position: absolute;
-              top: 0;
-              left: 50%;
-              width: 0%;
-              height: 100%;
-              background-color: rgba( 0, 0, 0, 0.5);
-              transition: width $speed;
-          }*/
+
+        .background {
+            background-size: cover;
+            @include absfull();
+        }
     }
     .block {
         @include grow();
