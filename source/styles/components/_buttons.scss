@@ -39,6 +39,7 @@
         cursor: pointer;
         position: relative;
         transition: text-shadow $speed;
+        backface-visibility: hidden;
     }
 
     &:hover {
@@ -59,6 +60,7 @@
         @extend %btn;
         font-size: em(14px);
         transform: rotate(-90deg);
+        backface-visibility: hidden;
     }
 }
 
