@@ -23,7 +23,7 @@
                 );
                 $subcategories = get_terms('product_cat', $args);
                 foreach ($subcategories as $subcategory) {
-                    echo '<div class="item">'.$subcategory->name.'</div>';
+                    echo '<span class="item">'.$subcategory->name.'</span>';
                 }
                ?>
                 </div>
