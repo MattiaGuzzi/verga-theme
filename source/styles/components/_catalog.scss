@@ -21,7 +21,7 @@
             .block__button {
                 .button {
                     opacity: 1;
-                    transform: rotate(-90deg) translateX(-50%) translateY(-100%);
+                    transform: rotate(-90deg) translateX(-50%) translateY(0%);
                 }
             }
             .block__submenu {
@@ -31,7 +31,7 @@
             .block__overlay {
                 opacity: 1;
                 .totale {
-                    right: em(-40px);
+                    right: em(40px);
                 }
             }
             /* &:after {
