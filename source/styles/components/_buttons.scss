@@ -41,7 +41,7 @@
 
     &:hover {
         .button__label {
-            text-shadow: 0 2px 5px transparentize($b, .6);
+            text-shadow: 0 2px 10px transparentize($b, .8);
         }
     }
     &--reverse {
