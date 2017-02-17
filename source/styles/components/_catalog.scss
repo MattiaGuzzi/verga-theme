@@ -70,6 +70,8 @@
                     transition: color $speed;
                     &:hover {
                         color: $brand-main;
+                        text-transform: uppercase;
+                        font-size: em(14px);
                     }
                 }
             }
