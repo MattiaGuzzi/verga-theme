@@ -12,7 +12,7 @@
             <div class="section__cell--paragraph section__cell--paragraph--grow-lg"><?php the_sub_field('paragrafo') ?></div>
         <?php endif ?>
         <?php if(get_sub_field('link') != '') :?>
-            <a href="<?php the_sub_field('link') ?>" class="button section__cell--button"><span class="button__label"><?php the_sub_field('testo_bottone') ?></span></a>
+            <div class="section__cell--button"><a href="<?php the_sub_field('link') ?>" class="button"><span class="button__label"><?php the_sub_field('testo_bottone') ?></span></a></div>
         <?php endif ?>
     </div>
     <?php endwhile; ?>
