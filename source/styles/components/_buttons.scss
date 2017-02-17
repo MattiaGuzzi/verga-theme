@@ -64,7 +64,7 @@
         &:before {
             content: '';
             @include absfull();
-            background-color: $light;
+            background-color: $brand-main;
             opacity: 0;
             transition: opacity $speed;
         }
