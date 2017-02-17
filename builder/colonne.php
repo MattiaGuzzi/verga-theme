@@ -3,7 +3,7 @@
     <?php while (have_rows('cols')) : the_row(); ?>
     <div class="section__cell section__cell-s<?php echo $wcols?>">
         <?php if(get_sub_field('immagine') != '') :?>
-            <div class="section__cell--background" style="background-image: url("<?php the_sub_field('immagine') ?>")"></div>
+            <div class="section__cell--background" style="background-image: url('<?php the_sub_field('immagine') ?>')"></div>
         <?php endif ?>
         <?php if(get_sub_field('titolo') != '') :?>
             <h2 class="section__cell--title"><?php the_sub_field('titolo') ?></h2>
