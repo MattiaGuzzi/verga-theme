@@ -65,6 +65,12 @@
             .item {
                 padding-left: em(20px);
                 padding-right: em(20px);
+                &:first-child{
+                    padding-left: 0;
+                }
+                &:last-child {
+                    padding-right: 0;
+                }
                 a {
                     color: $b;
                     transition: color $speed;
