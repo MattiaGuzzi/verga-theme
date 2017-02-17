@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_catalog.scss" afterPath="$PROJECT_DIR$/source/styles/components/_catalog.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_buttons.scss" afterPath="$PROJECT_DIR$/source/styles/components/_buttons.scss" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_buttons.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.115385">
-              <caret line="33" column="34" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.7257319">
+              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -47,18 +48,18 @@
       <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/layouts/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3076925">
+            <state vertical-scroll-proportion="-7.1923075">
               <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_catalog.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_catalog.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_catalog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2403698">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+            <state vertical-scroll-proportion="-2.0769231">
+              <caret line="13" column="58" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -124,9 +125,9 @@
         <option value="$PROJECT_DIR$/builder/fascia-normal.php" />
         <option value="$PROJECT_DIR$/builder/fascia-full.php" />
         <option value="$PROJECT_DIR$/source/styles/layouts/_footer.scss" />
-        <option value="$PROJECT_DIR$/source/styles/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/builder/catalogo.php" />
         <option value="$PROJECT_DIR$/source/styles/components/_catalog.scss" />
+        <option value="$PROJECT_DIR$/source/styles/components/_buttons.scss" />
       </list>
     </option>
   </component>
@@ -784,26 +785,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/layouts/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3076925">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/builder/catalogo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.76923">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.115385">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -818,8 +803,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/components/_catalog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2403698">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        <state vertical-scroll-proportion="-2.0769231">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/layouts/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/components/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7257319">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
           <folding />
         </state>
       </provider>

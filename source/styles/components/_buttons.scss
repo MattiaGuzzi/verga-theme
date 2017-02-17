@@ -31,7 +31,7 @@
     &--rotate {
         @extend %btn;
         font-size: em(14px);
-        transform: rotate(-90deg);
+        transform: rotate(-90deg) translateY(0%);
     }
 }
 
