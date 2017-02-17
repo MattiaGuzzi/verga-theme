@@ -23,7 +23,7 @@
                 );
                 $subcategories = get_terms('product_cat', $args);
                 foreach ($subcategories as $subcategory) {
-                    echo '<span class="item"><a href="'.get_category_link( $subcategory -> term_id ).'"'.$subcategory->name.'</span>';
+                    echo '<span class="item"><a href="'.get_category_link( $subcategory -> term_id ).'">'.$subcategory->name.'</a></span>';
                 }
                ?>
                 </div>
