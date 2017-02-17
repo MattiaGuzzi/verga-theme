@@ -57,6 +57,16 @@
             transition: transform $speed, right $speed;
             transition-timing-function: cubic-bezier(.41,.22,.43,.99);
         }
+        &__submenu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item {
+                padding-left: em(20px);
+                padding-right: em(20px);
+            }
+        }
 
     }
 }
