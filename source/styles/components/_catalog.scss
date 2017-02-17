@@ -16,6 +16,7 @@
     }
     .block {
         @include grow();
+        position: relative;
         max-width: 775px;
         margin: 0 auto;
         background-color: $w;

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/catalogo.php" afterPath="$PROJECT_DIR$/builder/catalogo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_catalog.scss" afterPath="$PROJECT_DIR$/source/styles/components/_catalog.scss" />
     </list>
     <ignored path="verga.iws" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="_catalog.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_catalog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5023112">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.42372882">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -820,8 +819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/components/_catalog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5023112">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.42372882">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
       </provider>
