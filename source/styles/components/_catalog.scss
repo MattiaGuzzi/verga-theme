@@ -20,8 +20,8 @@
             }
             .block__button {
                 .button {
-                    transform: rotate(-90deg) translateX(-50%) translateY(0%);
                     opacity: 1;
+                    right:;
                 }
             }
             .block__submenu {
@@ -30,8 +30,8 @@
             }
             .block__overlay {
                 opacity: 1;
-                .product-number {
-                    transform: rotate(-90deg) translateX(50%) translateY(0%);
+                .totale {
+                    right: em(-40px);
                 }
             }
             /* &:after {
@@ -98,13 +98,14 @@
             opacity: 0;
             transition: left $speed, opacity $speed;
             
-            .product-number {
+            .totale {
                 text-align: center;
                 position: absolute;
-                right: em(40px);
+                right: em(-20px);
                 top: 50%;
                 transform-origin: right center;
-                transform: rotate(-90deg) translateX(50%) translateY(-300%);
+                transform: rotate(-90deg) translateX(50%);
+                transition: right $speed;
                 color: $w;
                 font-size: em(24px);
                 text-transform: uppercase;
