@@ -13,11 +13,11 @@
                 right:  -50px;
                 transform: rotate(-90deg) translateY(125%);
             }
-            &:after {
+           /* &:after {
                 width: 100%;
-            }
+            }*/
         }
-        &:after {
+      /*  &:after {
             content: '';
             position: absolute;
             top: 0;
@@ -26,7 +26,7 @@
             height: 100%;
             background-color: rgba( 0, 0, 0, 0.5);
             transition: width $speed;
-        }
+        }*/
     }
     .block {
         @include grow();
