@@ -28,6 +28,11 @@
         background: $w;
         color: $anthracite-dark;
     }
+    &--rotate {
+        @extend %btn;
+        font-size: em(14px);
+        transform: rotate(45deg);
+    }
 }
 
 
