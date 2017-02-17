@@ -25,9 +25,10 @@
                     echo $subcategory->name;
                 }
                ?>
+                <a href="http://verga.dnative.com/preventivo/" class="block__button button button--rotate"><label class="button__label"><?php _e('Scopri tutto','verga') ?></label></a>
+
             </div>
-            <a href="http://verga.dnative.com/preventivo/" class="block__button button button--rotate"><label class="button__label"><?php _e('Scopri tutto','verga') ?></label></a>
-        </div>
+            </div>
     <?php
     }
     ?>
