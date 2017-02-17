@@ -75,7 +75,7 @@
             transition: right $speed;
             .button {
                 position: absolute;
-                left: 0;
+                left: em(40px);
                 top: 50%;
                 transform-origin: 0% 0%;
                 transform: rotate(-90deg) translateX(-50%);
