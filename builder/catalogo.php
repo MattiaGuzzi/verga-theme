@@ -8,7 +8,7 @@
     $product_categories = get_terms('product_cat', $args);
     foreach ($product_categories as $product_category) {
         $thumbnail_id = get_woocommerce_term_meta($product_category->term_id, 'thumbnail_id', true);
-        $image = wp_get_attachment_image_src($thumbnail_id, 'full')[0]; var_dump($product_category->post_count) ?>
+        $image = wp_get_attachment_image_src($thumbnail_id, 'full')[0]; var_dump($product_category) ?>
 
         <div class="catalog__item" style="background-image: url('<?php echo $image ?>')">
             <div class="block block--grow-lg block--shrink">
