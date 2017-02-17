@@ -13,7 +13,17 @@
         &:last-child {
             border-bottom: none;
         }
+        .background {
+            background-size: cover;
+            opacity: .2;
+            transition: opacity $speed;
+            @include absfull();
+        }
+
         &:hover {
+            .background {
+                opacity: 1;
+            }
             .block__title {
                 color: $brand-main;
             }
@@ -36,11 +46,6 @@
             /* &:after {
                  width: 100%;
              }*/
-        }
-
-        .background {
-            background-size: cover;
-            @include absfull();
         }
     }
     .block {
