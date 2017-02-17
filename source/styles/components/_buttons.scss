@@ -13,7 +13,13 @@
     z-index: 1;
     overflow: hidden;
 
-
+    &:before {
+        content: '';
+        @include absfull();
+        background-color: $brand-main;
+        opacity: 0;
+        transition: opacity $speed;
+    }
     &:hover {
         box-shadow: 0 em(10px) em(32px) transparentize($b, .8);
         &:before {
@@ -25,17 +31,9 @@
     @extend %btn;
     background: $brand-main;
     background: linear-gradient(to right, $brand-second , $brand-main);
-
-    &:before {
-        content: '';
-        @include absfull();
-        background-color: $brand-main;
-        opacity: 0;
-        transition: opacity $speed;
-    }
+    color: white;
 
     &__label {
-        color: white;
         cursor: pointer;
         position: relative;
         transition: text-shadow $speed;
@@ -49,33 +47,12 @@
     &--reverse {
         @extend %btn;
         background: $w;
-        &:before {
-            content: '';
-            @include absfull();
-            background-color: $light;
-            opacity: 0;
-            transition: opacity $speed;
-        }
-        &__label {
-            color: $anthracite-dark;
-        }
-
+        color: $anthracite-dark;
     }
     &--rotate {
         @extend %btn;
         font-size: em(14px);
         transform: rotate(-90deg);
-        &:before {
-            content: '';
-            @include absfull();
-            background-color: $brand-main;
-            opacity: 0;
-            transition: opacity $speed;
-        }
-        &__label {
-            color: white;
-        }
-
     }
 }
 
