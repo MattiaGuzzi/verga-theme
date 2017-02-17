@@ -78,6 +78,7 @@
                 left: 0;
                 top: 50%;
                 transform-origin: 0% 0%;
+                transform: rotate(-90deg) translateX(-50%);
             }
         }
         &__overlay {
