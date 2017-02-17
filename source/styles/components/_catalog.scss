@@ -20,10 +20,13 @@
         margin: 0 auto;
         background-color: $w;
         &__title {
+            @include grow();
             font-size: em(48px);
             color: $anthracite-dark;
+            font-weight: lighter;
         }
         &__description {
+            @include grow();
             font-size: em(18px);
             line-height: $interline;
             color: $gray-light;
