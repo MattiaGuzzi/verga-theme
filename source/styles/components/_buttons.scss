@@ -11,6 +11,16 @@
     transition: box-shadow $speed;
     &:hover {
         box-shadow: 0 em(10px) em(32px) transparentize($b, .8);
+        &:after {
+            opacity: 1;
+        }
+    }
+    &:after {
+        content: '';
+        @include absfull();
+        background-color: $brand-main;
+        opacity: 0;
+        transition: opacity $speed;
     }
 }
 .button {
