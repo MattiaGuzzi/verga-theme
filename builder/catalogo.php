@@ -14,6 +14,7 @@
             <div class="block block--grow-lg block--shrink">
                 <h2 class="block__title block__title--grow-md-top"><?php echo $product_category->name;?></h2>
                 <p class="block__description block__description--grow-md"><?php echo $product_category->description;?></p>
+                <div class="block__submenu">
                 <?php
                 $args = array(
                     'orderby' => 'name',
@@ -22,9 +23,10 @@
                 );
                 $subcategories = get_terms('product_cat', $args);
                 foreach ($subcategories as $subcategory) {
-                    echo $subcategory->name;
+                    echo '<div class="item"'.$subcategory->name.'</div>';
                 }
                ?>
+                </div>
                 <a href="http://verga.dnative.com/preventivo/" class="block__button button button--rotate"><label class="button__label"><?php _e('Scopri tutto','verga') ?></label></a>
 
             </div>
