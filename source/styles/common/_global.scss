@@ -101,11 +101,12 @@
 
     [class*=" --grid"] {
         display: flex;
+        flex-wrap: wrap;
 
     }
     [class*=" --grid-nowrap"] {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     [class*="__cell"] {
         flex: 0 0 auto;
