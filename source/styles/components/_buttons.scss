@@ -16,7 +16,6 @@
     &:before {
         content: '';
         @include absfull();
-        background-color: $brand-main;
         opacity: 0;
         transition: opacity $speed;
     }
@@ -32,6 +31,9 @@
     background: $brand-main;
     background: linear-gradient(to right, $brand-second , $brand-main);
     color: white;
+    &:before{
+        background-color: $brand-main;
+    }
 
     &__label {
         cursor: pointer;
@@ -48,6 +50,10 @@
         @extend %btn;
         background: $w;
         color: $anthracite-dark;
+        &:before{
+            background-color: $light;
+        }
+
     }
     &--rotate {
         @extend %btn;
