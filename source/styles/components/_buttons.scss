@@ -9,7 +9,11 @@
     box-shadow: 0 0 em(32px) transparentize($b, .85);
     font-size: em(18px);
     transition: box-shadow $speed;
-    &:after {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    &:before {
         content: '';
         @include absfull();
         background-color: $brand-main;
@@ -18,7 +22,7 @@
     }
     &:hover {
         box-shadow: 0 em(10px) em(32px) transparentize($b, .8);
-        &:after {
+        &:before {
             opacity: 1;
         }
     }
@@ -31,8 +35,15 @@
 
     &__label {
         cursor: pointer;
+        position: relative;
+        transition: text-shadow $speed;
     }
 
+    &:hover {
+        .button__label {
+            text-shadow: 0 2px 5px transparentize($b, .6);
+        }
+    }
     &--reverse {
         @extend %btn;
         background: $w;
