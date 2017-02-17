@@ -19,15 +19,14 @@
                 color: $brand-main;
             }
             .block__button {
-                right: -100%;
-                /*right: -50px;
-                transform: rotate(-90deg) translateY(150%);*/
+
+
             }
             .block__submenu {
                 transform: translateY(0%);
             }
             .block__overlay {
-                left: -100%;
+
             }
             /* &:after {
                  width: 100%;
@@ -68,7 +67,7 @@
         &__button {
             position: absolute;
             top: 0;
-            right: -200%;
+            right: -100%;
             width: 100%;
             height: 100%;
             background-color: transparent;
@@ -84,7 +83,7 @@
         &__overlay {
             position: absolute;
             top: 0;
-            left: -200%;
+            left: -100%;
             width: 100%;
             height: 100%;
             background-color: $gray-light;
