@@ -2,6 +2,8 @@
     &__item {
         background-size: cover;
         position: relative;
+        padding-left: em(100px);
+        padding-right: em(100px);
         /*&:after {
             content: '';
             position: absolute;
