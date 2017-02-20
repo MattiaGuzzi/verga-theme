@@ -15,8 +15,8 @@
             <label class="button__label"><?php _e('Preventivo', 'verga') ?></label>
         </a>
     </div>
-    <div class="mainmenu mainmenu--shrink">
-        <div class="mainmenu__header">
+    <div class="mainmenu">
+        <div class="mainmenu__header  mainmenu__header--shrink">
             <div class="mainmenu__header--title"><?php _e('catalogo', 'verga') ?></div>
             <div class="mainmenu__header--button"><a href="#" class="button">
                     <label class="button__label"><?php _e('Chiudi', 'verga') ?></label>

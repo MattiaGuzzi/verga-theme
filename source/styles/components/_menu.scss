@@ -19,18 +19,19 @@
             font-size: em(18px);
             color: $brand-main;
             text-transform: uppercase;
+            font-weight: bold;
         }
         &--button {
             display: flex;
         }
     }
     &__left {
-        width: percentage(100 / 3);
+        width: calc(100% / 3);
         background-color: $w;
         height: 100%;
     }
     &__right{
-        width: percentage(100 / 3 * 2);
+        width: calc(100% / 3 * 2);
         background-color: $brand-main;
         height: 100%;
     }
