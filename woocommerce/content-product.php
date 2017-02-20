@@ -52,7 +52,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 */
 	do_action( 'woocommerce_shop_loop_item_title' );
 	if ( $product->get_sku() ) {
-		echo '<div class="product-meta">SKU: ' . $product->get_sku() . '</div>';
+		echo '<div class="product-meta">Cod: ' . $product->get_sku() . '</div>';
 	}
 
 	/**

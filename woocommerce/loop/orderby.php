@@ -21,20 +21,52 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-<?php $args = array('taxonomy' => 'product_cat');
-$terms = get_terms($args);
-if ($terms): ?>
+
+<div class="sub-menu">
+	<div class="sub-menu__header  sub-menu__header--shrink">
+		<div class="sub-menu__header--title"><?php _e('catalogo', 'verga') ?></div>
+		<div class="sub-menu__header--button sub-menu__header--button-close"><a href="#" class="button">
+				<label class="button__label"><?php _e('Chiudi', 'verga') ?></label>
+			</a></div>
+	</div>
+
+	<?php var_dump(get_the_category()) ?>
+
+	<?php /*  $args = array(
+		'orderby' => 'name',
+		'hide_empty' => 0,
+		'parent' => 0
+	);
+	$product_categories = get_terms('product_cat', $args);
+	foreach ($product_categories as $product_category) {*/?><!--
+		<div class="main-menu__right--list" data-attribute="<?php /*echo $product_category->name; */?>">
+			<?php
+/*			$args = array(
+				'orderby' => 'name',
+				'hide_empty' => 0,
+				'parent' => $product_category->term_id,
+			);
+			$subcategories = get_terms('product_cat', $args);
+			foreach ($subcategories as $subcategory) {
+				echo '<span class="item item--shrink"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
+			}
+			*/?>
+		</div>
+	--><?php /*} */?>
+
+
+
+
+</div>
+
+
+
+
 <div class="order-block order-block--shrink">
 <div class="categories">
-	<ul>
-		<?php wp_list_categories( array(
-				'show_option_all' => __('Tutte', 'jurgita'),
-				'taxonomy'        => 'product_cat',
-				'depth'           => 1,
-			)
-		) ?>
-	</ul>
-	<?php endif; ?>
+	<div class="button--reverse">
+		<span class="button__label"><?php _e('area','verga');?></span>
+	</div>
 </div>
 
 <h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
