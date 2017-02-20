@@ -43,7 +43,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			$args = array(
 				'orderby' => 'name',
 				'hide_empty' => 0,
-				'parent' => $product_category->term_id,
+				'parent' => get_the_ID(),
 			);
 			$subcategories = get_terms('product_cat', $args);
 			foreach ($subcategories as $subcategory) {
