@@ -59,9 +59,10 @@
                 font-size: em(18px);
             }
             &:hover {
-                background-color: $brand-second;
+                background: $brand-main;
+                background: linear-gradient(to right, $brand-second , $brand-main);
                 color: $w;
-                border-color: $brand-second;
+                border-color: transparent;
 
                 &:after {
                     border-color: $w;
@@ -71,7 +72,8 @@
     }
     &__right{
         width: calc(100% / 3 * 2);
-        background-color: $brand-second;
+        background: $brand-main;
+        background: linear-gradient(to right, $brand-second , $brand-main);
         height: 100%;
 
         &--list {
