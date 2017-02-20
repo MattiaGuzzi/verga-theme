@@ -89,10 +89,10 @@
   }
   function subMenu() {
     $('.mainmenu__left--list').on('click', function(event) {
+      console.log('prova');
       event.stopPropagation();
       event.preventDefault();
       var $data = $(this).data('attribute');
-      alert($data);
     })
   }
 
