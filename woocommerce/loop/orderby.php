@@ -31,6 +31,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 
 	<?php
+
+if( is_category() ) {
+	$q_cat = get_query_var('cat');
+	$cat = get_category( $q_cat );
+	echo $cat->category_parent; // Print the ID
+}
+
 		$args = array(
 		'orderby' => 'name',
 		'hide_empty' => 0,
@@ -40,21 +47,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	foreach ($product_categories as $product_category) {?>
 		<div class="main-menu__right--list" data-attribute="<?php echo $product_category->name; ?>">
 			<?php
-			//firstly, load data for your child category
-			$child = get_category(31);
-
-			//from your child category, grab parent ID
-			$parent = $child->parent;
-
-			//load object for parent category
-			$parent_name = get_category($parent);
-
-			//grab a category name
-			$parent_name = $parent_name->name;
 			$args = array(
 				'orderby' => 'name',
 				'hide_empty' => 0,
-				'parent' => $parent_name,
+				'parent' => $product_category->term_id,
 			);
 			$subcategories = get_terms('product_cat', $args);
 			foreach ($subcategories as $subcategory) {
