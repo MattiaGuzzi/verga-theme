@@ -51,7 +51,7 @@
             );
             $subcategories = get_terms('product_cat', $args);
             foreach ($subcategories as $subcategory) {
-                echo '<span class="item"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
+                echo '<span class="item item--shrink"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
             }
             ?>
         </div>

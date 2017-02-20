@@ -87,6 +87,14 @@
                 width: 50%;
                 min-height: min-content;
                 display: flex;
+                cursor: pointer;
+                padding-top: em(35px, 18px);
+                padding-bottom: em(35px, 18px);
+                a{
+                    color: $w;
+                    font-size: em(18px);
+                    text-transform: uppercase;
+                }
             }
         }
     }
