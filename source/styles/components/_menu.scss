@@ -92,15 +92,13 @@
         background: $brand-main;
         background: linear-gradient(to right, $brand-second , $brand-main);
         height: 100%;
-
+        overflow-y: scroll;
         &--list {
             flex: 1;
             display: flex;
             overflow: auto;
             display: flex;
             flex-wrap: wrap;
-            overflow-y: scroll;
-           /* height: 100vh;*/
 
             .item {
                 width: 50%;

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_menu.scss" afterPath="$PROJECT_DIR$/source/styles/components/_menu.scss" />
     </list>
     <ignored path="verga.iws" />
@@ -51,8 +50,8 @@
       <file leaf-file-name="_menu.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88435376">
-              <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.5011338">
+              <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -850,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/components/_menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88435376">
-          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.5011338">
+          <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
           <folding />
         </state>
       </provider>
