@@ -87,6 +87,14 @@
       $('.mainmenu').removeClass('opened');
     })
   }
+  function subMenu() {
+    $('.mainmenu__left--list').on('click', function(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      var $data = $(this).data('attribute');
+      alert($data);
+    })
+  }
 
   // Load Events
   $(document).ready(UTIL.loadEvents);
