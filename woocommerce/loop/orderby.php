@@ -38,7 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 
-	<?php if(get_queried_object()== 0) {
+	<?php if(get_queried_object()->parent== 0) {
 		$args = array(
 			'orderby' => 'name',
 			'hide_empty' => 0,
