@@ -29,6 +29,14 @@
         width: calc(100% / 3);
         background-color: $w;
         height: 100%;
+
+        &--list {
+            font-size: em(18px);
+            color: $b;
+            padding-top: em(37px);
+            padding-bottom: em(37px);
+
+        }
     }
     &__right{
         width: calc(100% / 3 * 2);

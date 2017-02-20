@@ -18,7 +18,7 @@
     <div class="mainmenu">
         <div class="mainmenu__header  mainmenu__header--shrink">
             <div class="mainmenu__header--title"><?php _e('catalogo', 'verga') ?></div>
-            <div class="mainmenu__header--button"><a href="#" class="button">
+            <div class="mainmenu__header--button mainmenu__header--button-close"><a href="#" class="button">
                     <label class="button__label"><?php _e('Chiudi', 'verga') ?></label>
                 </a></div>
         </div>
@@ -30,7 +30,7 @@
             );
             $product_categories = get_terms('product_cat', $args);
             foreach ($product_categories as $product_category) {?>
-            <h2 class="menu__left--list" data-attribute="<?php echo $product_category->name; ?>"><?php echo $product_category->name; ?></h2>
+            <h3 class="menu__left--list menu__left--shrink" data-attribute="<?php echo $product_category->name; ?>"><?php echo $product_category->name; ?></h3>
             <?php } ?>
         </div>
 
