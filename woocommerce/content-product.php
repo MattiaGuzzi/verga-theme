@@ -51,6 +51,9 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_product_title - 10
 	 */
 	do_action( 'woocommerce_shop_loop_item_title' );
+	if ( $product->get_sku() ) {
+		echo '<div class="product-meta">SKU: ' . $product->get_sku() . '</div>';
+	}
 
 	/**
 	 * woocommerce_after_shop_loop_item_title hook.
@@ -67,6 +70,5 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_add_to_cart - 10
 	 */
 	do_action( 'woocommerce_after_shop_loop_item' );
-	echo $product->get_sku();
 	?>
 </li>
