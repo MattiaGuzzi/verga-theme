@@ -31,7 +31,29 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 
 	<?php
-	var_dump(get_the_terms()) ?>
+		$args = array(
+		'orderby' => 'name',
+		'hide_empty' => 0,
+		'parent' => 0,
+	);
+	$product_categories = get_terms('product_cat', $args);
+	foreach ($product_categories as $product_category) {?>
+		<div class="main-menu__right--list" data-attribute="<?php echo $product_category->name; ?>">
+			<?php
+			$args = array(
+				'orderby' => 'name',
+				'hide_empty' => 0,
+				'parent' => $product_category->term_id,
+			);
+			$subcategories = get_terms('product_cat', $args);
+			foreach ($subcategories as $subcategory) {
+				echo '<span class="item item--shrink"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
+			}
+			?>
+		</div>
+	<?php } ?>
+</div>
+
 
 	<?php /*  $args = array(
 		'orderby' => 'name',
