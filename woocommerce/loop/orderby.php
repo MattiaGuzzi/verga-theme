@@ -24,6 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php $args = array('taxonomy' => 'product_cat');
 $terms = get_terms($args);
 if ($terms): ?>
+<div class="order-block">
 <div class="categories">
 	<ul>
 		<?php wp_list_categories( array(
@@ -62,3 +63,5 @@ if ($terms): ?>
 	?>
 
 </form>
+
+</div>
