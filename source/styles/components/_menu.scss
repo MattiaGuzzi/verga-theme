@@ -32,20 +32,26 @@
         height: 100%;
 
         &--list {
+            cursor: pointer;
             color: $b;
             padding-top: em(35px, 18px);
             padding-bottom: em(35px, 18px);
             text-transform: uppercase;
             border-bottom: 1px solid $light;
             border-top: 1px solid $light;
+            transition: color $speed, background-color $speed;
             p {
                 font-size: em(18px);
+            }
+            &:hover {
+                background-color: $brand-second;
+                color: $w;
             }
         }
     }
     &__right{
         width: calc(100% / 3 * 2);
-        background-color: $brand-main;
+        background-color: $brand-second;
         height: 100%;
     }
 
