@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/loop/price.php" afterPath="$PROJECT_DIR$/woocommerce/loop/price.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extras.php" afterPath="$PROJECT_DIR$/lib/extras.php" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,43 +44,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="price.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="price.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woocommerce/loop/price.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52380955">
-              <caret line="26" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extras.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="add-to-cart.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/loop/add-to-cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.923077">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extras.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/extras.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3018866">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orderby.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/woocommerce/loop/orderby.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.528302">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding>
-                <element signature="e#6#654#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rating.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/woocommerce/single-product/rating.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
-              <caret line="29" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.74242425">
+              <caret line="58" column="97" selection-start-line="58" selection-start-column="97" selection-end-line="58" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -143,11 +131,11 @@
         <option value="$PROJECT_DIR$/templates/header.php" />
         <option value="$PROJECT_DIR$/source/styles/components/_menu.scss" />
         <option value="$PROJECT_DIR$/woocommerce/archive-product.php" />
-        <option value="$PROJECT_DIR$/lib/extras.php" />
         <option value="$PROJECT_DIR$/woocommerce/loop/result-count.php" />
         <option value="$PROJECT_DIR$/woocommerce/loop/orderby.php" />
         <option value="$PROJECT_DIR$/woocommerce/single-product/rating.php" />
         <option value="$PROJECT_DIR$/woocommerce/loop/price.php" />
+        <option value="$PROJECT_DIR$/lib/extras.php" />
       </list>
     </option>
   </component>
@@ -383,13 +371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/styles/components/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/components/_comments.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -706,36 +687,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/extras.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3018866">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/loop/result-count.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5714286">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/loop/orderby.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.528302">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding>
-            <element signature="e#6#654#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/rating.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="29" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -758,8 +713,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/loop/price.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52380955">
-          <caret line="26" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/loop/add-to-cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.923077">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/loop/orderby.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56666666">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#6#654#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/rating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3809524">
+          <caret line="29" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74242425">
+          <caret line="58" column="97" selection-start-line="58" selection-start-column="97" selection-end-line="58" selection-end-column="97" />
           <folding />
         </state>
       </provider>
