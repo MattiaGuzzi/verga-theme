@@ -22,7 +22,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); ?>
 
-<?php get_template_part('templates/breadcrumbs'); ?>
 
 	<?php
 		/**
