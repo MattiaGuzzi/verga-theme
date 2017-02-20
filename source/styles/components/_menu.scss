@@ -40,6 +40,18 @@
             border-bottom: 1px solid $light;
             border-top: 1px solid $light;
             transition: color $speed, background-color $speed;
+            &:after {
+                position: relative;
+                top: -2px;
+                content: "";
+                display: inline-block;
+                width: em(10px);
+                height: em(10px);
+                border-right: 3px solid $brand-main;
+                border-top: 3px solid $brand-main;
+                transform: rotate(45deg);
+            }
+
             p {
                 font-size: em(18px);
             }
