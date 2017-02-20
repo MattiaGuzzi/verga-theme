@@ -31,13 +31,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 
 	<?php
-
-if( is_category() ) {
-	$q_cat = get_query_var('cat');
-	$cat = get_category( $q_cat );
-	echo $cat->category_parent; // Print the ID
-}
-
+	var_dump(get_query_object());
 		$args = array(
 		'orderby' => 'name',
 		'hide_empty' => 0,
