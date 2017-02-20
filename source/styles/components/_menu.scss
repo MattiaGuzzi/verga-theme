@@ -33,6 +33,7 @@
 
         &--list {
             cursor: pointer;
+            position: relative;
             color: $b;
             padding-top: em(35px, 18px);
             padding-bottom: em(35px, 18px);
@@ -41,15 +42,16 @@
             border-top: 1px solid $light;
             transition: color $speed, background-color $speed;
             &:after {
-                position: relative;
-                top: 0;
+                position: absolute;
+                top: 50%;
+                right: em(50px);
                 content: "";
                 display: inline-block;
                 width: em(10px);
                 height: em(10px);
                 border-right: 3px solid transparent;
                 border-top: 3px solid transparent;
-                transform: rotate(45deg);
+                transform: rotate(45deg),  translate3d(0, -50%, 0);
                 transition: border-color $speed;
             }
 
