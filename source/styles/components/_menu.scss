@@ -73,6 +73,21 @@
         width: calc(100% / 3 * 2);
         background-color: $brand-second;
         height: 100%;
+
+        &--list {
+            flex: 1;
+            display: flex;
+            overflow: auto;
+            display: flex;
+            flex-wrap: wrap;
+            overflow-y: scroll;
+
+            .item {
+                width: 50%;
+                min-height: min-content;
+                display: flex;
+            }
+        }
     }
 
 
