@@ -40,7 +40,7 @@
             text-transform: uppercase;
             border-bottom: 1px solid $light;
             border-top: 1px solid $light;
-            transition: color $speed, background-color $speed;
+            transition: color $speed, background-color $speed, border-color $speed;
             &:after {
                 position: absolute;
                 top: 50%;
@@ -61,6 +61,8 @@
             &:hover {
                 background-color: $brand-second;
                 color: $w;
+                border-color: $brand-second;
+
                 &:after {
                     border-color: $w;
                 }
