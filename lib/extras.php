@@ -59,9 +59,3 @@ if ( function_exists('register_sidebar') )
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5 );
 
 
-function custom_wc_get_sale_price( $sale_price, $product ) {
-// 	return $product->get_regular_price(); // Un-comment this to disable all sale prices
-  return $sale_price;
-}
-add_filter( 'woocommerce_get_sale_price', 'custom_wc_get_sale_price', 50, 2 );
-add_filter( 'woocommerce_get_price', 'custom_wc_get_sale_price', 50, 2 );
