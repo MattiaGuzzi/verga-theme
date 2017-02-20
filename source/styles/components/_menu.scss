@@ -15,6 +15,7 @@
         width: 100%;
         background-color: $w;
         height: em(70px);
+        border-bottom: 1px solid $light;
         &--title {
             font-size: em(18px);
             color: $brand-main;
@@ -33,9 +34,11 @@
         &--list {
             font-size: em(18px);
             color: $b;
-            padding-top: em(37px);
-            padding-bottom: em(37px);
+            padding-top: em(35px, 18px);
+            padding-bottom: em(35px, 18px);
             text-transform: uppercase;
+            border-bottom: 1px solid $light;
+            border-top: 1px solid $light;
         }
     }
     &__right{
