@@ -42,6 +42,23 @@
             border-top: 1px solid $light;
             transition: color $speed, border-color $speed;
             &:before {
+                content: '';
+                position: absolute;
+                width:100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: $brand-main;
+                background: linear-gradient(to right, $brand-second , $brand-main);
+                opacity: 0;
+                transition: opacity $speed;
+                z-index: 1;
+            }
+            span {
+                font-size: em(18px);
+                z-index: 2;
+            }
+            &:after {
                 position: absolute;
                 top: 50%;
                 right: em(50px);
@@ -55,35 +72,17 @@
                 transition: border-color $speed;
                 z-index: 2;
             }
-            &:after {
-                content: '';
-                position: absolute;
-                width:100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                background: $brand-main;
-                background: linear-gradient(to right, $brand-second , $brand-main);
-                opacity: 0;
-                transition: opacity $speed;
-                z-index: 1;
-            }
 
-            span {
-                font-size: em(18px);
-                z-index: 2;
-            }
             &:hover {
-
-                color: $w;
                 border-color: transparent;
-
-                &:after {
+                &:before {
                     opacity: 1;
                 }
-                &:before {
+                span {
+                    color: $w;
+                }
+                &:after {
                     border-color: $w;
-
                 }
             }
         }
