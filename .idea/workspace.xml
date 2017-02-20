@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/loop/orderby.php" afterPath="$PROJECT_DIR$/woocommerce/loop/orderby.php" />
     </list>
     <ignored path="verga.iws" />
@@ -57,8 +58,8 @@
       <file leaf-file-name="orderby.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/woocommerce/loop/orderby.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31954888">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.2236842">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -769,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/loop/orderby.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31954888">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.2236842">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

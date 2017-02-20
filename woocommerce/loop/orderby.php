@@ -30,9 +30,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</a></div>
 	</div>
 
-	<?php $categories = get_the_category();
-	$category_id = $categories[0]->cat_ID;
-	var_dump($category_id) ?>
+	<?php
+	var_dump(get_the_terms()) ?>
 
 	<?php /*  $args = array(
 		'orderby' => 'name',
