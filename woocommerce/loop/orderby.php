@@ -21,6 +21,24 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
+<?php $args = array('taxonomy' => 'product_cat');
+$terms = get_terms($args);
+if ($terms): ?>
+<div class="categories">
+	<ul>
+		<?php wp_list_categories( array(
+				'show_option_all' => __('Tutte', 'jurgita'),
+				'taxonomy'        => 'product_cat',
+				'depth'           => 1,
+			)
+		) ?>
+	</ul>
+	<?php endif; ?>
+</div>
+
+<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
+
+
 <form class="woocommerce-ordering" method="get">
 	<select name="orderby" class="orderby">
 		<?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
@@ -42,7 +60,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 			}
 		}
 	?>
-	<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
-
 
 </form>
