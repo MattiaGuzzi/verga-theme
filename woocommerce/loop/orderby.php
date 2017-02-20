@@ -31,7 +31,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 
 	<?php
-	var_dump(get_queried_object());
 		$args = array(
 		'orderby' => 'name',
 		'hide_empty' => 0,
@@ -44,11 +43,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 			$args = array(
 				'orderby' => 'name',
 				'hide_empty' => 0,
-				'parent' => $product_category->term_id,
+				'parent' => get_queried_object()->parent,
 			);
 			$subcategories = get_terms('product_cat', $args);
 			foreach ($subcategories as $subcategory) {
-				echo '<span class="item item--shrink"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
+				echo '<span class="item--shrink"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
 			}
 			?>
 		</div>
