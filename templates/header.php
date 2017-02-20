@@ -41,7 +41,7 @@
         );
         $product_categories = get_terms('product_cat', $args);
         foreach ($product_categories as $product_category) {?>
-        <div class="menu__right">
+        <div class="menu__right" data-attribute="<?php echo $product_category->name; ?>">
             <?php
             $args = array(
                 'orderby' => 'name',
