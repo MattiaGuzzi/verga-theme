@@ -42,6 +42,20 @@
             border-top: 1px solid $light;
             transition: color $speed, border-color $speed;
             &:before {
+                position: absolute;
+                top: 50%;
+                right: em(50px);
+                content: "";
+                display: inline-block;
+                width: em(10px);
+                height: em(10px);
+                border-right: 3px solid transparent;
+                border-top: 3px solid transparent;
+                transform: rotate(45deg) translateY(-50%);
+                transition: border-color $speed;
+                z-index: 2;
+            }
+            &:after {
                 content: '';
                 position: absolute;
                 width:100%;
@@ -54,19 +68,6 @@
                 transition: opacity $speed;
                 z-index: 1;
             }
-            &:after {
-                position: absolute;
-                top: 50%;
-                right: em(50px);
-                content: "";
-                display: inline-block;
-                width: em(10px);
-                height: em(10px);
-                border-right: 3px solid transparent;
-                border-top: 3px solid transparent;
-                transform: rotate(45deg) translateY(-50%);
-                transition: border-color $speed;
-            }
 
             span {
                 font-size: em(18px);
@@ -78,10 +79,11 @@
                 border-color: transparent;
 
                 &:after {
-                    border-color: $w;
+                    opacity: 1;
                 }
                 &:before {
-                    opacity: 1;
+                    border-color: $w;
+
                 }
             }
         }
