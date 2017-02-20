@@ -106,11 +106,3 @@ register_nav_menus([
     'footer_navigation' => __('footer', 'sage')
 ]);
 
-
-function skyverge_echo_wc_sku() {
-
-  global $product;
-  return $product->get_sku();
-
-}
-add_shortcode( 'sv_sku', 'skyverge_echo_wc_sku' );

@@ -6,7 +6,6 @@
         'extras/utils.php',
         'extras/bem_menu.php',
         'extras/woocommerce.php',
-        'extras/sku.php'
 
 	];
 
