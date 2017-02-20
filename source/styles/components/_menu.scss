@@ -32,13 +32,15 @@
         height: 100%;
 
         &--list {
-            font-size: em(18px);
             color: $b;
             padding-top: em(35px, 18px);
             padding-bottom: em(35px, 18px);
             text-transform: uppercase;
             border-bottom: 1px solid $light;
             border-top: 1px solid $light;
+            p {
+                font-size: em(18px);
+            }
         }
     }
     &__right{
