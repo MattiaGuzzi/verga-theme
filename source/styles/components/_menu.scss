@@ -5,12 +5,24 @@
     left: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
 
     &__header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: em(70px);
+        height: 100%;
+        background-color: $w;
     }
+    &__left {
+        width: percentage(100 / 3);
+        background-color: $w;
+    }
+    &__right{
+        width: percentage(100 / 3 * 2);
+        background-color: $brand-main;
+    }
+
 
 }
