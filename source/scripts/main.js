@@ -78,14 +78,14 @@
     $('.menu__item--catalogo').on('click', function(event) {
       event.stopPropagation();
       event.preventDefault();
-      $('.mainmenu').addClass('opened');
+      $('.main-menu').addClass('opened');
     })
   }
   function closeMenu() {
     $('.mainmenu__header--button-close').on('click', function(event) {
       event.stopPropagation();
       event.preventDefault();
-      $('.mainmenu').removeClass('opened');
+      $('.main-menu').removeClass('opened');
     })
   }
   function subMenu() {
