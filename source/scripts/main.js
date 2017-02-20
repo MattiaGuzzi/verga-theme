@@ -82,7 +82,7 @@
     })
   }
   function closeMenu() {
-    $('.mainmenu__header--button-close').on('click', function(event) {
+    $('.main-menu__header--button-close').on('click', function(event) {
       event.stopPropagation();
       event.preventDefault();
       $('.main-menu').removeClass('opened');
