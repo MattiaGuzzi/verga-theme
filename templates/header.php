@@ -34,6 +34,7 @@
             <?php } ?>
         </div>
 
+        <div class="menu__right">
         <?php   $args = array(
             'orderby' => 'name',
             'hide_empty' => 0,
@@ -41,7 +42,7 @@
         );
         $product_categories = get_terms('product_cat', $args);
         foreach ($product_categories as $product_category) {?>
-        <div class="menu__right" data-attribute="<?php echo $product_category->name; ?>">
+        <div class="menu__right--list" data-attribute="<?php echo $product_category->name; ?>">
             <?php
             $args = array(
                 'orderby' => 'name',
@@ -55,5 +56,6 @@
             ?>
         </div>
         <?php } ?>
+        </div>
     </div>
 </header>
