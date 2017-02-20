@@ -48,7 +48,7 @@
             transition: border-color $speed;
             a{
                 color: $b;
-                transition: color $speed;
+                /*transition: color $speed;*/
             }
             span {
                 font-size: em(18px);
@@ -83,6 +83,7 @@
                 }
                 a{
                     color: $w;
+                    position: relative;
                 }
                 span {
                     color: $w;
