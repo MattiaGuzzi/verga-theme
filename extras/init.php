@@ -5,7 +5,9 @@
         'extras/setup.php',
         'extras/utils.php',
         'extras/bem_menu.php',
-        'extras/woocommerce.php'
+        'extras/woocommerce.php',
+        'extras/sku.php'
+
 	];
 
 foreach ($extra_includes as $file) {
