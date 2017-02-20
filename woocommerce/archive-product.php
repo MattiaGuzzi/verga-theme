@@ -22,6 +22,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); ?>
 
+<?php get_template_part('templates/breadcrumbs'); ?>
+
 	<?php
 		/**
 		 * woocommerce_before_main_content hook.
