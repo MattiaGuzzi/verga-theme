@@ -30,8 +30,8 @@
             );
             $product_categories = get_terms('product_cat', $args);
             foreach ($product_categories as $product_category) {?>
-                <?php /*$link = get_terms_link( (int)$product_category->term_id, 'product_cat' ) */?>
-            <li class="main-menu__left--list main-menu__left--shrink" data-attribute="<?php echo $product_category->name; ?>"><a href="<?php  /*echo $link*/ ?>"><span><?php echo $product_category->name; ?></span></a></li>
+                <?php $link = get_term_link( $product_category->term_id ) ?>
+            <li class="main-menu__left--list main-menu__left--shrink" data-attribute="<?php echo $product_category->name; ?>"><a href="<?php  echo $link ?>"><span><?php echo $product_category->name; ?></span></a></li>
             <?php } ?>
         </ul>
 
