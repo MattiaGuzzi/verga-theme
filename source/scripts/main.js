@@ -19,6 +19,8 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+        openMenu();
+        closeMenu();
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
@@ -71,7 +73,24 @@
     }
   };
 
+  function openMenu() {
+    $('.menu__item--catalogo').on('click', function(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      $('.mainmenu').addClass('opened');
+    })
+  }
+  function closeMenu() {
+    $('.mainmenu__header--button-close').on('click', function(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      $('.mainmenu').removeClass('opened');
+    })
+  }
+
   // Load Events
   $(document).ready(UTIL.loadEvents);
+
+
 
 })(jQuery); // Fully reference jQuery after this point.
