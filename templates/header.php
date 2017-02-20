@@ -22,7 +22,7 @@
                     <label class="button__label"><?php _e('Chiudi', 'verga') ?></label>
                 </a></div>
         </div>
-        <div class="mainmenu__left">
+        <ul class="mainmenu__left">
             <?php   $args = array(
                 'orderby' => 'name',
                 'hide_empty' => 0,
@@ -30,9 +30,9 @@
             );
             $product_categories = get_terms('product_cat', $args);
             foreach ($product_categories as $product_category) {?>
-            <div class="mainmenu__left--list mainmenu__left--shrink" data-attribute="<?php echo $product_category->name; ?>"><span><?php echo $product_category->name; ?></span></div>
+            <li class="mainmenu__left--list mainmenu__left--shrink" data-attribute="<?php echo $product_category->name; ?>"><a href="<?php  get_category_link($product_category->term_id) ?>"><span><?php echo $product_category->name; ?></span></a></li>
             <?php } ?>
-        </div>
+        </ul>
 
         <div class="mainmenu__right">
         <?php   $args = array(

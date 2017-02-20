@@ -21,6 +21,7 @@
         // JavaScript to be fired on all pages
         openMenu();
         closeMenu();
+        subMenu();
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
@@ -89,10 +90,10 @@
   }
   function subMenu() {
     $('.mainmenu__left--list').on('click', function(event) {
-      console.log('prova');
       event.stopPropagation();
       event.preventDefault();
       var $data = $(this).data('attribute');
+      alert($data);
     })
   }
 
