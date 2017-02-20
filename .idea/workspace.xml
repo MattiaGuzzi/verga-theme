@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/main.js" afterPath="$PROJECT_DIR$/assets/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/main.js.map" afterPath="$PROJECT_DIR$/assets/scripts/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/scripts/main.js" afterPath="$PROJECT_DIR$/source/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/header.php" afterPath="$PROJECT_DIR$/templates/header.php" />
     </list>
     <ignored path="verga.iws" />
@@ -40,8 +37,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22902495">
-              <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.26757368">
+              <caret line="32" column="181" selection-start-line="32" selection-start-column="181" selection-end-line="32" selection-end-column="181" />
               <folding>
                 <element signature="n#nav#0;n#header#0;n#!!top" expanded="false" />
                 <element signature="n#a#0;n#div#0;n#header#0;n#!!top" expanded="false" />
@@ -873,8 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22902495">
-          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.26757368">
+          <caret line="32" column="181" selection-start-line="32" selection-start-column="181" selection-end-line="32" selection-end-column="181" />
           <folding>
             <element signature="n#nav#0;n#header#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#div#0;n#header#0;n#!!top" expanded="false" />
