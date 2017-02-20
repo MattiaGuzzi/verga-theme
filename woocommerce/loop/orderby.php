@@ -31,7 +31,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 
 	<?php
-	var_dump(get_query_object());
+	var_dump(get_queried_object());
 		$args = array(
 		'orderby' => 'name',
 		'hide_empty' => 0,
