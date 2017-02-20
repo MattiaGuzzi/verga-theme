@@ -81,7 +81,7 @@
             display: flex;
             flex-wrap: wrap;
             overflow-y: scroll;
-            height: 100vh;
+           /* height: 100vh;*/
 
             .item {
                 width: 50%;
@@ -89,6 +89,8 @@
                 cursor: pointer;
                 padding-top: em(35px, 18px);
                 padding-bottom: em(35px, 18px);
+                border-bottom: 1px solid transparent;
+                border-top: 1px solid transparent;
                 a{
                     color: $w;
                     font-size: em(18px);
