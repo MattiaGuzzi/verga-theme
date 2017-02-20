@@ -42,22 +42,26 @@
             transition: color $speed, background-color $speed;
             &:after {
                 position: relative;
-                top: -2px;
+                top: 0;
                 content: "";
                 display: inline-block;
                 width: em(10px);
                 height: em(10px);
-                border-right: 3px solid $brand-main;
-                border-top: 3px solid $brand-main;
+                border-right: 3px solid transparent;
+                border-top: 3px solid transparent;
                 transform: rotate(45deg);
+                transition: border-color $speed;
             }
 
-            p {
+            span {
                 font-size: em(18px);
             }
             &:hover {
                 background-color: $brand-second;
                 color: $w;
+                &:after {
+                    border-color: $w;
+                }
             }
         }
     }
