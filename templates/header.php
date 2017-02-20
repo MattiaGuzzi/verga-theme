@@ -15,14 +15,14 @@
             <label class="button__label"><?php _e('Preventivo', 'verga') ?></label>
         </a>
     </div>
-    <div class="menu">
-        <div class="menu__header">
-            <div class="menu__header--title"><?php _e('catalogo', 'verga') ?></div>
-            <div class="menu__header--button"><a href="#" class="button">
+    <div class="mainmenu">
+        <div class="mainmenu__header">
+            <div class="mainmenu__header--title"><?php _e('catalogo', 'verga') ?></div>
+            <div class="mainmenu__header--button"><a href="#" class="button">
                     <label class="button__label"><?php _e('Chiudi', 'verga') ?></label>
                 </a></div>
         </div>
-        <div class="menu__left">
+        <div class="mainmenu__left">
             <?php   $args = array(
                 'orderby' => 'name',
                 'hide_empty' => 0,
@@ -34,7 +34,7 @@
             <?php } ?>
         </div>
 
-        <div class="menu__right">
+        <div class="mainmenu__right">
         <?php   $args = array(
             'orderby' => 'name',
             'hide_empty' => 0,
@@ -42,7 +42,7 @@
         );
         $product_categories = get_terms('product_cat', $args);
         foreach ($product_categories as $product_category) {?>
-        <div class="menu__right--list" data-attribute="<?php echo $product_category->name; ?>">
+        <div class="mainmenu__right--list" data-attribute="<?php echo $product_category->name; ?>">
             <?php
             $args = array(
                 'orderby' => 'name',
