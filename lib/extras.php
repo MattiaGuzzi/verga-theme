@@ -54,3 +54,9 @@ if ( function_exists('register_sidebar') )
           'after_title' => '</h3>',
       )
   );
+
+
+// Remove the sorting dropdown from Woocommerce
+remove_action( 'woocommerce_before_shop_loop' , 'woocommerce_catalog_ordering', 30 );
+// Remove the result count from WooCommerce
+remove_action( 'woocommerce_before_shop_loop' , 'woocommerce_result_count', 20 );
