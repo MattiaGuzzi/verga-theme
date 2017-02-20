@@ -1,4 +1,4 @@
-.mainmenu {
+.main-menu {
     opacity: 0;
     visibility: hidden;
     position: fixed;
@@ -30,6 +30,7 @@
         }
     }
     &__left {
+        padding: 0;
         width: calc(100% / 3);
         background-color: $w;
         height: 100%;
