@@ -92,7 +92,6 @@
     img {
         width: 100%;
         height: auto;
-        box-shadow: 0 0 0 transparentize($b, 0);
         transition: box-shadow $speed
     }
     h3 {
