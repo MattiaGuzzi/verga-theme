@@ -86,7 +86,7 @@
                 color: $brand-main;
             }
             img {
-                box-shadow: 0 0 em(32px) transparentize($b, .85);
+                box-shadow: 0 0 em(50px) transparentize($b, 0);
                 opacity: 0.2;
             }
             .button {
