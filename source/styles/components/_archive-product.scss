@@ -133,6 +133,7 @@
         height: auto;
         opacity: 1;
         transition: box-shadow $speed, opacity $speed;
+        display: block;
     }
     h3 {
         font-size: em(18px);
@@ -151,16 +152,13 @@
         font-weight: lighter;
         transition: opacity $speed, visibility $speed;
     }
-    .container-button {
+    .item-thumbnail {
+        position: relative;
         display: block;
-        position: absolute;
-        width: 100%;
-        padding-top: 100%;
-        top: 0;
-        left: 0;
+
         .button {
             position: absolute;
-            top: 40%;
+            top: 50%;
             left: 50%;
             transform: translate3d(-50%, -50%, 0);
             opacity: 0;
