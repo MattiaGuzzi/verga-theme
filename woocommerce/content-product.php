@@ -56,11 +56,11 @@ if (empty($product) || !$product->is_visible()) {
         echo '<div class="product-meta">Cod: ' . $product->get_sku() . '</div>';
     }
     ?>
-    <div class="container-button">
+   <!-- <div class="container-button">
         <div class="button">
-            <span class="button__label"><?php _e('scopri', 'verga'); ?></span>
+            <span class="button__label"><?php /*_e('scopri', 'verga'); */?></span>
         </div>
-    </div>
+    </div>-->
     <?php
 
     /**
