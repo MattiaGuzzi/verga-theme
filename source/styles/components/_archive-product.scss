@@ -80,4 +80,29 @@
         width: 100%;
         height: auto;
     }
+    h3 {
+        font-size: em(18px);
+        color: $anthracite-dark;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: color $speed
+    }
+    .product-meta {
+        font-size: em(14px);
+        opacity: 0;
+        visibility: hidden;
+        color: $gray-light;
+        text-transform: uppercase;
+        font-weight: lighter;
+        transition: opacity $speed, visibility $speed;
+    }
+    &:hover {
+        .product-meta {
+            opacity: 1;
+            visibility: visible;
+        }
+        h3 {
+            color: $brand-main;
+        }
+    }
 }
