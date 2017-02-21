@@ -1,6 +1,12 @@
 .order-block {
     display: flex;
     justify-content: space-between;
+
+    &__title {
+        color: $brand-main;
+        font-size: em(48px);
+        font-weight: lighter;
+    }
 }
 
 
