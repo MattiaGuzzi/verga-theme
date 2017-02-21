@@ -84,11 +84,16 @@
             h3 {
                 color: $brand-main;
             }
+            img {
+                box-shadow: 0 0 em(32px) transparentize($b, .85);
+            }
         }
     }
     img {
         width: 100%;
         height: auto;
+        box-shadow: 0 0 0 transparentize($b, 0);
+        transition: box-shadow $speed
     }
     h3 {
         font-size: em(18px);
