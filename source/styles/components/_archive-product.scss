@@ -101,7 +101,8 @@
         color: $anthracite-dark;
         text-transform: uppercase;
         font-weight: bold;
-        transition: color $speed
+        transition: color $speed;
+        padding-top: em(40px);
     }
     .product-meta {
         font-size: em(14px);
