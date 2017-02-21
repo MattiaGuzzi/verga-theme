@@ -93,16 +93,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 <div class="order-block order-block--shrink">
-<div class="categories">
+<div class="order-block__categories">
 	<div class="button--reverse">
 		<span class="button__label"><?php _e('area','verga');?></span>
 	</div>
 </div>
 
-<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
+<h1 class="order-block__title"><?php woocommerce_page_title(); ?></h1>
 
 
-<form class="woocommerce-ordering" method="get">
+<form class="order-block__ordering" method="get">
 	<select name="orderby" class="orderby">
 		<?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
 			<option value="<?php echo esc_attr( $id ); ?>" <?php selected( $orderby, $id ); ?>><?php echo esc_html( $name ); ?></option>
