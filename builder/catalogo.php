@@ -29,7 +29,7 @@
                     ?>
                 </div>
                 <div class="block__button">
-                <a href="http://verga.dnative.com/preventivo/" class="button button--rotate"><span
+                <a href="<?php get_category_link($product_category->term_id) ?>" class="button button--rotate"><span
                         class="button__label"><?php _e('Scopri tutto', 'verga') ?></span></a>
                 </div>
                 <div class="block__overlay"><p class="totale"><?php echo $product_category->count; _e(" prodotti","verga")?></p></div>
