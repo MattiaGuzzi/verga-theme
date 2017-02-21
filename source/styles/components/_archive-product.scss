@@ -72,10 +72,42 @@
 
 .product--grid {
     list-style-type: none;
-    padding: 0;
+    padding: {
+        left: 5px;
+        right: 5px;
+    }
+    @include breakpoint(640px) {
+        padding: {
+            left: em(25px/2);
+            right: em(25px/2);
+        }
+    }
+    @include breakpoint($bp) {
+        padding: {
+            left: em(25px);
+            right: em(25px);
+        }
+    }
+
     li {
         text-align: center;
         position: relative;
+        padding: {
+            left: 5px;
+            right: 5px;
+        }
+        @include breakpoint(640px) {
+            padding: {
+                left: em(25px/2);
+                right: em(25px/2);
+            }
+        }
+        @include breakpoint($bp) {
+            padding: {
+                left: em(25px);
+                right: em(25px);
+            }
+        }
 
         &:hover {
             .product-meta {
