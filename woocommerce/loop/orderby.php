@@ -29,7 +29,7 @@ if (!defined('ABSPATH')) {
                 <label class="button__label"><?php _e('Chiudi', 'verga') ?></label>
             </a></div>
     </div>
-    <div class="main-menu__list">
+    <div class="sub-menu__list sub-menu__list--grid">
 
         <?php if (get_queried_object()->parent == 0) {
             $args = array(
@@ -48,7 +48,7 @@ if (!defined('ABSPATH')) {
 
         $subcategories = get_terms('product_cat', $args);
         foreach ($subcategories as $subcategory) {
-            echo '<span class="item--shrink"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
+            echo '<span class="item--shrink item--shrink__cell-s6"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
         }
         ?>
     </div>
