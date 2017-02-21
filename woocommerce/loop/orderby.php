@@ -65,7 +65,7 @@ if (!defined('ABSPATH')) {
     <h1 class="order-block__title"><?php woocommerce_page_title(); ?></h1>
 
 
-    <form class="order-block__ordering" method="get">
+  <!--  <form class="order-block__ordering" method="get">-->
         <!--<select name="orderby" class="orderby">
             <?php /*foreach ($catalog_orderby_options as $id => $name) : */?>
                 <option
@@ -96,6 +96,6 @@ if (!defined('ABSPATH')) {
         }
         */?>
 
-    </form>
+ <!--   </form>-->
 
 </div>

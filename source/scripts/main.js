@@ -116,7 +116,7 @@
   }
 
   function htmlSelect() {
-    $('select').niceSelect();
+    $('.order-block__ppp').niceSelect();
   }
 
 
