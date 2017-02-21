@@ -65,20 +65,20 @@ if (!defined('ABSPATH')) {
     <h1 class="order-block__title"><?php woocommerce_page_title(); ?></h1>
 
 
-  <!--  <form class="order-block__ordering" method="get">-->
-        <!--<select name="orderby" class="orderby">
+   <!-- <form class="order-block__ordering" method="get">
+        <select name="orderby" class="orderby">
             <?php /*foreach ($catalog_orderby_options as $id => $name) : */?>
                 <option
                     value="<?php /*echo esc_attr($id); */?>" <?php /*selected($orderby, $id); */?>><?php /*echo esc_html($name); */?></option>
             <?php /*endforeach; */?>
         </select>-->
 
-        <select class="order-block__ppp">
-            <option class="order-block__ppp-item" data-ppp="8"><?php _e('Mostra 8','verga'); ?></option>
-            <option class="order-block__ppp-item" data-ppp="16"><?php _e('Mostra 16','verga'); ?></option>
-            <option class="order-block__ppp-item" data-ppp="24"><?php _e('Mostra 24','verga'); ?></option>
-            <option class="order-block__ppp-item" data-ppp="-1"><?php _e('Tutti','verga'); ?></option>
-        </select>
+        <ul class="order-block__ppp">
+            <li class="order-block__ppp-item" data-ppp="8"><?php _e('Mostra 8','verga'); ?></li>
+            <li class="order-block__ppp-item" data-ppp="16"><?php _e('Mostra 16','verga'); ?></li>
+            <li class="order-block__ppp-item" data-ppp="24"><?php _e('Mostra 24','verga'); ?></li>
+            <li class="order-block__ppp-item" data-ppp="-1"><?php _e('Tutti','verga'); ?></li>
+        </ul>
 
        <!-- --><?php
 /*        // Keep query string vars intact
@@ -96,6 +96,6 @@ if (!defined('ABSPATH')) {
         }
         */?>
 
- <!--   </form>-->
+    <!--</form>-->
 
 </div>
