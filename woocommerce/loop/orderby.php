@@ -76,7 +76,7 @@ if (!defined('ABSPATH')) {
         </select>-->
     <div class="post-per-page">
         <ul>
-            <li class="current-value">
+            <li class="current-value button--reverse">
                 post per page
                 <ul class="order-block__ppp">
                     <li class="order-block__ppp-item" data-ppp="8"><?php _e('Mostra 8', 'verga'); ?></li>
