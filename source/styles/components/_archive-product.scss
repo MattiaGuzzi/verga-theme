@@ -11,7 +11,6 @@
     }
 }
 
-
 .sub-menu {
     opacity: 0;
     visibility: hidden;
@@ -69,4 +68,15 @@
 .sub-menu.opened {
     opacity: 1;
     visibility: visible;
+}
+
+.product--grid {
+    list-style-type: none;
+    li {
+        text-align: center;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
