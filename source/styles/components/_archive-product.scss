@@ -4,6 +4,25 @@
     align-items: center;
     @include grow();
 
+    &__categories {
+        .button__label {
+            &:after {
+                position: relative;
+                top: -3px;
+                right: em(25px);
+                content: "";
+                display: inline-block;
+                width: em(10px);
+                height: em(10px);
+                border-right: 3px solid $brand-main;
+                border-top: 3px solid $brand-main;
+                transform: rotate(135deg);
+                margin-left: em(10px);
+                transition: all 0.3s;
+            }
+        }
+    }
+
     &__title {
         color: $brand-main;
         font-size: em(48px);

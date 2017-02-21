@@ -23,8 +23,6 @@
         closeMenu();
         closeSubMenu();
         openSubMenu();
-        htmlSelect();
-       /* subMenu();*/
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
@@ -113,10 +111,6 @@
       event.preventDefault();
       $('.sub-menu').removeClass('opened');
     })
-  }
-
-  function htmlSelect() {
-    $('.order-block__ppp').niceSelect();
   }
 
 

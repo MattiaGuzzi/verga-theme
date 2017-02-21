@@ -24,10 +24,12 @@ if (!defined('ABSPATH')) {
 
 <div class="sub-menu">
     <div class="sub-menu__header  sub-menu__header--shrink">
-        <div class="sub-menu__header--title"><?php _e('prodotti','verga') ?></div>
-        <div class="sub-menu__header--button sub-menu__header--button-close"><a href="#" class="button">
+        <div class="sub-menu__header--title"><?php _e('prodotti', 'verga') ?></div>
+        <div class="sub-menu__header--button sub-menu__header--button-close">
+            <a href="#" class="button">
                 <label class="button__label"><?php _e('Chiudi', 'verga') ?></label>
-            </a></div>
+            </a>
+        </div>
     </div>
     <div class="sub-menu__list sub-menu__list--grid">
 
@@ -65,36 +67,41 @@ if (!defined('ABSPATH')) {
     <h1 class="order-block__title"><?php woocommerce_page_title(); ?></h1>
 
 
-   <!-- <form class="order-block__ordering" method="get">
+    <!-- <form class="order-block__ordering" method="get">
         <select name="orderby" class="orderby">
-            <?php /*foreach ($catalog_orderby_options as $id => $name) : */?>
+            <?php /*foreach ($catalog_orderby_options as $id => $name) : */ ?>
                 <option
-                    value="<?php /*echo esc_attr($id); */?>" <?php /*selected($orderby, $id); */?>><?php /*echo esc_html($name); */?></option>
-            <?php /*endforeach; */?>
+                    value="<?php /*echo esc_attr($id); */ ?>" <?php /*selected($orderby, $id); */ ?>><?php /*echo esc_html($name); */ ?></option>
+            <?php /*endforeach; */ ?>
         </select>-->
-
-        <ul class="order-block__ppp">
-            <li class="order-block__ppp-item" data-ppp="8"><?php _e('Mostra 8','verga'); ?></li>
-            <li class="order-block__ppp-item" data-ppp="16"><?php _e('Mostra 16','verga'); ?></li>
-            <li class="order-block__ppp-item" data-ppp="24"><?php _e('Mostra 24','verga'); ?></li>
-            <li class="order-block__ppp-item" data-ppp="-1"><?php _e('Tutti','verga'); ?></li>
+    <div class="post-per-page">
+        <ul>
+            <li class="current-value">
+                <ul class="order-block__ppp">
+                    <li class="order-block__ppp-item" data-ppp="8"><?php _e('Mostra 8', 'verga'); ?></li>
+                    <li class="order-block__ppp-item" data-ppp="16"><?php _e('Mostra 16', 'verga'); ?></li>
+                    <li class="order-block__ppp-item" data-ppp="24"><?php _e('Mostra 24', 'verga'); ?></li>
+                    <li class="order-block__ppp-item" data-ppp="-1"><?php _e('Tutti', 'verga'); ?></li>
+                </ul>
+            </li>
         </ul>
+    </div>
 
-       <!-- --><?php
-/*        // Keep query string vars intact
-        foreach ($_GET as $key => $val) {
-            if ('orderby' === $key || 'submit' === $key) {
-                continue;
-            }
-            if (is_array($val)) {
-                foreach ($val as $innerVal) {
-                    echo '<input type="hidden" name="' . esc_attr($key) . '[]" value="' . esc_attr($innerVal) . '" />';
+    <!-- --><?php
+    /*        // Keep query string vars intact
+            foreach ($_GET as $key => $val) {
+                if ('orderby' === $key || 'submit' === $key) {
+                    continue;
                 }
-            } else {
-                echo '<input type="hidden" name="' . esc_attr($key) . '" value="' . esc_attr($val) . '" />';
+                if (is_array($val)) {
+                    foreach ($val as $innerVal) {
+                        echo '<input type="hidden" name="' . esc_attr($key) . '[]" value="' . esc_attr($innerVal) . '" />';
+                    }
+                } else {
+                    echo '<input type="hidden" name="' . esc_attr($key) . '" value="' . esc_attr($val) . '" />';
+                }
             }
-        }
-        */?>
+            */ ?>
 
     <!--</form>-->
 
