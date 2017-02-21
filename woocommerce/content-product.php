@@ -55,13 +55,6 @@ if (empty($product) || !$product->is_visible()) {
     if ($product->get_sku()) {
         echo '<div class="product-meta">Cod: ' . $product->get_sku() . '</div>';
     }
-    ?>
-   <!-- <div class="container-button">
-        <div class="button">
-            <span class="button__label"><?php /*_e('scopri', 'verga'); */?></span>
-        </div>
-    </div>-->
-    <?php
 
     /**
      * woocommerce_after_shop_loop_item_title hook.

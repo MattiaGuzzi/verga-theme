@@ -66,14 +66,22 @@ if (!defined('ABSPATH')) {
 
 
     <form class="order-block__ordering" method="get">
-        <select name="orderby" class="orderby">
-            <?php foreach ($catalog_orderby_options as $id => $name) : ?>
+        <!--<select name="orderby" class="orderby">
+            <?php /*foreach ($catalog_orderby_options as $id => $name) : */?>
                 <option
-                    value="<?php echo esc_attr($id); ?>" <?php selected($orderby, $id); ?>><?php echo esc_html($name); ?></option>
-            <?php endforeach; ?>
+                    value="<?php /*echo esc_attr($id); */?>" <?php /*selected($orderby, $id); */?>><?php /*echo esc_html($name); */?></option>
+            <?php /*endforeach; */?>
+        </select>-->
+
+        <select class="order-block__ppp">
+            <option class="order-block__ppp-item" data-ppp="8"><?php _e('Mostra 8','verga'); ?></option>
+            <option class="order-block__ppp-item" data-ppp="16"><?php _e('Mostra 16','verga'); ?></option>
+            <option class="order-block__ppp-item" data-ppp="24"><?php _e('Mostra 24','verga'); ?></option>
+            <option class="order-block__ppp-item" data-ppp="-1"><?php _e('Tutti','verga'); ?></option>
         </select>
-        <?php
-        // Keep query string vars intact
+
+       <!-- --><?php
+/*        // Keep query string vars intact
         foreach ($_GET as $key => $val) {
             if ('orderby' === $key || 'submit' === $key) {
                 continue;
@@ -86,7 +94,7 @@ if (!defined('ABSPATH')) {
                 echo '<input type="hidden" name="' . esc_attr($key) . '" value="' . esc_attr($val) . '" />';
             }
         }
-        ?>
+        */?>
 
     </form>
 

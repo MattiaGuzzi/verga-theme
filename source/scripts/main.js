@@ -23,6 +23,7 @@
         closeMenu();
         closeSubMenu();
         openSubMenu();
+        htmlSelect();
        /* subMenu();*/
       },
       finalize: function() {
@@ -112,6 +113,10 @@
       event.preventDefault();
       $('.sub-menu').removeClass('opened');
     })
+  }
+
+  function htmlSelect() {
+    $('select').niceSelect();
   }
 
 
