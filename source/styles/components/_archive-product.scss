@@ -5,8 +5,8 @@
 
 
 .sub-menu {
-    opacity: 1;
-    visibility: visible;
+    opacity: 0;
+    visibility: hidden;
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -56,4 +56,9 @@
             }
         }
     }
+}
+
+.sub-menu.opened {
+    opacity: 1;
+    visibility: visible;
 }

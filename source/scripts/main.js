@@ -21,6 +21,8 @@
         // JavaScript to be fired on all pages
         openMenu();
         closeMenu();
+        closeSubMenu();
+        openSubMenu();
        /* subMenu();*/
       },
       finalize: function() {
@@ -96,6 +98,22 @@
       alert($data);
     })
   }
+
+  function openSubMenu() {
+    $('.order-block__categories').on('click', function(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      $('.sub-menu').addClass('opened');
+    })
+  }
+  function closeSubMenu() {
+    $('.sub-menu__header--button').on('click', function(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      $('.sub-menu').removeClass('opened');
+    })
+  }
+
 
   // Load Events
   $(document).ready(UTIL.loadEvents);
