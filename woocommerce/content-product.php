@@ -28,7 +28,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 }
 ?>
 
-<li <?php post_class('product__cell-s3'); ?>>
+<li <?php post_class('product__cell-s3 product__cell-s3--shrink'); ?>>
 	<?php
 	/**
 	 * woocommerce_before_shop_loop_item hook.
