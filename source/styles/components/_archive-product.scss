@@ -139,11 +139,12 @@
 
 .woocommerce-breadcrumb {
     @include normalize_padding;
-    padding-top: em(30px);
-    padding-bottom: em(30px);
+    padding-top: em(30px, 10px);
+    padding-bottom: em(30px, 10px);
     border-top: 2px solid $light;
     border-bottom: 2px solid $light;
     text-transform: uppercase;
+    font-size: em(10px);
     color: $gray-light;
     a {
         color: $gray-dark;
