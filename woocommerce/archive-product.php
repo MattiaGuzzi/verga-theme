@@ -106,4 +106,6 @@ get_header( 'shop' ); ?>
 		do_action( 'woocommerce_sidebar' );
 	?>
 
+<?php global $wp;
+var_dump( $wp->query_vars);?>
 <?php get_footer( 'shop' ); ?>
