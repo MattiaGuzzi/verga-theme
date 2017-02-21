@@ -139,4 +139,8 @@
 
 .woocommerce-breadcrumb {
     @include normalize_padding;
+    color: $gray-light;
+    a {
+        color: $gray-dark;
+    }
 }
