@@ -55,7 +55,7 @@ if (!defined('ABSPATH')) {
 </div>
 
 
-<div class="order-block order-block--shrink">
+<div class="order-block order-block--shrink order-block--grow-lg">
     <div class="order-block__categories">
         <div class="button--reverse">
             <span class="button__label"><?php _e('area', 'verga'); ?></span>
