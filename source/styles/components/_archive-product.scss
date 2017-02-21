@@ -4,3 +4,17 @@
 }
 
 
+.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - #{em(70px)});
+    display: flex;
+    flex-wrap: wrap;
+    transition: opacity $speed, visibility $speed;
+
+}
