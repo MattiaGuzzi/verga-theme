@@ -86,13 +86,15 @@
             }
             img {
                 box-shadow: 0 0 em(32px) transparentize($b, .85);
+                opacity: 1;
             }
         }
     }
     img {
         width: 100%;
         height: auto;
-        transition: box-shadow $speed
+        opacity: 0.2;
+        transition: box-shadow $speed, opacity $speed;
     }
     h3 {
         font-size: em(18px);
@@ -110,5 +112,6 @@
         font-weight: lighter;
         transition: opacity $speed, visibility $speed;
     }
+
 
 }
