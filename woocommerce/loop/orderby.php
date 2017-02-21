@@ -29,28 +29,29 @@ if (!defined('ABSPATH')) {
                 <label class="button__label"><?php _e('Chiudi', 'verga') ?></label>
             </a></div>
     </div>
-    <div class="main-menu__list"<!-- data-attribute="--><?php /*echo $product_category->name; */ ?><!--"-->>
+    <div class="main-menu__list">
 
-    <?php if (get_queried_object()->parent == 0) {
-        $args = array(
-            'orderby' => 'name',
-            'hide_empty' => 0,
-            'child_of' => get_queried_object()->term_id,
-        );
-    } else {
-        $args = array(
-            'orderby' => 'name',
-            'hide_empty' => 0,
-            'child_of' => get_queried_object()->parent,
-        );
-    } ?>
-    <?php
+        <?php if (get_queried_object()->parent == 0) {
+            $args = array(
+                'orderby' => 'name',
+                'hide_empty' => 0,
+                'child_of' => get_queried_object()->term_id,
+            );
+        } else {
+            $args = array(
+                'orderby' => 'name',
+                'hide_empty' => 0,
+                'child_of' => get_queried_object()->parent,
+            );
+        } ?>
+        <?php
 
-    $subcategories = get_terms('product_cat', $args);
-    foreach ($subcategories as $subcategory) {
-        echo '<span class="item--shrink"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
-    }
-    ?>
+        $subcategories = get_terms('product_cat', $args);
+        foreach ($subcategories as $subcategory) {
+            echo '<span class="item--shrink"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
+        }
+        ?>
+    </div>
 </div>
 
 
