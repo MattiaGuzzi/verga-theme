@@ -75,6 +75,7 @@
     padding: 0;
     li {
         text-align: center;
+        position: relative;
 
         &:hover {
             .product-meta {
@@ -112,5 +113,13 @@
         text-transform: uppercase;
         font-weight: lighter;
         transition: opacity $speed, visibility $speed;
+    }
+    .container-button {
+        display: block;
+        position: absolute;
+        width: 100%;
+        padding-top: 100%;
+        top: 0;
+        left: 0;
     }
 }
