@@ -141,7 +141,7 @@
     @include normalize_padding;
     padding-top: em(30px);
     padding-bottom: em(30px);
-    border-bottom: 2px solid $light;
+    border-top: 2px solid $light;
     border-bottom: 2px solid $light;
     color: $gray-light;
     a {
