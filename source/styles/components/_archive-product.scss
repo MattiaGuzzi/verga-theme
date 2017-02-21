@@ -16,5 +16,22 @@
     display: flex;
     flex-wrap: wrap;
     transition: opacity $speed, visibility $speed;
-
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: $w;
+        height: em(70px);
+        border-bottom: 1px solid $light;
+        &--title {
+            font-size: em(18px);
+            color: $brand-main;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        &--button {
+            display: flex;
+        }
+    }
 }

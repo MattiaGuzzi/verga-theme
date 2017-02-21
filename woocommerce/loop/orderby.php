@@ -24,7 +24,7 @@ if (!defined('ABSPATH')) {
 
 <div class="sub-menu">
     <div class="sub-menu__header  sub-menu__header--shrink">
-        <div class="sub-menu__header--title"><?php /*echo $product_category->name; */ ?></div>
+        <div class="sub-menu__header--title"><?php _e('prodotti','verga') ?></div>
         <div class="sub-menu__header--button sub-menu__header--button-close"><a href="#" class="button">
                 <label class="button__label"><?php _e('Chiudi', 'verga') ?></label>
             </a></div>
