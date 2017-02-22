@@ -28,8 +28,15 @@ add_action( 'woocommerce_before_shop_loop_item_title', 'close_tag', 11);
 
 function header_title () {
     global $product;
-    var_dump( wp_get_post_terms( get_the_ID(), 'product_cat', array('parent'=> 0)) );
+    $terms =  wp_get_post_terms( get_the_ID(), 'product_cat', array('orderby' => 'term_group', 'order' => 'ASC'));
     echo '<div class="header-title">';
+    $i = 0;
+    foreach ($terms as $term) {
+        $sep = ($i == 0)? ' / ' : '';
+        echo '<a href="'.get_term_link($term->term_id).'">'. $term->name.'</a>'.$sep;
+        $i++;
+    }
+    echo '</div>';
     echo '<div class="product-parent">' . get_the_terms( $product->ID, 'product_cat' ) . '</div>';
     if ($product->get_sku()) {
         echo '<div class="product-meta">Cod: ' . $product->get_sku() . '</div>';
