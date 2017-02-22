@@ -30,7 +30,7 @@ function header_title () {
     global $product;
     var_dump( get_the_terms( $product->ID, 'product_cat' ) );
     echo '<div class="header-title">';
-    echo '<div class="product-parent">' . get_the_terms( $product->ID, 'product_cat' )[0]["name"] . '</div>';
+    echo '<div class="product-parent">' . get_the_terms( $product->ID, 'product_cat' ) . '</div>';
     if ($product->get_sku()) {
         echo '<div class="product-meta">Cod: ' . $product->get_sku() . '</div>';
     }
