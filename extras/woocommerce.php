@@ -28,9 +28,8 @@ add_action( 'woocommerce_before_shop_loop_item_title', 'close_tag', 11);
 
 function header_title () {
     global $product;
-    var_dump($product);
     echo '<div class="header-title">';
-    echo '<div class="product-parent">' . $product->get_parent(). '</div>';
+    echo '<div class="product-category">' . $product->get_category(). '</div>';
     if ($product->get_sku()) {
         echo '<div class="product-meta">Cod: ' . $product->get_sku() . '</div>';
     }
