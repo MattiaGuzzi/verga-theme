@@ -46,7 +46,7 @@ if ( post_password_required() ) {
 		 */
 		do_action( 'woocommerce_before_single_product_summary' );
 	?>
-
+	<div class="container-summary">
 	<div class="summary entry-summary">
 
 		<?php
@@ -65,7 +65,7 @@ if ( post_password_required() ) {
 		?>
 
 	</div><!-- .summary -->
-	</div>
+
 	<?php
 		/**
 		 * woocommerce_after_single_product_summary hook.
@@ -78,7 +78,8 @@ if ( post_password_required() ) {
 	?>
 
 	<meta itemprop="url" content="<?php the_permalink(); ?>" />
-
+	</div>
 </div><!-- #product-<?php the_ID(); ?> -->
+</div>
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
