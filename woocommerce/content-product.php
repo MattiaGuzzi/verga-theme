@@ -28,7 +28,7 @@ if (empty($product) || !$product->is_visible()) {
 }
 ?>
 
-<li <?php post_class('product__cell-s3'); ?>>
+<li <?php post_class('product__cell-s3 carousel_item'); ?>>
     <?php
     /**
      * woocommerce_before_shop_loop_item hook.
