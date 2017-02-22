@@ -117,8 +117,9 @@
     $('.order-block__ppp-item').on('click', function(event) {
       var href = window.location.href;
       var $data = $(this).data('ppp');
-      var res = href+'?ppp='.concat($data);
-      alert($data);
+      var $res = href+'?ppp='.concat($data);
+      alert($res);
+      window.location.href = $res;
     })
   }
 
