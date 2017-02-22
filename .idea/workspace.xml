@@ -27,7 +27,7 @@
               <entry file="file://$PROJECT_DIR$/extras/woocommerce.php">
                 <provider selected="true" editor-type-id="text-editor">
                   <state vertical-scroll-proportion="0.48062828">
-                    <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+                    <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
                     <folding />
                   </state>
                 </provider>
@@ -102,7 +102,7 @@
       <file leaf-file-name="content-single-product.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0131578">
+            <state vertical-scroll-proportion="-0.118421055">
               <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
               <folding />
             </state>
@@ -917,7 +917,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0131578">
+        <state vertical-scroll-proportion="-0.118421055">
           <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
           <folding />
         </state>
@@ -926,7 +926,7 @@
     <entry file="file://$PROJECT_DIR$/extras/woocommerce.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48062828">
-          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
           <folding />
         </state>
       </provider>
