@@ -29,4 +29,7 @@ add_action( 'woocommerce_before_shop_loop_item_title', 'close_tag', 11);
 
 add_action('woocommerce_single_product_summary','woocommerce_output_product_data_tabs', 11);
 remove_action('woocommerce_after_single_product_summary','woocommerce_output_product_data_tabs', 10);
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_price', 10);
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_add_to_cart', 30);
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_meta', 40);
 
