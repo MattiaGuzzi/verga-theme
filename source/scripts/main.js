@@ -125,7 +125,7 @@
   }
 
   function initCarousel() {
-    $('.carousel_up-sells').owlCarousel({
+  /*  $('.carousel_up-sells').owlCarousel({
       loop:true,
       margin:10,
       nav:true,
@@ -140,7 +140,7 @@
           items:5
         }
       }
-    })
+    })*/
   }
 
   // Load Events

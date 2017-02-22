@@ -43,16 +43,14 @@ $woocommerce_loop['columns'] = apply_filters('woocommerce_up_sells_columns', $co
 
 if ($products->have_posts()) : ?>
 
-    <div class="up-sells upsells products upsells--shrink carousel_up-sells">
+    <div class="up-sells upsells products upsells--shrink">
 
         <!--<h2><?php /*_e('You may also like&hellip;', 'woocommerce') */?></h2>-->
 
         <?php woocommerce_product_loop_start(); ?>
 
         <?php while ($products->have_posts()) : $products->the_post(); ?>
-            <div class="item">
                 <?php wc_get_template_part('content', 'product'); ?>
-            </div>
         <?php endwhile; // end of the loop. ?>
 
         <?php woocommerce_product_loop_end(); ?>
