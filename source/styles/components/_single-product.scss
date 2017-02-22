@@ -29,9 +29,26 @@
                 font-size: em(14px);
             }
         }
+        .product_title {
+            font-size: em(30px);
+            color: $b;
+            padding-top: em(18px);
+            padding-bottom: em(80px);
+        }
+        
 
         .wc-tab {
             display: block!important;
+            h2, .attribute h4, div[itemprop="description"] h4  {
+                font-size: em(14px);
+                color: $gray-light;
+                font-weight: lighter;
+            }
+            p, .attribute p,  div[itemprop="description"] p  {
+                font-size: em(18px);
+                color: $anthracite-dark;
+                font-weight: lighter;
+            }
         }
     }
 }
