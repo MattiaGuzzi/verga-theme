@@ -3,6 +3,17 @@
     align-items: center;
     &__images {
         width: 100%;
+
+        figure {
+            width: auto;
+            max-width: 100%;
+            display: inline-block;
+            img {
+                width: 100%;
+                height:	auto;
+                display: block;
+            }
+        }
         @include breakpoint($bp) {
             width: 50%;
         }
