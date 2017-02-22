@@ -1,5 +1,6 @@
 .product-schedule {
     display: flex;
+    align-items: center;
     &__images {
         width: 100%;
         @include breakpoint($bp) {
@@ -11,11 +12,23 @@
         @include breakpoint($bp) {
             width: 50%;
         }
-        .wc-tabs {
-            display: none;
+        .header-title {
+            display: flex;
+            justify-content: space-between;
+            a{
+                font-size: em(18px);
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            .product-meta {
+                color: $gray-light;
+            }
         }
+
         .wc-tab {
             display: block!important;
         }
     }
 }
+
+
