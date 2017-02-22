@@ -26,8 +26,8 @@
             <file leaf-file-name="woocommerce.php" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/extras/woocommerce.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.6230366">
-                    <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+                  <state vertical-scroll-proportion="0.6586387">
+                    <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
                     <folding />
                   </state>
                 </provider>
@@ -102,8 +102,8 @@
       <file leaf-file-name="content-single-product.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6030702">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.44078946">
+              <caret line="63" column="58" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -917,16 +917,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6030702">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.44078946">
+          <caret line="63" column="58" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extras/woocommerce.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6230366">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.6586387">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
           <folding />
         </state>
       </provider>

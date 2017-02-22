@@ -35,7 +35,7 @@ function header_title () {
     }
     echo '</div>';
 }
-add_action( 'woocommerce_before_shop_loop_item_title', 'header_title', 4);
+add_action( 'woocommerce_single_product_summary', 'header_title', 4);
 
 
 add_action('woocommerce_single_product_summary','woocommerce_output_product_data_tabs', 11);
