@@ -26,6 +26,17 @@ function close_tag () {
 }
 add_action( 'woocommerce_before_shop_loop_item_title', 'close_tag', 11);
 
+function header_title () {
+    global $product;
+    echo '<div class="header-title">';
+    echo '<div class="product-parent">' . $product->get_parent(). '</div>';
+    if ($product->get_sku()) {
+        echo '<div class="product-meta">Cod: ' . $product->get_sku() . '</div>';
+    }
+    echo '</div>';
+}
+add_action( 'woocommerce_before_shop_loop_item_title', 'header_title', 4);
+
 
 add_action('woocommerce_single_product_summary','woocommerce_output_product_data_tabs', 11);
 remove_action('woocommerce_after_single_product_summary','woocommerce_output_product_data_tabs', 10);
