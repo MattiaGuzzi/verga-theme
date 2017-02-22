@@ -53,6 +53,8 @@ remove_action('woocommerce_single_product_summary','woocommerce_template_single_
 remove_action('woocommerce_single_product_summary','woocommerce_template_single_rating', 10);
 
 remove_action('woocommerce_single_product_summary','woocommerce_template_single_meta', 40);
+add_action('woocommerce_after_single_product_summary','woocommerce_output_related_products', 20);
+add_action('woocommerce_after_single_product_summary','woocommerce_upsell_display', 15);
 
 
 

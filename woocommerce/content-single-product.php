@@ -71,8 +71,8 @@ if ( post_password_required() ) {
 		 * woocommerce_after_single_product_summary hook.
 		 *
 		 * @hooked woocommerce_output_product_data_tabs - 10
-		 * @hooked woocommerce_upsell_display - 15
-		 * @hooked woocommerce_output_related_products - 20
+		 * @hooked woocommerce_output_related_products - 15
+		 * @hooked woocommerce_upsell_display - 20
 		 */
 		do_action( 'woocommerce_after_single_product_summary' );
 	?>
