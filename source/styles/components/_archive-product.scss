@@ -68,7 +68,7 @@
             &:hover {
                 .current-value {
                     &:after {
-                        transform: scale(-1);
+                        transform: scale(-1) rotate(135deg);;
                     }
                 }
                 .order-block__ppp {
