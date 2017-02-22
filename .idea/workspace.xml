@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/content-single-product.php" afterPath="$PROJECT_DIR$/woocommerce/content-single-product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product/product-image.php" afterPath="$PROJECT_DIR$/woocommerce/single-product/product-image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_single-product.scss" afterPath="$PROJECT_DIR$/source/styles/components/_single-product.scss" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-single-product.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content-single-product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.379717">
+            <state vertical-scroll-proportion="-6.1923075">
               <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding />
             </state>
@@ -58,7 +57,7 @@
       <file leaf-file-name="_archive-product.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8076925">
+            <state vertical-scroll-proportion="-25.461538">
               <caret line="266" column="17" selection-start-line="266" selection-start-column="17" selection-end-line="266" selection-end-column="17" />
               <folding>
                 <element signature="e#160#655#0" expanded="false" />
@@ -69,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_single-product.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_single-product.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_single-product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.6014151">
+              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
               <folding>
                 <element signature="e#589#1036#0" expanded="false" />
               </folding>
@@ -154,9 +153,9 @@
         <option value="$PROJECT_DIR$/woocommerce/single-product/related.php" />
         <option value="$PROJECT_DIR$/woocommerce/single-product/up-sells.php" />
         <option value="$PROJECT_DIR$/source/styles/components/_archive-product.scss" />
-        <option value="$PROJECT_DIR$/source/styles/components/_single-product.scss" />
         <option value="$PROJECT_DIR$/woocommerce/single-product/product-image.php" />
         <option value="$PROJECT_DIR$/woocommerce/content-single-product.php" />
+        <option value="$PROJECT_DIR$/source/styles/components/_single-product.scss" />
       </list>
     </option>
   </component>
@@ -855,33 +854,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8076925">
-          <caret line="266" column="17" selection-start-line="266" selection-start-column="17" selection-end-line="266" selection-end-column="17" />
-          <folding>
-            <element signature="e#160#655#0" expanded="false" />
-            <element signature="e#676#770#0" expanded="false" />
-            <element signature="e#791#3140#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/common/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3985849">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/_single-product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding>
-            <element signature="e#589#1036#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,9 +880,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.379717">
+        <state vertical-scroll-proportion="-6.1923075">
           <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.461538">
+          <caret line="266" column="17" selection-start-line="266" selection-start-column="17" selection-end-line="266" selection-end-column="17" />
+          <folding>
+            <element signature="e#160#655#0" expanded="false" />
+            <element signature="e#676#770#0" expanded="false" />
+            <element signature="e#791#3140#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/components/_single-product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6014151">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+          <folding>
+            <element signature="e#589#1036#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
