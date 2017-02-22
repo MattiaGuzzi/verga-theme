@@ -211,7 +211,7 @@
             h3 {
                 color: $brand-main;
             }
-            img {
+            img, .carousel_item img {
                 box-shadow: 0 0 em(50px) transparentize($b, 0);
                 opacity: 0.2;
             }
@@ -221,7 +221,7 @@
             }
         }
     }
-    img {
+    img, .carousel_item img {
         width: 100%;
         height: auto;
         opacity: 1;
