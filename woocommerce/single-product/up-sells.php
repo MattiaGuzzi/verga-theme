@@ -10,54 +10,54 @@
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see 	    https://docs.woocommerce.com/document/template-structure/
- * @author 		WooThemes
- * @package 	WooCommerce/Templates
+ * @see        https://docs.woocommerce.com/document/template-structure/
+ * @author        WooThemes
+ * @package    WooCommerce/Templates
  * @version     1.6.4
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
+if (!defined('ABSPATH')) {
+    exit;
 }
 
 global $product, $woocommerce_loop;
 
-if ( ! $upsells = $product->get_upsells() ) {
-	return;
+if (!$upsells = $product->get_upsells()) {
+    return;
 }
 
 $args = array(
-	'post_type'           => 'product',
-	'ignore_sticky_posts' => 1,
-	'no_found_rows'       => 1,
-	'posts_per_page'      => $posts_per_page,
-	'orderby'             => $orderby,
-	'post__in'            => $upsells,
-	'post__not_in'        => array( $product->id ),
-	'meta_query'          => WC()->query->get_meta_query()
+    'post_type' => 'product',
+    'ignore_sticky_posts' => 1,
+    'no_found_rows' => 1,
+    'posts_per_page' => $posts_per_page,
+    'orderby' => $orderby,
+    'post__in' => $upsells,
+    'post__not_in' => array($product->id),
+    'meta_query' => WC()->query->get_meta_query()
 );
 
-$products                    = new WP_Query( $args );
-$woocommerce_loop['name']    = 'up-sells';
-$woocommerce_loop['columns'] = apply_filters( 'woocommerce_up_sells_columns', $columns );
+$products = new WP_Query($args);
+$woocommerce_loop['name'] = 'up-sells';
+$woocommerce_loop['columns'] = apply_filters('woocommerce_up_sells_columns', $columns);
 
-if ( $products->have_posts() ) : ?>
+if ($products->have_posts()) : ?>
 
-	<div class="up-sells upsells products upsells--shrink">
+    <div class="up-sells upsells products upsells--shrink carousel_content">
 
-		<h2><?php _e( 'You may also like&hellip;', 'woocommerce' ) ?></h2>
+        <!--<h2><?php /*_e('You may also like&hellip;', 'woocommerce') */?></h2>-->
 
-		<?php woocommerce_product_loop_start(); ?>
+        <?php woocommerce_product_loop_start(); ?>
 
-			<?php while ( $products->have_posts() ) : $products->the_post(); ?>
+        <?php while ($products->have_posts()) : $products->the_post(); ?>
+            <div class="carousel_item">
+                <?php wc_get_template_part('content', 'product'); ?>
+            </div>
+        <?php endwhile; // end of the loop. ?>
 
-				<?php wc_get_template_part( 'content', 'product' ); ?>
+        <?php woocommerce_product_loop_end(); ?>
 
-			<?php endwhile; // end of the loop. ?>
-
-		<?php woocommerce_product_loop_end(); ?>
-
-	</div>
+    </div>
 
 <?php endif;
 
