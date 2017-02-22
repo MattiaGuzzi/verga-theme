@@ -125,7 +125,7 @@
   }
 
   function initCarousel() {
-    $('carousel_up-sells').owlCarousel({
+    $('.carousel_up-sells').owlCarousel({
       autoHeight: true,
       items: 1,
       loop: true,
