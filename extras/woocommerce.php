@@ -31,11 +31,13 @@ function header_title () {
     $terms =  wp_get_post_terms( get_the_ID(), 'product_cat', array('orderby' => 'term_group', 'order' => 'ASC'));
     echo '<div class="header-title">';
     $i = 0;
+    echo '<span>';
     foreach ($terms as $term) {
         $sep = ($i == 0)? ' / ' : '';
         echo '<a href="'.get_term_link($term->term_id).'">'. $term->name.'</a>'.$sep;
         $i++;
     }
+    echo '</span>';
     if ($product->get_sku()) {
         echo '<div class="product-meta">Cod: ' . $product->get_sku() . '</div>';
     }
