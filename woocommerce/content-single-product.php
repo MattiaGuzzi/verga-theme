@@ -36,7 +36,7 @@ if ( post_password_required() ) {
 }
 ?>
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="img-summary">
+	<div class="single-product">
 	<?php
 		/**
 		 * woocommerce_before_single_product_summary hook.
@@ -47,7 +47,7 @@ if ( post_password_required() ) {
 		do_action( 'woocommerce_before_single_product_summary' );
 	?>
 
-	<div class="summary entry-summary">
+	<div class="single-product__summary">
 
 		<?php
 			/**
