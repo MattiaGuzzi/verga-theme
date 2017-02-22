@@ -39,16 +39,26 @@
 
         .wc-tab {
             display: block!important;
-            h2, .attribute h4, div[itemprop="description"] h4  {
+            h2, .attributes h4  {
                 font-size: em(14px);
                 color: $gray-light;
                 font-weight: lighter;
             }
-            p, .attribute p,  div[itemprop="description"] p  {
+            p, .attributes p  {
                 font-size: em(18px);
                 color: $anthracite-dark;
                 font-weight: lighter;
             }
+        }
+        div[itemprop="description"] h4  {
+            font-size: em(14px);
+            color: $gray-light;
+            font-weight: lighter;
+        }
+        div[itemprop="description"] p  {
+            font-size: em(18px);
+            color: $anthracite-dark;
+            font-weight: lighter;
         }
     }
 }
