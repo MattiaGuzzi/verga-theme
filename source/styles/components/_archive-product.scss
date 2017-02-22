@@ -262,7 +262,23 @@
 }
 
 .woocommerce-breadcrumb {
-    @include normalize_padding;
+    padding: {
+        left: 10px;
+        right: 10px;
+    }
+    @include breakpoint(640px) {
+        padding: {
+            left: em(25px, 10px);
+            right: em(25px, 10px);
+        }
+    }
+    @include breakpoint($bp) {
+        padding: {
+            left: em(50px, 10px);
+            right: em(50px, 10px);
+        }
+    }
+
     padding-top: em(30px, 10px);
     padding-bottom: em(30px, 10px);
     border-top: 2px solid $light;
