@@ -31,6 +31,7 @@
 
     .post-per-page {
         ul {
+            position: relative;
             margin: 0;
             list-style: none;
             cursor: pointer;
@@ -46,7 +47,6 @@
             transition: box-shadow $speed;
             position: relative;
             z-index: 1;
-            overflow: hidden;
             background: $w;
             color: $anthracite-dark;
         }

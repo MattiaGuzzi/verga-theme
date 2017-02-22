@@ -75,7 +75,7 @@ if (!defined('ABSPATH')) {
             <?php /*endforeach; */ ?>
         </select>-->
     <div class="post-per-page">
-        <ul>
+        <ul class="first-level">
             <li class="current-value">
                 post per page
                 <ul class="order-block__ppp">
