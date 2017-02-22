@@ -28,6 +28,34 @@
         font-size: em(48px);
         font-weight: lighter;
     }
+
+    .post-per-page {
+        ul {
+            margin: 0;
+            list-style: none;
+            cursor: pointer;
+            min-width: em(170px);
+            padding: em(15px) em(35px);
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: em(30px);
+            display: inline-block;
+            box-shadow: 0 0 em(32px) transparentize($b, .85);
+            font-size: em(18px);
+            transition: box-shadow $speed;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            background: $w;
+            color: $anthracite-dark;
+        }
+        .order-block__ppp {
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+        }
+    }
 }
 
 .sub-menu {
