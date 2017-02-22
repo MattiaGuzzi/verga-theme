@@ -26,14 +26,6 @@ function close_tag () {
 }
 add_action( 'woocommerce_before_shop_loop_item_title', 'close_tag', 11);
 
-
-function contactForm () {
-    do_shortcode('[contact-form-7 id="4" title="Modulo di contatto 1"]');
-}
-add_action( 'woocommerce_after_single_product_summary', 'contactForm', 11);
-
-
-
 function header_title () {
     global $product;
     $terms =  wp_get_post_terms( get_the_ID(), 'product_cat', array('orderby' => 'term_group', 'order' => 'ASC'));
@@ -76,3 +68,8 @@ function woo_remove_product_tabs( $tabs ) {
 
 }
 
+
+function contactForm () {
+    echo do_shortcode('[contact-form-7 id="4" title="Modulo di contatto 1"]');
+}
+add_action( 'woocommerce_after_single_product_summary', 'contactForm', 11);
