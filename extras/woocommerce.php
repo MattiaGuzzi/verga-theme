@@ -68,3 +68,8 @@ function woo_remove_product_tabs( $tabs ) {
 
 }
 
+
+function contactForm () {
+    do_shortcode('[contact-form-7 id="4" title="Modulo di contatto 1"]');
+}
+add_action( 'woocommerce_after_single_product_summary', 'contactForm', 11);
