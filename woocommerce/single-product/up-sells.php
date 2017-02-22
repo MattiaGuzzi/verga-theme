@@ -45,7 +45,7 @@ if ($products->have_posts()) : ?>
 
     <div class="up-sells upsells products upsells--shrink">
 
-        <!--<h2><?php /*_e('You may also like&hellip;', 'woocommerce') */?></h2>-->
+        <h2><?php _e('You may also like&hellip;', 'woocommerce') ?></h2>
 
         <?php woocommerce_product_loop_start(); ?>
 
