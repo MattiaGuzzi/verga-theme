@@ -36,7 +36,7 @@ if ( post_password_required() ) {
 }
 ?>
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="product-schedule">
+	<div class="product-schedule product-schedule--shrink">
 	<?php
 		/**
 		 * woocommerce_before_single_product_summary hook.

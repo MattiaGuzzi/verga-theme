@@ -43,7 +43,7 @@ $woocommerce_loop['columns'] = apply_filters( 'woocommerce_up_sells_columns', $c
 
 if ( $products->have_posts() ) : ?>
 
-	<div class="up-sells upsells products">
+	<div class="up-sells upsells products upsells--shrink">
 
 		<h2><?php _e( 'You may also like&hellip;', 'woocommerce' ) ?></h2>
 
