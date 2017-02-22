@@ -36,8 +36,6 @@ function header_title () {
         echo '<a href="'.get_term_link($term->term_id).'">'. $term->name.'</a>'.$sep;
         $i++;
     }
-    echo '</div>';
-    echo '<div class="product-parent">' . get_the_terms( $product->ID, 'product_cat' ) . '</div>';
     if ($product->get_sku()) {
         echo '<div class="product-meta">Cod: ' . $product->get_sku() . '</div>';
     }
