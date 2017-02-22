@@ -30,44 +30,44 @@ ob_start();
 
 ?>
     <div class="attributes">
-<?php if ($product->enable_dimensions_display()) : ?>
-    <?php if ($product->has_weight()) : $has_row = true; ?>
-        <h4><?php _e('Weight', 'woocommerce') ?></h4>
-        <p class="product_weight"><?php echo wc_format_localized_decimal($product->get_weight()) . ' ' . esc_attr(get_option('woocommerce_weight_unit')); ?></p>
-    <?php endif; ?>
-    <?php if ($product->has_dimensions()) : $has_row = true; ?>
-        <h4><?php _e('Dimensions', 'woocommerce') ?></h4>
-        <p class="product_dimensions"><?php echo $product->get_dimensions(); ?></p>
-    <?php endif; ?>
+        <?php if ($product->enable_dimensions_display()) : ?>
+            <?php if ($product->has_weight()) : $has_row = true; ?>
+                <h4><?php _e('Weight', 'woocommerce') ?></h4>
+                <p class="product_weight"><?php echo wc_format_localized_decimal($product->get_weight()) . ' ' . esc_attr(get_option('woocommerce_weight_unit')); ?></p>
+            <?php endif; ?>
+            <?php if ($product->has_dimensions()) : $has_row = true; ?>
+                <h4><?php _e('Dimensions', 'woocommerce') ?></h4>
+                <p class="product_dimensions"><?php echo $product->get_dimensions(); ?></p>
+            <?php endif; ?>
+        <?php endif; ?>
 
-    <?php foreach ($attributes as $attribute) :
-        if (empty($attribute['is_visible']) || ($attribute['is_taxonomy'] && !taxonomy_exists($attribute['name']))) {
-            continue;
-        } else {
-            $has_row = true;
-        }
-        ?>
-        <h4><?php echo wc_attribute_label($attribute['name']); ?></h4>
-        <p><?php
-            if ($attribute['is_taxonomy']) {
-
-                $values = wc_get_product_terms($product->id, $attribute['name'], array('fields' => 'names'));
-                echo apply_filters('woocommerce_attribute', wpautop(wptexturize(implode(', ', $values))), $attribute, $values);
-
+        <?php foreach ($attributes as $attribute) :
+            if (empty($attribute['is_visible']) || ($attribute['is_taxonomy'] && !taxonomy_exists($attribute['name']))) {
+                continue;
             } else {
-
-                // Convert pipes to commas and display values
-                $values = array_map('trim', explode(WC_DELIMITER, $attribute['value']));
-                echo apply_filters('woocommerce_attribute', wpautop(wptexturize(implode(', ', $values))), $attribute, $values);
-
+                $has_row = true;
             }
-            ?></p>
+            ?>
+            <h4><?php echo wc_attribute_label($attribute['name']); ?></h4>
+            <p><?php
+                if ($attribute['is_taxonomy']) {
+
+                    $values = wc_get_product_terms($product->id, $attribute['name'], array('fields' => 'names'));
+                    echo apply_filters('woocommerce_attribute', wpautop(wptexturize(implode(', ', $values))), $attribute, $values);
+
+                } else {
+
+                    // Convert pipes to commas and display values
+                    $values = array_map('trim', explode(WC_DELIMITER, $attribute['value']));
+                    echo apply_filters('woocommerce_attribute', wpautop(wptexturize(implode(', ', $values))), $attribute, $values);
+
+                }
+                ?></p>
+        <?php endforeach; ?>
     </div>
-
-
-    <?php
-    if ($has_row) {
-        echo ob_get_clean();
-    } else {
-        ob_end_clean();
-    }
+<?php
+if ($has_row) {
+    echo ob_get_clean();
+} else {
+    ob_end_clean();
+}
