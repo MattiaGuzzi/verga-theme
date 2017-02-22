@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_archive-product.scss" afterPath="$PROJECT_DIR$/source/styles/components/_archive-product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/loop/orderby.php" afterPath="$PROJECT_DIR$/woocommerce/loop/orderby.php" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_archive-product.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_archive-product.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8727274">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.44050634">
+              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
               <folding>
                 <element signature="e#135#661#0" expanded="false" />
                 <element signature="e#676#770#0" expanded="false" />
@@ -62,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderby.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="orderby.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woocommerce/loop/orderby.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5518868">
+            <state vertical-scroll-proportion="-9.0">
               <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
               <folding>
                 <element signature="e#3413#4031#0#PHP" expanded="true" />
@@ -138,8 +137,8 @@
         <option value="$PROJECT_DIR$/woocommerce/archive-product.php" />
         <option value="$PROJECT_DIR$/woocommerce/content-product.php" />
         <option value="$PROJECT_DIR$/source/scripts/main.js" />
-        <option value="$PROJECT_DIR$/source/styles/components/_archive-product.scss" />
         <option value="$PROJECT_DIR$/woocommerce/loop/orderby.php" />
+        <option value="$PROJECT_DIR$/source/styles/components/_archive-product.scss" />
       </list>
     </option>
   </component>
@@ -840,23 +839,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
+    <entry file="file://$PROJECT_DIR$/woocommerce/loop/orderby.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8727274">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        <state vertical-scroll-proportion="-9.0">
+          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
           <folding>
-            <element signature="e#135#661#0" expanded="false" />
-            <element signature="e#676#770#0" expanded="false" />
+            <element signature="e#3413#4031#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/loop/orderby.php">
+    <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5518868">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.44050634">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
           <folding>
-            <element signature="e#3413#4031#0#PHP" expanded="true" />
+            <element signature="e#135#661#0" expanded="false" />
+            <element signature="e#676#770#0" expanded="false" />
           </folding>
         </state>
       </provider>
