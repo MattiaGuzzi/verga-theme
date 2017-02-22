@@ -1,5 +1,6 @@
 .product-schedule {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     &__images {
         width: 100%;
@@ -8,6 +9,7 @@
             width: auto;
             max-width: 100%;
             display: inline-block;
+            margin: 0;
             img {
                 width: 100%;
                 height:	auto;
