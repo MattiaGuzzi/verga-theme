@@ -46,7 +46,7 @@ $woocommerce_loop['columns'] = apply_filters( 'woocommerce_related_products_colu
 
 if ( $products->have_posts() ) : ?>
 
-	<div class="related products related--shrink carousel_content">
+	<div class="related products related--shrink carousel_related">
 
 		<!--<h2><?php /*_e( 'Related Products', 'woocommerce' ); */?></h2>-->
 

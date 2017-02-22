@@ -43,7 +43,7 @@ $woocommerce_loop['columns'] = apply_filters('woocommerce_up_sells_columns', $co
 
 if ($products->have_posts()) : ?>
 
-    <div class="up-sells upsells products upsells--shrink carousel_content">
+    <div class="up-sells upsells products upsells--shrink carousel_up-sells">
 
         <!--<h2><?php /*_e('You may also like&hellip;', 'woocommerce') */?></h2>-->
 

@@ -123,6 +123,17 @@
     })
   }
 
+  function initCarousel() {
+    $('carousel_up-sells').owlCarousel({
+      autoHeight: true,
+      items: 1,
+      loop: true,
+      center: true,
+      mouseDrag: false,
+      touchDrag: false,
+      pullDrag: false
+    })
+  }
 
   // Load Events
   $(document).ready(UTIL.loadEvents);
