@@ -115,9 +115,10 @@
   }
   function postPerPage() {
     $('.order-block__ppp-item').on('click', function(event) {
-      var href = window.location.href;
+      var $tmp = window.location.href;
+      var $href = str.substring($tmp.lastIndexOf("?")+1);
       var $data = $(this).data('ppp');
-      var $res = href+'?ppp='.concat($data);
+      var $res = $href+'?ppp='.concat($data);
       alert($res);
       window.location.href = $res;
     })
