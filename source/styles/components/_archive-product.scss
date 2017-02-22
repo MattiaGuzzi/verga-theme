@@ -69,6 +69,11 @@
                 .order-block__ppp {
                     opacity: 1;
                     visibility: visible;
+                    .current-value {
+                        &:after {
+                            transform: scale(-1);
+                        }
+                    }
                 }
             }
         }
