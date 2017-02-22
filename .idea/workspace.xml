@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/woocommerce.php" afterPath="$PROJECT_DIR$/extras/woocommerce.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product/tabs/tabs.php" afterPath="$PROJECT_DIR$/woocommerce/single-product/tabs/tabs.php" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,27 +57,27 @@
       <file leaf-file-name="product-attributes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woocommerce/single-product/product-attributes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
+            <state vertical-scroll-proportion="-3.2692308">
               <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tabs.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tabs.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/woocommerce/single-product/tabs/tabs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8076925">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.54244304">
+              <caret line="38" column="34" selection-start-line="34" selection-start-column="12" selection-end-line="38" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="additional-information.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="additional-information.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woocommerce/single-product/tabs/additional-information.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3167702">
+            <state vertical-scroll-proportion="-5.8846154">
               <caret line="24" column="77" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="77" />
               <folding />
             </state>
@@ -213,8 +213,8 @@
         <option value="$PROJECT_DIR$/woocommerce/single-product/related.php" />
         <option value="$PROJECT_DIR$/source/styles/components/_archive-product.scss" />
         <option value="$PROJECT_DIR$/woocommerce/single-product/rating.php" />
-        <option value="$PROJECT_DIR$/woocommerce/single-product/tabs/tabs.php" />
         <option value="$PROJECT_DIR$/extras/woocommerce.php" />
+        <option value="$PROJECT_DIR$/woocommerce/single-product/tabs/tabs.php" />
       </list>
     </option>
   </component>
@@ -957,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/product-attributes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/single-product/tabs/description.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -973,26 +965,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/tabs/tabs.php">
+    <entry file="file://$PROJECT_DIR$/extras/woocommerce.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8076925">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.737581">
+          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/single-product/tabs/additional-information.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3167702">
+        <state vertical-scroll-proportion="-5.8846154">
           <caret line="24" column="77" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extras/woocommerce.php">
+    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/product-attributes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.737581">
-          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/tabs/tabs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54244304">
+          <caret line="38" column="34" selection-start-line="34" selection-start-column="12" selection-end-line="38" selection-end-column="39" />
           <folding />
         </state>
       </provider>
