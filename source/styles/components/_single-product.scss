@@ -1,0 +1,15 @@
+.single-product {
+    display: flex;
+    &__images {
+        width: 100%;
+        @include breakpoint($bp) {
+            width: 50%;
+        }
+    }
+    &__summary {
+        width: 100%;
+        @include breakpoint($bp) {
+            width: 50%;
+        }
+    }
+}
