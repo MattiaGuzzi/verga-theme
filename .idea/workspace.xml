@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_archive-product.scss" afterPath="$PROJECT_DIR$/source/styles/components/_archive-product.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/scripts/main.js" afterPath="$PROJECT_DIR$/source/scripts/main.js" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,15 +46,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_archive-product.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_archive-product.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6126582">
-              <caret line="70" column="47" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="49" />
+            <state vertical-scroll-proportion="-3.1636364">
+              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
               <folding>
                 <element signature="e#160#655#0" expanded="false" />
                 <element signature="e#676#770#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.1347518">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,9 +144,9 @@
         <option value="$PROJECT_DIR$/extras/setup.php" />
         <option value="$PROJECT_DIR$/woocommerce/archive-product.php" />
         <option value="$PROJECT_DIR$/woocommerce/content-product.php" />
-        <option value="$PROJECT_DIR$/source/scripts/main.js" />
         <option value="$PROJECT_DIR$/woocommerce/loop/orderby.php" />
         <option value="$PROJECT_DIR$/source/styles/components/_archive-product.scss" />
+        <option value="$PROJECT_DIR$/source/scripts/main.js" />
       </list>
     </option>
   </component>
@@ -804,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52771616">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/layouts/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8095238">
@@ -849,12 +852,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6126582">
-          <caret line="70" column="47" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="49" />
+        <state vertical-scroll-proportion="-3.1636364">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
             <element signature="e#160#655#0" expanded="false" />
             <element signature="e#676#770#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1347518">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

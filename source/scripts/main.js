@@ -23,6 +23,7 @@
         closeMenu();
         closeSubMenu();
         openSubMenu();
+        postPerPage();
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
@@ -110,6 +111,13 @@
       event.stopPropagation();
       event.preventDefault();
       $('.sub-menu').removeClass('opened');
+    })
+  }
+  function postPerPage() {
+    $('.order-block__ppp-item').on('click', function(event) {
+      var href = window.location.href;
+      var $data = $(this).data('ppp');
+      alert($data);
     })
   }
 
