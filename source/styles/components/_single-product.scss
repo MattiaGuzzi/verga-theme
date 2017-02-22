@@ -11,5 +11,11 @@
         @include breakpoint($bp) {
             width: 50%;
         }
+        .wc-tabs {
+            display: none;
+        }
+        .wc-tab {
+            display: block;
+        }
     }
 }
