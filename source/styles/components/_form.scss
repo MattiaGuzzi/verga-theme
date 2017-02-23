@@ -15,6 +15,12 @@
                 width: 50%;
             }
         }
+        span:nth-child(odd){
+            padding-right: em(50px);
+        }
+        span:nth-child(even){
+            padding-left: em(50px);
+        }
     }
     input, textarea{
         width: 100%;
