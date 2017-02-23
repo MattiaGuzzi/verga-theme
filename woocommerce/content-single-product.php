@@ -91,10 +91,7 @@ if ( post_password_required() ) {
 	foreach ($terms as $term) {
 		$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $term->term_id ), 'thumbnail_id', true);
 		$image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];
-		$url = get_permalink( $term->term_id );
-		$url2 = get_category_link( $term->term_id );
-		var_dump($url);
-		var_dump($url2);?>
+		$url = get_category_link( $term->term_id ); ?>
 		<div class="catalog__item">
 			<div class="background" style="background-image: url('<?php echo $image ?>')"></div>
 			<div class="block block--grow-lg block--shrink">
