@@ -86,36 +86,39 @@ if ( post_password_required() ) {
 
 <section class="catalog">
 	<?php global $product;
-		$id = $product->id;
-		var_dump($id);
-		var_dump( wp_get_post_parent_id( $id ), 'thumbnail_id', true);
-
-		/*$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $id ), 'thumbnail_id', true);
-		$image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];*/?><!--
+	global $product;
+	$terms =  wp_get_post_terms( get_the_ID(), 'product_cat', array('orderby' => 'term_group', 'order' => 'ASC'));
+	foreach ($terms as $term) {
+		$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $term->term_id ), 'thumbnail_id', true);
+		$image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];?>
 
 		<div class="catalog__item">
-			<div class="background" style="background-image: url('<?php /*echo $image */?>')"></div>
+			<div class="background" style="background-image: url('<?php echo $image ?>')"></div>
 			<div class="block block--grow-lg block--shrink">
-				<h2 class="block__title block__title--grow-md-top"><?php /*echo $product_category->name; */?></h2>
-				<p class="block__description block__description--grow-md"><?php /*echo $product_category->description; */?></p>
+				<h2 class="block__title block__title--grow-md-top"><?php echo $term->name; ?></h2>
+				<p class="block__description block__description--grow-md"><?php echo $product_category->description; ?></p>
 				<div class="block__submenu">
 					<?php
-/*					$args = array(
+					$args = array(
 						'orderby' => 'name',
 						'hide_empty' => 0,
-						'parent' => $product_category->term_id,
+						'parent' => $term->term_id,
 					);
 					$subcategories = get_terms('product_cat', $args);
 					foreach ($subcategories as $subcategory) {
 						echo '<span class="item"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
 					}
-					*/?>
+					?>
 				</div>
 				<div class="block__button">
-					<a href="<?php /*get_term_link( $product_category ); */?>" class="button button--rotate"><span
-							class="button__label"><?php /*_e('Scopri tutto', 'verga') */?></span></a>
+					<a href="<?php get_term_link( $term ); ?>" class="button button--rotate">
+						<span class="button__label"><?php _e('Scopri tutto', 'verga') ?></span>
+					</a>
 				</div>
-				<div class="block__overlay"><p class="totale"><?php /*echo $product_category->count; _e(" prodotti","verga")*/?></p></div>
+				<div class="block__overlay"><p class="totale"><?php echo $product_category->count; _e(" prodotti","verga")?></p></div>
 			</div>
-		</div>-->
+		</div>
+		<?php
+	}
+	?>
 </section>
