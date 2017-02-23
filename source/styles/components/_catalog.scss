@@ -62,6 +62,10 @@
             font-weight: lighter;
             line-height: 1;
             transition: color $speed;
+            text-align: center;
+            @include breakpoint($bp) {
+                text-align: left;
+            }
         }
         &__description {
             @include grow();
@@ -116,11 +120,11 @@
             justify-content: center;
             flex-wrap: wrap;
             transform: translateY(0);
-            opacity: 0;
-            transition: transform $speed, opacity $speed;
-
+            opacity: 1;
             @include breakpoint($bp) {
                 transform: translateY(400%);
+                opacity: 0;
+                transition: transform $speed, opacity $speed;
             }
             .item {
                 padding-left: em(20px);
