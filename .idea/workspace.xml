@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/builder/catalogo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.24056605">
-              <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
@@ -916,7 +916,7 @@
     <entry file="file://$PROJECT_DIR$/builder/catalogo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24056605">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
