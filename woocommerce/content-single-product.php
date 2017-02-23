@@ -122,3 +122,9 @@ if ( post_password_required() ) {
 	}
 	?>
 </section>
+
+<section class="divider<?php  echo (get_field('colore_sfondo', 'modulo_preventivo')=='red') ? ' divider--enphasis' : '' ?><?php echo get_field('fascia_full') ? ' divider--full' : '' ?> divider--shrink divider--grow-lg">
+	<h2 class="divider__title"><?php the_field('titolo', 'modulo_preventivo'); ?></h2>
+	<div class="divider__paragraph divider__paragraph--grow-lg"><?php the_field('paragrafo', 'modulo_preventivo'); ?></div>
+	<a href="<?php the_field('link_pagina', 'modulo_preventivo') ?>" class="<?php  echo (get_field('colore_sfondo', 'modulo_preventivo')=='red') ? ' button--reverse' : ' button' ?>"><span class="button__label"><?php the_field('testo_bottone', 'modulo_preventivo') ?></span></a>
+</section>
