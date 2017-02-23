@@ -159,6 +159,7 @@ textarea[name="message"] {
             border-bottom-left-radius: 50px;
             border-top-right-radius: 0px;
             border-bottom-right-radius: 0px;
+            box-shadow: 0 0 em(32px) transparentize($b, .85);
 
             .inactive & {
                 border-top-left-radius: 0px;
