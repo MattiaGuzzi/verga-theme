@@ -25,7 +25,9 @@
                 opacity: 1;
             }
             .block__title {
-                color: $brand-main;
+                a {
+                    color: $brand-main;
+                }
             }
             .block__button {
                 .button {
@@ -58,13 +60,15 @@
         &__title {
             @include grow();
             font-size: em(48px);
-            color: $anthracite-dark;
             font-weight: lighter;
             line-height: 1;
-            transition: color $speed;
             text-align: center;
             @include breakpoint($bp) {
                 text-align: left;
+            }
+            a {
+                transition: color $speed;
+                color: $anthracite-dark;
             }
         }
         &__description {
