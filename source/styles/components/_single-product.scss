@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     &__images {
+        text-align: center;
         width: 100%;
 
         figure {
@@ -18,12 +19,14 @@
         }
         @include breakpoint($bp) {
             width: 50%;
+            border-left: 1px solid $light;
         }
     }
     &__summary {
         width: 100%;
         @include breakpoint($bp) {
             width: 50%;
+            border-right: 1px solid $light;
         }
         .header-title {
             display: flex;
