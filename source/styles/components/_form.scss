@@ -131,7 +131,11 @@ span.autorizzazione, .screen-reader-response {
 }
 
 textarea[name="message"] {
+    font-family: $main-font;
     resize: none;
+}
+input {
+    font-family: $main-font;
 }
 
 
