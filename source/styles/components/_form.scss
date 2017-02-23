@@ -36,7 +36,8 @@
     }
     input, textarea{
         width: 100%;
-        padding: em(30px);
+        font-size: em(18px);
+        padding: em(30px, 18px);
     }
     span {
         padding-top: em(20px);
@@ -46,6 +47,15 @@
         display: none;
     }
 }
+
+.check-text {
+    font-size: em(12px);
+    color: $w;
+    font-weight: bold;
+    background-color: $gray-dark;
+}
+
+
 
 .invalid {
     .form-input {
