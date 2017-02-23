@@ -9,6 +9,10 @@
         padding-bottom: em(70px, 48px);
     }
     &-input {
+        span {
+            padding-top: em(20px);
+            padding-bottom: em(20px);
+        }
         .your-name, .your-surname, .your-email, .your-phone {
             width:100%;
             @include breakpoint($bp) {
@@ -39,10 +43,7 @@
         font-size: em(18px);
         padding: em(30px, 18px);
     }
-    span {
-        padding-top: em(20px);
-        padding-bottom: em(20px);
-    }
+
     .wpcf7-not-valid-tip{
         display: none;
     }
@@ -53,7 +54,7 @@
     color: $w;
     font-weight: bold;
     background-color: $gray-dark;
-    padding: 7px 13px!important;
+    padding: 7px 13px;
     cursor: pointer;
 }
 .check-text-si {
@@ -63,6 +64,10 @@
 .check-text-no {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+}
+
+.label_aut {
+
 }
 
 
