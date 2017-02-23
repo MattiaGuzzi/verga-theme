@@ -88,7 +88,7 @@ if ( post_password_required() ) {
 	<?php global $product;
 		$id = $product->id;
 		var_dump($id);
-		var_dump(get_woocommerce_term_meta( wp_get_post_parent_id( $id ), 'thumbnail_id', true));
+		var_dump( wp_get_post_parent_id( $id ), 'thumbnail_id', true);
 
 		/*$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $id ), 'thumbnail_id', true);
 		$image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];*/?><!--
