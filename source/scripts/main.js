@@ -131,8 +131,8 @@
         $(this).addClass('active');
     });
     $('.check-text-no').on('click', function(event) {
-      $('.check-text-no').removeClass('active');
-      $(this).addClass('active');
+      $(this).removeClass('active');
+      $('.check-text-si').addClass('active');
     })
   }
 
