@@ -58,6 +58,10 @@
     .wpcf7-not-valid-tip{
         display: none;
     }
+    input[type="submit"] {
+        border: none;
+        cursor: pointer;
+    }
 }
 
 .check-text {
