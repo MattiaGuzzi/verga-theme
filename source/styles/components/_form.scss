@@ -51,18 +51,18 @@
     .form-input {
         .wpcf7-not-valid {
             border: 1px solid $brand-main;
-            ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-                color: $brand-main;
-            }
-            ::-moz-placeholder { /* Firefox 19+ */
-                color: $brand-main;
-            }
-            :-ms-input-placeholder { /* IE 10+ */
-                color: $brand-main;
-            }
-            :-moz-placeholder { /* Firefox 18- */
-                color: $brand-main;
-            }
+        }
+        .wpcf7-not-valid::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: $brand-main;
+        }
+        .wpcf7-not-valid::-moz-placeholder { /* Firefox 19+ */
+            color: $brand-main;
+        }
+        .wpcf7-not-valid:-ms-input-placeholder { /* IE 10+ */
+            color: $brand-main;
+        }
+        .wpcf7-not-valid:-moz-placeholder { /* Firefox 18- */
+            color: $brand-main;
         }
     }
 }
