@@ -6,6 +6,7 @@
         'parent' => 0
     );
     $product_categories = get_terms('product_cat', $args);
+    $url = get_category_link( $product_categories->term_id ); ?>
     foreach ($product_categories as $product_category) {
         $thumbnail_id = get_woocommerce_term_meta($product_category->term_id, 'thumbnail_id', true);
         $image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];?>
@@ -29,7 +30,7 @@
                     ?>
                 </div>
                 <div class="block__button">
-                <a href="<?php get_term_link( $product_category ); ?>" class="button button--rotate"><span
+                <a href="<?php echo $url; ?>" class="button button--rotate"><span
                         class="button__label"><?php _e('Scopri tutto', 'verga') ?></span></a>
                 </div>
                 <div class="block__overlay"><p class="totale"><?php echo $product_category->count; _e(" prodotti","verga")?></p></div>
