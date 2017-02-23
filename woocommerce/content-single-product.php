@@ -83,4 +83,31 @@ if ( post_password_required() ) {
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
 
-<div> TEST </div>
+<section class="catalog">
+	<div class="catalog__item">
+		<?php var_dump(the_ID());?>
+		<div class="background" style="background-image: url('<?php /*echo $image*/ ?>')"></div>
+		<div class="block block--grow-lg block--shrink">
+			<h2 class="block__title block__title--grow-md-top"><?php /*echo $product_category->name;*/ ?></h2>
+			<p class="block__description block__description--grow-md"><?php /*echo $product_category->description;*/ ?></p>
+			<div class="block__submenu">
+			<!--	--><?php
+/*				$args = array(
+					'orderby' => 'name',
+					'hide_empty' => 0,
+					'parent' => $product_category->term_id,
+				);
+				$subcategories = get_terms('product_cat', $args);
+				foreach ($subcategories as $subcategory) {
+					echo '<span class="item"><a href="' . get_category_link($subcategory->term_id) . '">' . $subcategory->name . '</a></span>';
+				}
+				*/?>
+			</div>
+			<div class="block__button">
+				<a href="<?php/* get_term_link( $product_category );*/ ?>" class="button button--rotate"><span
+						class="button__label"><?php /*_e('Scopri tutto', 'verga')*/ ?></span></a>
+			</div>
+			<div class="block__overlay"><p class="totale"><?php/* echo $product_category->count; _e(" prodotti","verga")*/?></p></div>
+		</div>
+	</div>
+</section>
