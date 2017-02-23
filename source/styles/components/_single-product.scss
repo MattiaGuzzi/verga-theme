@@ -1,11 +1,10 @@
 .product-schedule {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     &__images {
         text-align: center;
         width: 100%;
-
+        border-left: none;
         figure {
             width: auto;
             max-width: 100%;
@@ -24,6 +23,10 @@
     }
     &__summary {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-right: none;
         @include breakpoint($bp) {
             width: 50%;
             border-right: 1px solid $light;
