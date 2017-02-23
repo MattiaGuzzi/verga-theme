@@ -129,10 +129,12 @@
     $('.check-text-si').on('click', function(event) {
       $('.check-text-no').removeClass('active');
         $(this).addClass('active');
+      $('input[name="autorizzazione[]"]').prop('checked', true);
     });
     $('.check-text-no').on('click', function(event) {
       $(this).addClass('active');
       $('.check-text-si').removeClass('active');
+      $('input[name="autorizzazione[]"]').prop('checked', false);
     })
   }
 
