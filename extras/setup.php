@@ -11,3 +11,9 @@ add_action('pre_get_posts', function (\WP_Query $q) {
             $q->set('posts_per_page', (int)$ppp);
     }
 });
+
+if( function_exists('acf_add_options_page') ) {
+
+    acf_add_options_page();
+
+}
