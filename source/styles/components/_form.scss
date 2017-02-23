@@ -130,3 +130,7 @@
 span.autorizzazione, .screen-reader-response {
     display: none;
 }
+
+textarea[name="message"] {
+    resize: none;
+}
