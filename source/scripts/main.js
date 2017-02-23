@@ -127,10 +127,11 @@
 
   function checkAut () {
     $('.check-text-si').on('click', function(event) {
-      $('.check-text-si').removeClass('active');
+      $('.check-text-no').removeClass('active');
         $(this).addClass('active');
     });
     $('.check-text-no').on('click', function(event) {
+
       $(this).removeClass('active');
       $('.check-text-si').addClass('active');
     })
