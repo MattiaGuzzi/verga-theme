@@ -14,6 +14,6 @@ add_action('pre_get_posts', function (\WP_Query $q) {
 
 if( function_exists('acf_add_options_page') ) {
 
-    acf_add_options_page();
+    acf_add_options_page('Modulo Preventivo');
 
 }
