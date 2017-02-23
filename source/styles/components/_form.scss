@@ -154,7 +154,7 @@ textarea[name="message"] {
             background: linear-gradient(to right, $brand-second , $brand-main);
             top: 0;
             left: 0;
-            transition: transform $speed;
+            transition: transform $speed, border-radius $speed;;
             border-top-left-radius: 50px;
             border-bottom-left-radius: 50px;
             border-top-right-radius: 0px;
@@ -165,7 +165,7 @@ textarea[name="message"] {
                 border-bottom-left-radius: 0px;
                 border-top-right-radius: 50px;
                 border-bottom-right-radius: 50px;
-                transform: translate3d(100%, 0, 0), border-radius $speed;
+                transform: translate3d(100%, 0, 0);
             }
         }
     }
