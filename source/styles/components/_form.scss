@@ -6,7 +6,7 @@
         font-size: em(48px);
         color: $brand-main;
         font-weight: lighter;
-        padding-bottom: em(70px);
+        padding-bottom: em(70px, 48px);
     }
     &-input {
         .your-name, .your-surname, .your-email, .your-phone {
@@ -15,5 +15,11 @@
                 width: 50%;
             }
         }
+    }
+    input, textarea{
+        width: 100%;
+    }
+    span {
+        padding: em(20px) em(40px);
     }
 }
