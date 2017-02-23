@@ -62,11 +62,9 @@
       <file leaf-file-name="_form.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_form.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36084905">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding>
-                <element signature="e#251#1153#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.84810126">
+              <caret line="158" column="44" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -911,11 +909,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/components/_form.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36084905">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#251#1153#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.84810126">
+          <caret line="158" column="44" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
