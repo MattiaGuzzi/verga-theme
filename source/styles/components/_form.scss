@@ -6,6 +6,14 @@
         font-size: em(48px);
         color: $brand-main;
         font-weight: lighter;
-
+        padding-bottom: em(70px);
+    }
+    .form--grid {
+        .your-name, .your-surname, .your-email, .your-phone {
+            width:100%;
+            @include breakpoint($bp) {
+                width: 50%;
+            }
+        }
     }
 }
