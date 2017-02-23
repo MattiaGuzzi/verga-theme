@@ -157,10 +157,15 @@ textarea[name="message"] {
             transition: transform $speed;
             border-top-left-radius: 50px;
             border-bottom-left-radius: 50px;
-
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
 
             .inactive & {
-                transform: translate3d(100%, 0, 0);
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                transform: translate3d(100%, 0, 0), border-radius $speed;
             }
         }
     }
