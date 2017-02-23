@@ -53,8 +53,18 @@
     color: $w;
     font-weight: bold;
     background-color: $gray-dark;
-    padding: 7px 13px;
+    padding: 7px 13px!important;
+    cursor: pointer;
 }
+.check-text-si {
+    border-radius-topleft: 50px ;
+    border-radius-bottomleft: 50px ;
+}
+.check-text-no {
+    border-radius-topright: 50px ;
+    border-radius-bottomright: 50px ;
+}
+
 
 
 
