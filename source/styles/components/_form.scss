@@ -27,9 +27,14 @@
                 padding-left: em(25px);
             }
         }
+        .message {
+            width:100%;
+            padding:0;
+        }
     }
     input, textarea{
         width: 100%;
+        padding: em(30px);
     }
     span {
         padding-top: em(20px);
