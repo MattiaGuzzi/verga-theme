@@ -4,7 +4,7 @@
     &__images {
         text-align: center;
         width: 100%;
-        border-left: none;
+        border-right: none;
         figure {
             width: auto;
             max-width: 100%;
@@ -18,7 +18,7 @@
         }
         @include breakpoint($bp) {
             width: 50%;
-            border-left: 1px solid $light;
+            border-right: 1px solid $light;
         }
     }
     &__summary {
@@ -26,10 +26,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border-right: none;
+        border-left: none;
         @include breakpoint($bp) {
             width: 50%;
-            border-right: 1px solid $light;
+            border-left: 1px solid $light;
         }
         .header-title {
             display: flex;
