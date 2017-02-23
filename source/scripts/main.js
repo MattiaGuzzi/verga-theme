@@ -25,6 +25,7 @@
         openSubMenu();
         postPerPage();
         initCarousel();
+        checkAut();
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
@@ -121,6 +122,12 @@
       var $data = $(this).data('ppp');
       var res = url+'?ppp='.concat($data);
       window.location.href = res;
+    })
+  }
+
+  function checkAut () {
+    $('.check-text').on('click', function(event) {
+        $(this).addClass('active');
     })
   }
 
