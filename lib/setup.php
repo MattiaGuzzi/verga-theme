@@ -106,3 +106,4 @@ register_nav_menus([
     'footer_navigation' => __('footer', 'sage')
 ]);
 
+define( 'WPCF7_AUTOP', false );
