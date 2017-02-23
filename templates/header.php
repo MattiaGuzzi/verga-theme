@@ -11,7 +11,7 @@
         ?>
     </nav>
     <div class="header__preventivi">
-        <a href="#" class="button">
+        <a href="<?php the_field('link_pagina', 'options') ?>" class="button">
             <label class="button__label"><?php _e('Preventivo', 'verga') ?></label>
         </a>
     </div>
