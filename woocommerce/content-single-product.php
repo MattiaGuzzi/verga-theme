@@ -90,8 +90,8 @@ if ( post_password_required() ) {
 	$terms =  wp_get_post_terms( get_the_ID(), 'product_cat', array('orderby' => 'term_group', 'parent' => 0));
 	foreach ($terms as $term) {
 		$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $term->term_id ), 'thumbnail_id', true);
-		$image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];?>
-
+		$image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];
+		$url = get_permalink( $term->term_id );?>
 		<div class="catalog__item">
 			<div class="background" style="background-image: url('<?php echo $image ?>')"></div>
 			<div class="block block--grow-lg block--shrink">
@@ -111,7 +111,7 @@ if ( post_password_required() ) {
 					?>
 				</div>
 				<div class="block__button">
-					<a href="<?php get_permalink( $term->term_id ); ?>" class="button button--rotate">
+					<a href="<?php echo $url; ?>" class="button button--rotate">
 						<span class="button__label"><?php _e('Scopri tutto', 'verga') ?></span>
 					</a>
 				</div>
