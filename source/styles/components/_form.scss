@@ -1,6 +1,6 @@
 .form {
     @include grow();
-    .title-form {
+    &-title {
         text-transform: uppercase;
         text-align: center;
         font-size: em(48px);
@@ -8,7 +8,7 @@
         font-weight: lighter;
         padding-bottom: em(70px);
     }
-    .form--grid {
+    &-input {
         .your-name, .your-surname, .your-email, .your-phone {
             width:100%;
             @include breakpoint($bp) {
