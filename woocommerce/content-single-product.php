@@ -94,7 +94,9 @@ if ( post_password_required() ) {
 	);
 	$product_categories = get_terms('product_cat', $args);
 	foreach ($product_categories as $product_category) {
-		$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $post_ID ), 'thumbnail_id', true);
+		global $product;
+		$id = $product->id;
+		$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $id ), 'thumbnail_id', true);
 		$image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];?>
 
 		<div class="catalog__item">
