@@ -1,8 +1,8 @@
 .catalog {
     &__item {
         position: relative;
-        padding-left: em(100px);
-        padding-right: em(100px);
+       /* padding-left: em(100px);
+        padding-right: em(100px);*/
         cursor: pointer;
         border-top: 1px solid #ebebeb;
         border-bottom: 1px solid #ebebeb;
@@ -115,9 +115,13 @@
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
-            transform: translateY(400%);
+            transform: translateY(0);
             opacity: 0;
             transition: transform $speed, opacity $speed;
+
+            @include breakpoint($bp) {
+                transform: translateY(400%);
+            }
             .item {
                 padding-left: em(20px);
                 padding-right: em(20px);
