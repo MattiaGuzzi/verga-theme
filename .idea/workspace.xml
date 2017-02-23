@@ -26,8 +26,8 @@
             <file leaf-file-name="content-single-product.php" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.7048611">
-                    <caret line="109" column="120" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="122" />
+                  <state vertical-scroll-proportion="0.2361111">
+                    <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
                     <folding>
                       <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                     </folding>
@@ -902,8 +902,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7048611">
-          <caret line="109" column="120" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="122" />
+        <state vertical-scroll-proportion="0.2361111">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
