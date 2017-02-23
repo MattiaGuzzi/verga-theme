@@ -16,11 +16,16 @@
             }
         }
         span:nth-child(odd){
-
-            padding-right: em(25px);
+            padding-right: 0;
+            @include breakpoint($bp) {
+                padding-right: em(25px);
+            }
         }
         span:nth-child(even){
-            padding-left: em(25px);
+            padding-left: 0;
+            @include breakpoint($bp) {
+                padding-left: em(25px);
+            }
         }
     }
     input, textarea{
