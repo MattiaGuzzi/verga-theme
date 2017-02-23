@@ -9,6 +9,11 @@
         padding-bottom: em(70px, 48px);
     }
     &-input {
+        input, textarea{
+            width: 100%;
+            font-size: em(18px);
+            padding: em(30px, 18px);
+        }
         span {
             padding-top: em(20px);
             padding-bottom: em(20px);
@@ -38,11 +43,7 @@
             padding-bottom: em(20px);
         }
     }
-    input, textarea{
-        width: 100%;
-        font-size: em(18px);
-        padding: em(30px, 18px);
-    }
+
 
     .wpcf7-not-valid-tip{
         display: none;
