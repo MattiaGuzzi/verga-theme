@@ -44,6 +44,16 @@
         }
     }
 
+    &-botton {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .ajax-loader {
+            width:100%;
+        }
+    }
+
 
     .wpcf7-not-valid-tip{
         display: none;
