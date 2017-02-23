@@ -126,7 +126,12 @@
   }
 
   function checkAut () {
-    $('.check-text-si').on('click', function(event) {
+    $('.check').on('click', function (){
+      $(this).toggleClass('inactive');
+    });
+
+
+   /* $('.check-text-si').on('click', function(event) {
       $('.check-text-no').removeClass('active');
         $(this).addClass('active');
       $('input[name="autorizzazione[]"]').prop('checked', true);
@@ -143,7 +148,7 @@
       } else {
         $(".label_aut").css("color", "#D0043C");
       }
-    });
+    });*/
   }
 
   function initCarousel() {

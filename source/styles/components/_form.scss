@@ -78,6 +78,7 @@
     background-color: $brand-main;
 }
 .check-text {
+    position: relative;
     font-size: em(12px);
     color: $w;
     font-weight: bold;
@@ -134,3 +135,35 @@ span.autorizzazione, .screen-reader-response {
 textarea[name="message"] {
     resize: none;
 }
+
+
+.check {
+    &__wrap {
+        border-radius: 50px;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        background: linear-gradient(to left, #878787, #737373) ;
+        &:before {
+            content: "";
+            width:50%;
+            height: 100%;
+            position: absolute;
+            background: $brand-main;
+            background: linear-gradient(to right, $brand-second , $brand-main);
+            top: 0;
+            left: 0;
+            transition: transform $speed;
+
+            .inactive & {
+                transform: translate3d(100%, 0, 0);
+            }
+        }
+    }
+
+}
+
+
+
+
+

@@ -3,6 +3,10 @@
     align-items: center;
     justify-content: space-between;
     height: em(70px);
+    box-shadow: 0 0 em(40px) rgba(0,0,0,0.1);
+    position: fixed;
+    background-color: $w;
+    width: 100%;
 
     &__nav {
         width: 100%;
