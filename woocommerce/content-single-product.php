@@ -89,11 +89,12 @@ if ( post_password_required() ) {
 	$args = array(
 		'orderby' => 'name',
 		'hide_empty' => 0,
-		'parent' => 0
+		'parent' => 0,
+
 	);
 	$product_categories = get_terms('product_cat', $args);
 	foreach ($product_categories as $product_category) {
-		$thumbnail_id = get_woocommerce_term_meta($product_category->term_id, 'thumbnail_id', true);
+		$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $post_ID ), 'thumbnail_id', true);
 		$image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];?>
 
 		<div class="catalog__item">
