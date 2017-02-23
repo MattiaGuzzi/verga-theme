@@ -136,6 +136,14 @@
       $('.check-text-si').removeClass('active');
       $('input[name="autorizzazione[]"]').prop('checked', false);
     })
+
+    $(".wpcf7-form").on("submit", function (event) {
+      if ($('input[name="autorizzazione[]"]').is(':checked')) {
+        $(".label_aut").css("color", "#737373");
+      } else {
+        $(".label_aut").css("color", "#D0043C");
+      }
+    });
   }
 
   function initCarousel() {
