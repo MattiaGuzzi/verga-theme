@@ -111,8 +111,7 @@ if ( post_password_required() ) {
 					?>
 				</div>
 				<div class="block__button">
-					<?php var_dump($term->term_id, $term) ?>
-					<a href="<?php get_term_link( $term->term_id ); ?>" class="button button--rotate">
+					<a href="<?php get_permalink( $term->term_id ); ?>" class="button button--rotate">
 						<span class="button__label"><?php _e('Scopri tutto', 'verga') ?></span>
 					</a>
 				</div>
