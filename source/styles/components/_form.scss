@@ -47,8 +47,17 @@
     &-bottom {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
+        @include breakpoint($bp) {
+            justify-content: space-between;
+        }
+        .check {
+            width:100%;
+            @include breakpoint($bp) {
+                width:auto;
+            }
+        }
         .ajax-loader {
             width:100%;
         }
