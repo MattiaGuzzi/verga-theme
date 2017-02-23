@@ -85,7 +85,7 @@ if ( post_password_required() ) {
 
 <section class="catalog">
 	<div class="catalog__item">
-		<?php global $product; var_dump($product->id);?>
+		<?php global $product; var_dump($product);?>
 		<div class="background" style="background-image: url('<?php /*echo $image*/ ?>')"></div>
 		<div class="block block--grow-lg block--shrink">
 			<h2 class="block__title block__title--grow-md-top"><?php /*echo $product_category->name;*/ ?></h2>
