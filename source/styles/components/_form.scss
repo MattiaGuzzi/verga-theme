@@ -67,7 +67,10 @@
 }
 
 .label_aut {
-
+    font-size: em(14px);
+    padding-left: em(30px, 14px);
+    color: $gray-dark;
+    font-weight: lighter;
 }
 
 
