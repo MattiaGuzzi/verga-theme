@@ -63,7 +63,9 @@
         cursor: pointer;
     }
 }
-
+.check-text .active {
+    background-color: $brand-main;
+}
 .check-text {
     font-size: em(12px);
     color: $w;
