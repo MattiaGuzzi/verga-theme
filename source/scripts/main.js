@@ -128,6 +128,8 @@
   function checkAut () {
     $('.check').on('click', function (){
       $(this).toggleClass('inactive');
+      var check = ($(this).hasClass('inactive')) ? false : true;
+      $('input[name="autorizzazione[]"]').prop('checked', check);
     });
 
 
