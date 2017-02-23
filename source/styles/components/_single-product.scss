@@ -1,10 +1,13 @@
 .product-schedule {
     display: flex;
     flex-wrap: wrap;
+    border-bottom: 2px solid $light;
     &__images {
         text-align: center;
         width: 100%;
         border-right: none;
+        display: flex;
+        align-items: center;
         figure {
             width: auto;
             max-width: 100%;

@@ -61,10 +61,10 @@
       <file leaf-file-name="_single-product.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_single-product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4009434">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.12028302">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
               <folding>
-                <element signature="e#168#414#0" expanded="false" />
+                <element signature="e#257#503#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -843,10 +843,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/components/_single-product.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4009434">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.12028302">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding>
-            <element signature="e#168#414#0" expanded="false" />
+            <element signature="e#257#503#0" expanded="false" />
           </folding>
         </state>
       </provider>
