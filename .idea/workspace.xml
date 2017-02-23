@@ -27,7 +27,7 @@
               <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
                 <provider selected="true" editor-type-id="text-editor">
                   <state vertical-scroll-proportion="0.203125">
-                    <caret line="90" column="96" selection-start-line="90" selection-start-column="96" selection-end-line="90" selection-end-column="96" />
+                    <caret line="90" column="95" selection-start-line="90" selection-start-column="95" selection-end-line="90" selection-end-column="95" />
                     <folding />
                   </state>
                 </provider>
@@ -901,7 +901,7 @@
     <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.203125">
-          <caret line="90" column="96" selection-start-line="90" selection-start-column="96" selection-end-line="90" selection-end-column="96" />
+          <caret line="90" column="95" selection-start-line="90" selection-start-column="95" selection-end-line="90" selection-end-column="95" />
           <folding />
         </state>
       </provider>
