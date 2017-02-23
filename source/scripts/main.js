@@ -126,8 +126,13 @@
   }
 
   function checkAut () {
-    $('.check-text').on('click', function(event) {
+    $('.check-text-si').on('click', function(event) {
+      $('.check-text-si').removeClass('active');
         $(this).addClass('active');
+    });
+    $('.check-text-no').on('click', function(event) {
+      $('.check-text-no').removeClass('active');
+      $(this).addClass('active');
     })
   }
 
