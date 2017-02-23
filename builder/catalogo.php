@@ -6,8 +6,8 @@
         'parent' => 0
     );
     $product_categories = get_terms('product_cat', $args);
-    $url = get_category_link( $product_categories->term_id ); 
     foreach ($product_categories as $product_category) {
+        $url = get_category_link( $product_categories->term_id );
         $thumbnail_id = get_woocommerce_term_meta($product_category->term_id, 'thumbnail_id', true);
         $image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];?>
 
