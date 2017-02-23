@@ -96,7 +96,7 @@ if ( post_password_required() ) {
 			<div class="background" style="background-image: url('<?php echo $image ?>')"></div>
 			<div class="block block--grow-lg block--shrink">
 				<h2 class="block__title block__title--grow-md-top"><?php echo $term->name; ?></h2>
-				<p class="block__description block__description--grow-md"><?php echo $product_category->description; ?></p>
+				<p class="block__description block__description--grow-md"><?php echo $term->description; ?></p>
 				<div class="block__submenu">
 					<?php
 					$args = array(
@@ -115,7 +115,7 @@ if ( post_password_required() ) {
 						<span class="button__label"><?php _e('Scopri tutto', 'verga') ?></span>
 					</a>
 				</div>
-				<div class="block__overlay"><p class="totale"><?php echo $product_category->count; _e(" prodotti","verga")?></p></div>
+				<div class="block__overlay"><p class="totale"><?php echo $term->count; _e(" prodotti","verga")?></p></div>
 			</div>
 		</div>
 		<?php
