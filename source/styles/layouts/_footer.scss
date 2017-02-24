@@ -1,18 +1,17 @@
 .footer {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     @include grow();
     .menu {
-        display: block;
-        width: 100%;
+        display: none;
+        width:auto;
         list-style-type: none;
         margin: 0;
         padding: 0;
         text-align: center;
         @include breakpoint($bp) {
-            width:auto;
+            display: block;
         }
 
         &__item {
