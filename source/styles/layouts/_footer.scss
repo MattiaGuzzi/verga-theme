@@ -3,6 +3,9 @@
     align-items: center;
     justify-content: space-between;
     @include grow();
+    @include breakpoint($bp) {
+        flex-wrap: wrap;
+    }
     .menu {
         display: none;
         width:auto;
