@@ -1,15 +1,19 @@
 .footer {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     @include grow();
     .menu {
         display: block;
-        width:auto;
+        width: 100%;
         list-style-type: none;
         margin: 0;
         padding: 0;
         text-align: center;
+        @include breakpoint($bp) {
+            width:auto;
+        }
 
         &__item {
             display: inline-block;
@@ -32,6 +36,10 @@
     flex: 0 0 auto;
     font-size: em(12px);
     line-height: 1.5;
+    width: 100%;
+    @include breakpoint($bp) {
+        width:auto;
+    }
     a {
         color: $anthracite-dark;
         transition: color $speed;
@@ -41,8 +49,18 @@
     }
 }
 
+.widgetleft {
+    text-align: center;
+    @include breakpoint($bp) {
+        text-align: left;
+    }
+}
+
 .widgetright {
-    text-align: right;
+    text-align: center;
+    @include breakpoint($bp) {
+        text-align: right;
+    }
 }
 
 .subfooter {
