@@ -131,7 +131,7 @@
       $(".post-link").click(function(){
         var $data = $(this).data('ppp');
         var href = window.location.href;
-
+        $(".products").html("loading...");
         $(".products").load(href+'?ppp='+$data);
         return false;
       });
