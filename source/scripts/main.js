@@ -156,9 +156,13 @@
 
     function mainMenu(){
         $('.main-menu__left--list').hover(function() {
-            console.log($('.main-menu__right--list[data-attribute="'+data+'"]'));
+            alert("in");
             var data = $(this).data('attribute');
             find($('.main-menu__right--list[data-attribute="'+data+'"]')).show();
+        }, function () {
+            alert("out");
+            var data = $(this).data('attribute');
+            find($('.main-menu__right--list[data-attribute="'+data+'"]')).hide();
         });
     }
 
