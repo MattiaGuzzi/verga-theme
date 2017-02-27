@@ -157,12 +157,12 @@
     function mainMenu(){
         $('.main-menu__left--list').hover(function() {
             var data = $(this).data('attribute');
-            alert("in "+data);
-            find($('.main-menu__right--list[data-attribute="'+data+'"]')).show();
+            $(this).parents().parents().find($('.main-menu__right--list[data-attribute="'+data+'"]')).show();
+            console.log($(this).parents().parents().find($('.main-menu__right--list[data-attribute="'+data+'"]')).show());
         }, function () {
             var data = $(this).data('attribute');
-            alert("out "+data);
-            find($('.main-menu__right--list[data-attribute="'+data+'"]')).hide();
+            $(this).parents().parents().find($('.main-menu__right--list[data-attribute="'+data+'"]')).hide();
+            console.log($(this).parents().parents().find($('.main-menu__right--list[data-attribute="'+data+'"]')).show());
         });
     }
 
