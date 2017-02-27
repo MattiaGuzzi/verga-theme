@@ -9,6 +9,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        a {
+            line-height: 0;
+        }
         figure {
             width: auto;
             max-width: 100%;
