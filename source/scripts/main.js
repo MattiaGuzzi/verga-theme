@@ -153,6 +153,13 @@
         })
     }
 
+    function mainMenu(){
+        $('.main-menu__left--list').hover(function() {
+            var data = $(this).data('attribute');
+            $('.main-menu__right--list[data-attribute="'+data+'"}').show();
+        });
+    }
+
     function checkAut() {
         $('.check').on('click', function () {
             $(this).toggleClass('inactive');

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/layouts/_header.scss" afterPath="$PROJECT_DIR$/source/styles/layouts/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/main.js.map" afterPath="$PROJECT_DIR$/assets/scripts/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/scripts/main.js" afterPath="$PROJECT_DIR$/source/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_menu.scss" afterPath="$PROJECT_DIR$/source/styles/components/_menu.scss" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/layouts/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4607595">
+            <state vertical-scroll-proportion="-3.3090909">
               <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_menu.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/styles/components/_menu.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.730769">
+              <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.92444444">
+              <caret line="158" column="75" selection-start-line="158" selection-start-column="75" selection-end-line="158" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -69,7 +91,6 @@
         <option value="$PROJECT_DIR$/source/styles/components/_grid.scss" />
         <option value="$PROJECT_DIR$/builder/colonne.php" />
         <option value="$PROJECT_DIR$/source/styles/components/_section.scss" />
-        <option value="$PROJECT_DIR$/source/styles/components/_menu.scss" />
         <option value="$PROJECT_DIR$/woocommerce/loop/result-count.php" />
         <option value="$PROJECT_DIR$/woocommerce/loop/price.php" />
         <option value="$PROJECT_DIR$/woocommerce/global/wrapper-start.php" />
@@ -97,13 +118,14 @@
         <option value="$PROJECT_DIR$/woocommerce/content-single-product.php" />
         <option value="$PROJECT_DIR$/source/styles/layouts/_footer.scss" />
         <option value="$PROJECT_DIR$/source/styles/components/_catalog.scss" />
-        <option value="$PROJECT_DIR$/source/scripts/main.js" />
         <option value="$PROJECT_DIR$/woocommerce/loop/loop-start.php" />
         <option value="$PROJECT_DIR$/woocommerce/loop/loop-end.php" />
         <option value="$PROJECT_DIR$/woocommerce/loop/orderby.php" />
         <option value="$PROJECT_DIR$/source/styles/common/_global.scss" />
         <option value="$PROJECT_DIR$/source/styles/components/_archive-product.scss" />
         <option value="$PROJECT_DIR$/source/styles/layouts/_header.scss" />
+        <option value="$PROJECT_DIR$/source/styles/components/_menu.scss" />
+        <option value="$PROJECT_DIR$/source/scripts/main.js" />
       </list>
     </option>
   </component>
@@ -243,55 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verga-theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verga-theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verga-theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verga-theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -458,13 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14137214">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/_menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9256545">
-          <caret line="130" column="1" selection-start-line="127" selection-start-column="10" selection-end-line="130" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -741,14 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="65" selection-start-line="143" selection-start-column="65" selection-end-line="143" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/loop/loop-start.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7216981">
@@ -801,8 +760,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/layouts/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4607595">
+        <state vertical-scroll-proportion="-3.3090909">
           <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/components/_menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.730769">
+          <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92444444">
+          <caret line="158" column="75" selection-start-line="158" selection-start-column="75" selection-end-line="158" selection-end-column="75" />
           <folding />
         </state>
       </provider>

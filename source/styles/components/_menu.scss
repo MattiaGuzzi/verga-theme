@@ -104,8 +104,9 @@
             flex: 1;
             display: flex;
             overflow: auto;
-            display: flex;
+            display: none;
             flex-wrap: wrap;
+            transition: display $speed;
 
             .item {
                 width: 50%;
