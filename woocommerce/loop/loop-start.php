@@ -17,4 +17,4 @@
  */
 ?>
 <ul class="products product--grid">
-    <div id="loading"><?php _e('Sto caricando...', 'verga') ?></div>
+    <div id="blur"></div>

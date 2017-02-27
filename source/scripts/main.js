@@ -132,18 +132,16 @@
     function ajaxPostPerPage() {
         $('.order-block__ppp-item').on('click', function () {
             var $data = $(this).data('ppp');
-            $('.product').hide();
-            $('#loading').show();
+            $('#blur').show();
             $.ajax({
                 url: window.location.href,
                 dataType: "html",
                 data: '?ppp=' + $data,
                 success: function (data) {
-                    $('#loading').hide();
-                    $('.product').show();
+                    $('#blur').hide();
                     data = $(data);
                     var $products = data.find('.product');
-                    $('.products').html($products);
+                    $('.products').html('<div id="blur"></div>'+$products);
                 },
                 error: function(e)
                 {
