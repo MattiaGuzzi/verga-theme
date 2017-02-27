@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_archive-product.scss" afterPath="$PROJECT_DIR$/source/styles/components/_archive-product.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/loop/loop-end.php" afterPath="$PROJECT_DIR$/woocommerce/loop/loop-end.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/loop/loop-start.php" afterPath="$PROJECT_DIR$/woocommerce/loop/loop-start.php" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_archive-product.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_archive-product.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7193396">
+            <state vertical-scroll-proportion="-11.730769">
               <caret line="303" column="41" selection-start-line="303" selection-start-column="41" selection-end-line="303" selection-end-column="41" />
               <folding>
                 <element signature="e#160#655#0" expanded="false" />
@@ -51,11 +51,21 @@
       <file leaf-file-name="loop-start.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woocommerce/loop/loop-start.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="17" />
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="e#6#650#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loop-end.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/woocommerce/loop/loop-end.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12028302">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/extras/utils.php" />
         <option value="$PROJECT_DIR$/extras/scripts.php" />
         <option value="$PROJECT_DIR$/extras/bem_menu.php" />
         <option value="$PROJECT_DIR$/source/styles/common/_variables.scss" />
@@ -136,9 +145,10 @@
         <option value="$PROJECT_DIR$/source/styles/layouts/_footer.scss" />
         <option value="$PROJECT_DIR$/source/styles/components/_catalog.scss" />
         <option value="$PROJECT_DIR$/woocommerce/loop/orderby.php" />
-        <option value="$PROJECT_DIR$/woocommerce/loop/loop-start.php" />
         <option value="$PROJECT_DIR$/source/scripts/main.js" />
         <option value="$PROJECT_DIR$/source/styles/components/_archive-product.scss" />
+        <option value="$PROJECT_DIR$/woocommerce/loop/loop-start.php" />
+        <option value="$PROJECT_DIR$/woocommerce/loop/loop-end.php" />
       </list>
     </option>
   </component>
@@ -211,6 +221,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="woocommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="verga-theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="verga-theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woocommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,13 +427,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/woocommerce/loop/price.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -751,12 +772,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/loop/loop-start.php">
+    <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="17" />
+        <state vertical-scroll-proportion="-11.730769">
+          <caret line="303" column="41" selection-start-line="303" selection-start-column="41" selection-end-line="303" selection-end-column="41" />
           <folding>
-            <element signature="e#6#650#0#PHP" expanded="true" />
+            <element signature="e#160#655#0" expanded="false" />
+            <element signature="e#676#770#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -769,14 +791,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
+    <entry file="file://$PROJECT_DIR$/woocommerce/loop/loop-start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7193396">
-          <caret line="303" column="41" selection-start-line="303" selection-start-column="41" selection-end-line="303" selection-end-column="41" />
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <element signature="e#160#655#0" expanded="false" />
-            <element signature="e#676#770#0" expanded="false" />
+            <element signature="e#6#650#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/loop/loop-end.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12028302">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

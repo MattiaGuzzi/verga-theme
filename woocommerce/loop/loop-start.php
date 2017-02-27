@@ -17,4 +17,3 @@
  */
 ?>
 <ul class="products product--grid">
-    <div id="blur"></div>
