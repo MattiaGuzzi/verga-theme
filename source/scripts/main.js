@@ -127,8 +127,16 @@
 
   function postPerPage() {
     $('.order-block__ppp-item').on('click', function() {
-      var $data = $(this).data('ppp');
-      $('.products').load("../../../woocommerce/content-product.php/");
+      $.ajaxSetup({cache:false});
+      $(".post-link").click(function(){
+        var $data = $(this).data('ppp');
+        var href = window.location.href;
+
+        $(".products").load(href+'?ppp='+$data);
+        return false;
+      });
+      /*var $data = $(this).data('ppp');
+      $('.products').load("../../../woocommerce/content-product.php/");*/
     })
   }
 
