@@ -128,7 +128,7 @@
   function postPerPage() {
     $('.order-block__ppp-item').on('click', function() {
       var $data = $(this).data('ppp');
-      $('.products').load("woocommerce/content-product.php/"+'?ppp='+$data);
+      $('.products').load("woocommerce/content-product.php/");
     })
   }
 
