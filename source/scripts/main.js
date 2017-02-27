@@ -131,7 +131,9 @@
       $.ajax({
         url: window.location.href,
         data : {'ppp' : '?ppp'+$data},
-        success: function(msg){alert('wow' + msg)}
+        success: function(msg){
+          $('.products').html(msg);
+        }
       });
     })
   }
