@@ -148,18 +148,50 @@
     @each $row, $i in $rows {
         &--grow#{$row} {
             padding: {
-                top: $v*$i;
-                bottom: $v*$i;
+                top: ($v*$i)/4;
+                bottom: ($v*$i)/4;
+            }
+            @include breakpoint(640px) {
+                padding: {
+                    top: ($v*$i)/2;
+                    bottom: ($v*$i)/2;
+                }
+            }
+            @include breakpoint($bp) {
+                padding: {
+                    top: $v*$i;
+                    bottom: $v*$i;
+                }
             }
         }
         &--grow#{$row}-top {
             padding: {
-                top: $v*$i;
+                top: ($v*$i)/4;
+            }
+            @include breakpoint(640px) {
+                padding: {
+                    top: ($v*$i)/2;
+                }
+            }
+            @include breakpoint($bp) {
+                padding: {
+                    top: $v*$i;
+                }
             }
         }
         &--grow#{$row}-btm {
             padding: {
-                bottom: $v*$i;
+                bottom: ($v*$i)/4;
+            }
+            @include breakpoint(640px) {
+                padding: {
+                    bottom: ($v*$i)/2;
+                }
+            }
+            @include breakpoint($bp) {
+                padding: {
+                    bottom: $v*$i;
+                }
             }
         }
     }
