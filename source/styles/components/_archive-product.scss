@@ -1,10 +1,15 @@
 .order-block {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     @include grow();
 
     &__categories {
+        width: 100%;
+        @include breakpoint($bp) {
+            width: auto;
+        }
         .button__label {
             &:after {
                 position: relative;
@@ -27,9 +32,17 @@
         color: $brand-main;
         font-size: em(48px);
         font-weight: lighter;
+        width: 100%;
+        @include breakpoint($bp) {
+            width: auto;
+        }
     }
 
     .post-per-page {
+        width: 100%;
+        @include breakpoint($bp) {
+            width: auto;
+        }
         .first-level {
             position: relative;
             margin: 0;
