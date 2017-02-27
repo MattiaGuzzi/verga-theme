@@ -140,7 +140,12 @@
                     data = $(data);
                     var $products = data.find('.product');
                     $('.products').html($products);
+                },
+                error: function(e)
+                {
+                    alert('Errore di connessione, si prega di riprovare: ' + e);
                 }
+
             });
         })
     }
