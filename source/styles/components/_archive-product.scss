@@ -7,6 +7,7 @@
 
     &__categories {
         width: 100%;
+        order: 1;
         @include breakpoint($bp) {
             width: auto;
         }
@@ -29,6 +30,7 @@
     }
 
     &__title {
+        order: 3;
         color: $brand-main;
         font-size: em(48px);
         font-weight: lighter;
@@ -39,6 +41,7 @@
     }
 
     .post-per-page {
+        order: 2;
         width: 100%;
         @include breakpoint($bp) {
             width: auto;
