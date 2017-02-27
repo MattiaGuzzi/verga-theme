@@ -11,6 +11,9 @@
         @include breakpoint($bp) {
             width: auto;
         }
+        .button--reverse {
+            cursor: pointer;
+        }
         .button__label {
             &:after {
                 position: relative;
