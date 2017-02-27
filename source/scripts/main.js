@@ -140,7 +140,8 @@
                 success: function (data) {
                     data = $(data);
                     var $products = data.find('.product');
-                    $('.products').html('<div id="blur"></div>'+$products);
+                    $('.products').html($products);
+                    $('.products').append('<div id="blur"></div>');
                     $('#blur').hide();
                 },
                 error: function(e)

@@ -296,6 +296,7 @@
 #blur {
     position: absolute;
     display: none;
+    transition: display $speed;
     top: 0;
     left: 0;
     height: 100%;
