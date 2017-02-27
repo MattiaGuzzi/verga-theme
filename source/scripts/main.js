@@ -141,7 +141,7 @@
                     var $products = data.find('.products');
                     console.log($products);
                     alert($products);
-                    $('.products').html(data);
+                    $('.products').html($products);
                 }
             });
         })
