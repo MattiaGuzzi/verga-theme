@@ -35,7 +35,9 @@
         font-size: em(48px);
         font-weight: lighter;
         width: 100%;
+        line-height: 1;
         @include breakpoint($bp) {
+            order: 2;
             width: auto;
         }
     }
@@ -44,6 +46,7 @@
         order: 2;
         width: 100%;
         @include breakpoint($bp) {
+            order: 3;
             width: auto;
         }
         .first-level {
