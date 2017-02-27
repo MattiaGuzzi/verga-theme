@@ -57,7 +57,8 @@ remove_action('woocommerce_single_product_summary','woocommerce_template_single_
 
 remove_action('woocommerce_archive_description','woocommerce_taxonomy_archive_description', 10);
 remove_action('woocommerce_archive_description','woocommerce_product_archive_description', 10);
-remove_action('woocommerce_before_shop_loop_item_title','woocommerce_template_loop_product_thumbnail', 10);
+
+emove_action( 'woocommerce_product_thumbnails', 'woocommerce_show_product_thumbnails', 20 );
 
 
 
