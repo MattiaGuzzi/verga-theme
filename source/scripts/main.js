@@ -138,7 +138,7 @@
                 data: '?ppp=' + $data,
                 success: function (data) {
                     data = $(data);
-                    var $products = data.find('.products');
+                    var $products = data.find('.product');
                     console.log($products);
                     alert($products);
                     $('.products').html($products);
