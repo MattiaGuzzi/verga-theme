@@ -156,6 +156,7 @@
 
     function mainMenu(){
         $('.main-menu__left--list').hover(function() {
+            $(this).parents().parents().find($('.main-menu__right--list')).hide();
             var data = $(this).data('attribute');
             $(this).parents().parents().find($('.main-menu__right--list[data-attribute="'+data+'"]')).css('display','flex');
            }, function () {
