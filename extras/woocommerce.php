@@ -55,6 +55,10 @@ remove_action('woocommerce_single_product_summary','woocommerce_template_single_
 remove_action('woocommerce_single_product_summary','woocommerce_template_single_meta', 40);
 
 
+remove_action('woocommerce_archive_description','woocommerce_taxonomy_archive_description', 10);
+remove_action('woocommerce_archive_description','woocommerce_product_archive_description', 10);
+
+
 
 add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
 add_filter( 'woocommerce_product_additional_information_heading', '__return_false' );
