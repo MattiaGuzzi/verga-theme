@@ -23,7 +23,7 @@
                 closeMenu();
                 closeSubMenu();
                 openSubMenu();
-                postPerPage();
+                ajaxPostPerPage();
                 initCarousel();
                 checkAut();
             },
@@ -119,7 +119,7 @@
         })
     }
 
-    function ajaxPostPerPage() {
+    function postPerPage() {
         $('.order-block__ppp-item').on('click', function (event) {
             var href = window.location.href;
             var url = href.split("?", 1);
@@ -129,7 +129,7 @@
         })
     }
 
-    function postPerPage() {
+    function ajaxPostPerPage() {
         $('.order-block__ppp-item').on('click', function () {
             var $data = $(this).data('ppp');
             $.ajax({
@@ -139,8 +139,6 @@
                 success: function (data) {
                     data = $(data);
                     var $products = data.find('.product');
-                    console.log($products);
-                    alert($products);
                     $('.products').html($products);
                 }
             });
