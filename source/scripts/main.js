@@ -155,8 +155,9 @@
 
     function mainMenu(){
         $('.main-menu__left--list').hover(function() {
+            console.log($('.main-menu__right--list[data-attribute="'+data+'"]'));
             var data = $(this).data('attribute');
-            $('.main-menu__right--list[data-attribute="'+data+'"}').show();
+            find($('.main-menu__right--list[data-attribute="'+data+'"]')).show();
         });
     }
 
