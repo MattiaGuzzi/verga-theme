@@ -138,10 +138,10 @@
                 dataType: "html",
                 data: '?ppp=' + $data,
                 success: function (data) {
-                    $('#blur').hide();
                     data = $(data);
                     var $products = data.find('.product');
                     $('.products').html('<div id="blur"></div>'+$products);
+                    $('#blur').hide();
                 },
                 error: function(e)
                 {
