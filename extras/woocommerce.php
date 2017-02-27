@@ -80,3 +80,9 @@ function contactForm () {
     echo do_shortcode('[contact-form-7 id="4" title="Modulo di contatto 1"]');
 }
 add_action( 'woocommerce_after_single_product_summary', 'contactForm', 11);
+
+add_filter('woocommerce_sale_flash', 'woo_custom_hide_sales_flash');
+function woo_custom_hide_sales_flash()
+{
+    return false;
+}
