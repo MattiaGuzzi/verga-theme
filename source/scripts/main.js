@@ -130,10 +130,11 @@
       var $data = $(this).data('ppp');
       $.ajax({
         url: window.location.href,
+        dataType: "html",
         data : {'ppp' : '?ppp'+$data},
-        success: function(msg){
-          /*var $html = msg.find('.products');*/
-          console.log(msg);
+        success: function(data){
+          var $html = data.find('.products');
+          console.log($html);
           /*alert($html);*/
 
      /*     $('.products').html(msg);*/
