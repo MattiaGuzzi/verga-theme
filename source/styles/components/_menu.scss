@@ -27,6 +27,10 @@
         }
         &--button {
             display: flex;
+            .button {
+                padding-top: em(10px);
+                padding-bottom: em(10px);
+            }
         }
     }
     &__left {
