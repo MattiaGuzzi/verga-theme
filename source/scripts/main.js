@@ -133,7 +133,7 @@
         dataType: "html",
         data : {'ppp' : '?ppp'+$data},
         success: function(data){
-          console.log($(this).find('.products'));
+          console.log($(this).find('.products').html());
           /*alert($html);*/
 
      /*     $('.products').html(msg);*/
