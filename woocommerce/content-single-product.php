@@ -89,7 +89,7 @@ if ( post_password_required() ) {
 	global $product;
 	$terms =  wp_get_post_terms( get_the_ID(), 'product_cat', array('orderby' => 'term_group', 'parent' => 0));
 	foreach ($terms as $term) {
-		$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $term->term_id ), 'thumbnail_id', true);
+		$thumbnail_id =  $term->term_id;
 		$image = wp_get_attachment_url($thumbnail_id);
 		var_dump($thumbnail_id);
 		var_dump($image);
