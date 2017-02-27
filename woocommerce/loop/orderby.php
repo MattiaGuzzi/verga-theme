@@ -79,7 +79,7 @@ if (!defined('ABSPATH')) {
             <li class="current-value">
                 post per page
                 <ul class="order-block__ppp">
-                    <li class="order-block__ppp-item" data-ppp="8"><?php _e('Mostra 8', 'verga'); ?></li>
+                    <li class="order-block__ppp-item" data-ppp="1"><?php _e('Mostra 8', 'verga'); ?></li>
                     <li class="order-block__ppp-item" data-ppp="16"><?php _e('Mostra 16', 'verga'); ?></li>
                     <li class="order-block__ppp-item" data-ppp="24"><?php _e('Mostra 24', 'verga'); ?></li>
                     <li class="order-block__ppp-item" data-ppp="-1"><?php _e('Tutti', 'verga'); ?></li>
