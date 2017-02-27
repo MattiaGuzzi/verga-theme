@@ -132,9 +132,9 @@
         url: window.location.href,
         data : {'ppp' : '?ppp'+$data},
         success: function(msg){
-          var $html = msg.find('.products');
+          /*var $html = msg.find('.products');*/
           console.log(msg);
-          alert($html);
+          /*alert($html);*/
 
      /*     $('.products').html(msg);*/
         }
