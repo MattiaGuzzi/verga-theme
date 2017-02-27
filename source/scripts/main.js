@@ -131,7 +131,7 @@
       $.ajax({
         url: window.location.href,
         dataType: "html",
-        data : {'ppp' : '?ppp'+$data},
+        data : '?ppp='+$data,
         success: function(data){
           console.log(data);
           $('.products').html(data);
