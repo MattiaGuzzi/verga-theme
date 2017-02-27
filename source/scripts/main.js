@@ -115,13 +115,20 @@
       $('.sub-menu').removeClass('opened');
     })
   }
-  function postPerPage() {
+  function ajaxPostPerPage()  {
     $('.order-block__ppp-item').on('click', function(event) {
       var href = window.location.href;
       var url = href.split("?", 1);
       var $data = $(this).data('ppp');
       var res = url+'?ppp='.concat($data);
       window.location.href = res;
+    })
+  }
+
+  function postPerPage() {
+    $('.order-block__ppp-item').on('click', function() {
+      var $data = $(this).data('ppp');
+      $('.products').load("woocommerce/content-product.php"+'?ppp='+$data);
     })
   }
 
