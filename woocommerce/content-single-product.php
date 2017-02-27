@@ -89,10 +89,11 @@ if ( post_password_required() ) {
 	global $product;
 	$terms =  wp_get_post_terms( get_the_ID(), 'product_cat', array('orderby' => 'term_group', 'parent' => 0));
 	foreach ($terms as $term) {
-		$term_img = get_the_post_thumbnail_url($term->term_id);
-		var_dump($term_img);
-		/*$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $term->term_id ), 'thumbnail_id', true);
-		$image = wp_get_attachment_image_src($thumbnail_id, 'full')[0];*/
+		$thumbnail_id = get_woocommerce_term_meta( wp_get_post_parent_id( $term->term_id ), 'thumbnail_id', true);
+		$image = wp_get_attachment_url($thumbnail_id);
+		var_dump($thumbnail_id);
+		var_dump($image);
+
 		$url = get_category_link( $term->term_id ); ?>
 		<div class="catalog__item">
 			<div class="background" style="background-image: url('<?php echo $image ?>')"></div>
