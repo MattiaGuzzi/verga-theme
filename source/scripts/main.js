@@ -131,12 +131,13 @@
       $.ajax({
         url: window.location.href,
         dataType: "html",
-        data : {'ppp' : '?ppp'+$data},
+        data : {'ppp' : '?ppp'+$data, name: $(".products").val()},
         success: function(data){
-          console.log(data.find('.products').show().html());
+          console.log(data);
+          $('.products').html(data);
           /*alert($html);*/
 
-     /*     $('.products').html(msg);*/
+
         }
       });
     })
