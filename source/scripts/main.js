@@ -27,6 +27,7 @@
                 initCarousel();
                 checkAut();
                 mainMenu();
+                openPPP();
             },
             finalize: function () {
                 // JavaScript to be fired on all pages, after page specific JS is fired
@@ -130,6 +131,16 @@
         })
     }
 
+    function openPPP() {
+        $('.first-level').on({
+            mouseenter: function(){
+                $('.order-block__ppp').slideDown();
+            },
+            mouseleave: function(){
+                $('.order-block__ppp').slideUp();
+            }
+        });
+    }
     function ajaxPostPerPage() {
         $('.order-block__ppp-item').on('click', function () {
             var $data = $(this).data('ppp');
