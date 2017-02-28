@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/scripts/main.js" afterPath="$PROJECT_DIR$/source/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_menu.scss" afterPath="$PROJECT_DIR$/source/styles/components/_menu.scss" />
     </list>
     <ignored path="verga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +49,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33924612">
-              <caret line="189" column="72" selection-start-line="189" selection-start-column="72" selection-end-line="189" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.45232815">
+              <caret line="192" column="10" selection-start-line="192" selection-start-column="10" selection-end-line="192" selection-end-column="10" />
               <folding>
                 <element signature="e#4822#5531#0" expanded="false" />
               </folding>
@@ -811,8 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33924612">
-          <caret line="189" column="72" selection-start-line="189" selection-start-column="72" selection-end-line="189" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.45232815">
+          <caret line="192" column="10" selection-start-line="192" selection-start-column="10" selection-end-line="192" selection-end-column="10" />
           <folding>
             <element signature="e#4822#5531#0" expanded="false" />
           </folding>

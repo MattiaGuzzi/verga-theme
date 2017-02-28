@@ -191,8 +191,10 @@
             section: document.querySelector('.item'),
             ease: 0.1
         })
-
-        smooth.init()
+        smooth.init();
+        smooth.on('scrool', function(event) {
+            console.log(event);
+        })
     }
 
     function initCarousel() {
