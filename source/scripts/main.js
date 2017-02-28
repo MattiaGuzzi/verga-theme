@@ -28,6 +28,7 @@
                 checkAut();
                 mainMenu();
                 openPPP();
+                scrollBar();
             },
             finalize: function () {
                 // JavaScript to be fired on all pages, after page specific JS is fired
@@ -187,8 +188,8 @@
     function scrollBar() {
         smooth = new Smooth({
             listener: document.querySelector('.main-menu__right'),
-            native: true,
-            section: section,
+            native: false,
+            section: document.querySelector('.main-menu__right--list'),
             ease: 0.1
         })
 
