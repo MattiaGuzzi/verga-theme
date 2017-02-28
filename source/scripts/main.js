@@ -182,26 +182,17 @@
             var check = ($(this).hasClass('inactive')) ? false : true;
             $('input[name="autorizzazione[]"]').prop('checked', check);
         });
+    }
 
+    function scrollBar() {
+        smooth = new Smooth({
+            listener: document.querySelector('.main-menu__right'),
+            native: true,
+            section: section,
+            ease: 0.1
+        })
 
-        /* $('.check-text-si').on('click', function(event) {
-         $('.check-text-no').removeClass('active');
-         $(this).addClass('active');
-         $('input[name="autorizzazione[]"]').prop('checked', true);
-         });
-         $('.check-text-no').on('click', function(event) {
-         $(this).addClass('active');
-         $('.check-text-si').removeClass('active');
-         $('input[name="autorizzazione[]"]').prop('checked', false);
-         })
-
-         $(".wpcf7-form").on("submit", function (event) {
-         if ($('input[name="autorizzazione[]"]').is(':checked')) {
-         $(".label_aut").css("color", "#737373");
-         } else {
-         $(".label_aut").css("color", "#D0043C");
-         }
-         });*/
+        smooth.init()
     }
 
     function initCarousel() {
