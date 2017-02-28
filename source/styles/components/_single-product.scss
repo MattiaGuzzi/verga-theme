@@ -39,8 +39,12 @@
             border-left: 1px solid $light;
         }
         .header-title {
+            padding-top: em(20px);
             display: flex;
             justify-content: space-between;
+            @include breakpoint($bp) {
+                padding-top: 0;
+            }
             span {
                 font-size: em(18px);
             }
