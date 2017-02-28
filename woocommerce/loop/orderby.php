@@ -77,7 +77,7 @@ if (!defined('ABSPATH')) {
     <div class="post-per-page">
         <div class="first-level">
             <div class="current-value">
-                post per page
+                <span>post per page</span>
                 <div class="current-value__list" data-placeholder="post per page">
                     <ul class="order-block__ppp">
                         <li class="order-block__item" data-ppp="8"><?php _e('Mostra 8', 'verga'); ?></li>

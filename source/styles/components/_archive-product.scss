@@ -67,7 +67,12 @@
             z-index: 1;
             color: $anthracite-dark;
             .current-value {
+                span {
+                    position: relative;
+                    z-index: 1;
+                }
                 &:after {
+                    z-index: 1;
                     position: relative;
                     top: -3px;
                     right: 0;
@@ -82,6 +87,7 @@
                     transition: all 0.3s;
                 }
                 &__list {
+                    z-index: 0;
                     position: absolute;
                     width:100%;
                     margin: 0;
@@ -119,13 +125,7 @@
             }*/
         }
         .order-block__ppp {
-
-
-
             display: none;
-            /*opacity: 0;*/
-          /*  visibility: hidden;*/
-
             margin: 0;
             list-style: none;
             cursor: pointer;
@@ -138,6 +138,7 @@
             color: $anthracite-dark;
 
             li {
+
                 font-size: em(18px);
             }
         }
