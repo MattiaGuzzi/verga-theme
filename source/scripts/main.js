@@ -143,7 +143,7 @@
         });
     }
     function ajaxPostPerPage() {
-        $('.order-block__ppp-item').on('click', function () {
+        $('.order-block__item').on('click', function () {
             var $data = $(this).data('ppp');
             $('#blur').show();
             $.ajax({
