@@ -142,6 +142,7 @@ input {
 .check {
     display: flex;
     &__wrap {
+        flex: 0 0 auto;
         line-height: 1;
         display: inline-block;
         border-radius: 50px;
