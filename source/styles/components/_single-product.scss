@@ -86,6 +86,9 @@
                 font-weight: lighter;
                 padding-bottom: em(40px, 18px);
             }
+            .attributes p  {
+               line-height: 1;
+            }
         }
         div[itemprop="description"] h4  {
             font-size: em(14px);
