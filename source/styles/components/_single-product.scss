@@ -91,6 +91,7 @@
             }
         }
         div[itemprop="description"] h4  {
+            padding-bottom: em(20px, 14px);
             font-size: em(14px);
             color: $gray-light;
             font-weight: lighter;
@@ -100,6 +101,7 @@
             font-size: em(18px);
             color: $anthracite-dark;
             font-weight: lighter;
+            line-height: 1;
         }
     }
 }
