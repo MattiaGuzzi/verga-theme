@@ -3,7 +3,7 @@
     "main.js": {
       "files": [
         "../bower_components/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js", "../bower_components/gsap/src/uncompressed/utils/Draggable.js", "../bower_components/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js",
-        "scripts/main.js", "../bower_components/gsap/src/uncompressed/plugins/ScrollToPlugin.js", "scripts/jquery.data-scrollmagic.js"
+        "scripts/main.js", "../bower_components/gsap/src/uncompressed/plugins/ScrollToPlugin.js", "scripts/jquery.data-scrollmagic.js", "../node_modules/smooth-scrolling/smooth-scrolling.min.js"
       ],
       "bower" : ["gsap", "owl.carousel", "scrollmagic"],
       "main": true
