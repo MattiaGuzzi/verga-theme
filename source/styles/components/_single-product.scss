@@ -42,9 +42,6 @@
             padding-top: em(20px);
             display: flex;
             justify-content: space-between;
-            @include breakpoint($bp) {
-                padding-top: 0;
-            }
             span {
                 font-size: em(18px);
             }
@@ -63,7 +60,6 @@
         .product_title {
             font-size: em(30px);
             color: $b;
-            padding-top: em(20px);
             padding-bottom: em(20px);
             @include breakpoint($bp) {
                 padding-bottom: em(40px);
