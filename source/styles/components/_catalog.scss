@@ -6,6 +6,35 @@
         @include breakpoint($bp) {
             padding-left: em(100px);
             padding-right: em(100px);
+            &:hover {
+                .background {
+                    opacity: 1;
+                }
+                .block__title {
+                    a {
+                        color: $brand-main;
+                    }
+                }
+                .block__button {
+                    .button {
+                        opacity: 1;
+                        transform: rotate(-90deg) translateX(-50%) translateY(0%);
+                    }
+                }
+                .block__submenu {
+                    transform: translateY(0%);
+                    opacity: 1;
+                }
+                .block__overlay {
+                    opacity: 1;
+                    .totale {
+                        right: em(40px);
+                    }
+                }
+                /* &:after {
+                     width: 100%;
+                 }*/
+            }
         }
         cursor: pointer;
         border-top: 1px solid #ebebeb;
@@ -24,7 +53,7 @@
             @include absfull();
         }
 
-        &:hover {
+        /*&:hover {
             .background {
                 opacity: 1;
             }
@@ -49,18 +78,21 @@
                     right: em(40px);
                 }
             }
-            /* &:after {
+            !* &:after {
                  width: 100%;
-             }*/
-        }
+             }*!
+        }*/
     }
     .block {
+        background-color: transparent;
         @include grow();
         position: relative;
         max-width: 775px;
         margin: 0 auto;
-        background-color: $w;
         z-index: 2;
+        @include breakpoint($bp) {
+            background-color: $w;
+        }
         &__title {
             @include grow();
             font-size: em(48px);
