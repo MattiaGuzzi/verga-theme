@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.49882352">
-              <caret line="102" column="57" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="57" />
+              <caret line="102" column="51" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -306,7 +306,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18759455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -744,7 +744,7 @@
     <entry file="file://$PROJECT_DIR$/source/styles/components/_archive-product.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49882352">
-          <caret line="102" column="57" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="57" />
+          <caret line="102" column="51" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
           <folding />
         </state>
       </provider>
