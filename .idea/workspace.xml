@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8b2ec1-62c7-4f25-b1a2-9a39fc4ea2af" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles/components/_catalog.scss" afterPath="$PROJECT_DIR$/source/styles/components/_catalog.scss" />
     </list>
     <ignored path="verga.iws" />
@@ -39,15 +40,16 @@
       <file leaf-file-name="_catalog.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/components/_catalog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35431236">
-              <caret line="83" column="11" selection-start-line="55" selection-start-column="8" selection-end-line="83" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.7878788">
+              <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
               <folding>
                 <element signature="e#234#1083#0" expanded="false" />
-                <element signature="e#2557#2924#0" expanded="false" />
-                <element signature="e#2948#3090#0" expanded="false" />
-                <element signature="e#3109#3680#0" expanded="false" />
-                <element signature="e#3700#4384#0" expanded="false" />
-                <element signature="e#4404#5378#0" expanded="false" />
+                <element signature="e#264#315#0" expanded="false" />
+                <element signature="e#2639#3006#0" expanded="false" />
+                <element signature="e#3030#3172#0" expanded="false" />
+                <element signature="e#3191#3762#0" expanded="false" />
+                <element signature="e#3782#4466#0" expanded="false" />
+                <element signature="e#4486#5460#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -769,15 +771,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/components/_catalog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35431236">
-          <caret line="83" column="11" selection-start-line="55" selection-start-column="8" selection-end-line="83" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.7878788">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
           <folding>
             <element signature="e#234#1083#0" expanded="false" />
-            <element signature="e#2557#2924#0" expanded="false" />
-            <element signature="e#2948#3090#0" expanded="false" />
-            <element signature="e#3109#3680#0" expanded="false" />
-            <element signature="e#3700#4384#0" expanded="false" />
-            <element signature="e#4404#5378#0" expanded="false" />
+            <element signature="e#264#315#0" expanded="false" />
+            <element signature="e#2639#3006#0" expanded="false" />
+            <element signature="e#3030#3172#0" expanded="false" />
+            <element signature="e#3191#3762#0" expanded="false" />
+            <element signature="e#3782#4466#0" expanded="false" />
+            <element signature="e#4486#5460#0" expanded="false" />
           </folding>
         </state>
       </provider>

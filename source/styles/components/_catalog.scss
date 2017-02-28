@@ -48,9 +48,12 @@
         }
         .background {
             background-size: cover;
-            opacity: .2;
+            opacity: .1;
             transition: opacity $speed;
             @include absfull();
+            @include breakpoint($bp) {
+                opacity: .2;
+            }
         }
 
         /*&:hover {
