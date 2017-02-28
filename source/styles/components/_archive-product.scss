@@ -100,8 +100,9 @@
                     top: 0;
                     left: 0;
                     &:before {
-                        content:'data-placeholeder';
+                        content:data-placeholeder;
                         font-size: em(18px);
+                        color: transparent;
                     }
                 }
             }
