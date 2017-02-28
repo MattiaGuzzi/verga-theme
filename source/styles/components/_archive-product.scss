@@ -134,6 +134,10 @@
             text-decoration: none;
             z-index: 201;
             color: $anthracite-dark;
+
+            li {
+                padding: 5px 0;
+            }
         }
     }
 }
