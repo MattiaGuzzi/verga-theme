@@ -187,9 +187,8 @@
 
     function scrollBar() {
         smooth = new Smooth({
-            listener: document.querySelector('.main-menu__right'),
-            native: false,
-            section: document.querySelector('.main-menu__right--list'),
+            listener: document.querySelector('.main-menu__right--list'),
+            section: document.querySelector('.item'),
             ease: 0.1
         })
 
