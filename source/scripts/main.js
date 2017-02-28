@@ -134,10 +134,10 @@
     function openPPP() {
         $('.post-per-page').on({
             mouseenter: function(){
-                $('.order-block').slideDown();
+                $('.order-block__ppp').slideDown();
             },
             mouseleave: function(){
-                $('.order-block').slideUp();
+                $('.order-block__ppp').slideUp();
             }
         });
     }
