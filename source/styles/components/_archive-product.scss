@@ -101,7 +101,6 @@
                     display: inline-block;
                     box-shadow: 0 0 em(32px) transparentize($b, .85);
                     transition: box-shadow $speed;
-                    z-index: 1;
                     background: $w;
                     top: 0;
                     left: 0;
@@ -129,18 +128,12 @@
             margin: 0;
             list-style: none;
             cursor: pointer;
-            padding: em(15px) em(35px);
+            padding: em(15px, 18px) em(35px, 18px);
             text-align: center;
             text-transform: uppercase;
             text-decoration: none;
-            /*display: inline-block;*/
             z-index: 201;
             color: $anthracite-dark;
-
-            li {
-
-                font-size: em(18px);
-            }
         }
     }
 }
