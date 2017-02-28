@@ -132,12 +132,12 @@
     }
 
     function openPPP() {
-        $('.first-level').on({
+        $('.post-per-page').on({
             mouseenter: function(){
-                $('.order-block__ppp').slideDown();
+                $('.current-value__list').slideDown();
             },
             mouseleave: function(){
-                $('.order-block__ppp').slideUp();
+                $('.current-value__list').slideUp();
             }
         });
     }

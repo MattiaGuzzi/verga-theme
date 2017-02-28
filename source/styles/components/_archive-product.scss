@@ -62,14 +62,9 @@
             text-align: center;
             text-transform: uppercase;
             text-decoration: none;
-            border-radius: em(30px);
             display: inline-block;
-            box-shadow: 0 0 em(32px) transparentize($b, .85);
             font-size: em(18px);
-            transition: box-shadow $speed;
-            position: relative;
             z-index: 1;
-            background: $w;
             color: $anthracite-dark;
             .current-value {
                 &:after {
@@ -86,6 +81,29 @@
                     margin-left: em(10px);
                     transition: all 0.3s;
                 }
+                &__list {
+                    position: absolute;
+                    width:100%;
+                    margin: 0;
+                    list-style: none;
+                    cursor: pointer;
+                    padding: em(15px) em(35px);
+                    text-align: center;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    border-radius: em(30px);
+                    display: inline-block;
+                    box-shadow: 0 0 em(32px) transparentize($b, .85);
+                    transition: box-shadow $speed;
+                    z-index: 1;
+                    background: $w;
+                    top: 0;
+                    left: 0;
+                    &:before {
+                        content:'data-placeholeder';
+                        font-size: em(18px);
+                    }
+                }
             }
           /*  &:hover {
                 .current-value {
@@ -99,30 +117,28 @@
                 }
             }*/
         }
-        .order-block__ppp {
-            top: calc(100% + 10px);
-            left: 0;
-            width: 100%;
+        .order-block {
+
+
+
             display: none;
             /*opacity: 0;*/
           /*  visibility: hidden;*/
-            transition: opacity $speed, visibility $speed;
-            position: absolute;
+
             margin: 0;
             list-style: none;
             cursor: pointer;
-            min-width: em(170px);
             padding: em(15px) em(35px);
             text-align: center;
             text-transform: uppercase;
             text-decoration: none;
-            border-radius: em(30px);
             /*display: inline-block;*/
-            box-shadow: 0 0 em(32px) transparentize($b, .85);
-            font-size: em(18px);
             z-index: 201;
-            background: $w;
             color: $anthracite-dark;
+
+            li {
+                font-size: em(18px);
+            }
         }
     }
 }
